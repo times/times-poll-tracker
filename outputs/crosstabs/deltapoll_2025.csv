@@ -1,0 +1,289 @@
+poll_id,question_ref,table_base,break_var,break_label,break_std,option_label,party_code,pct,n_weighted,n_unweighted_col,n_weighted_col
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Total,Total,total,Conservative,CON,23.0,,1532.0,1532.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Male,sex:male,Conservative,CON,20.0,,739.0,740.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Female,sex:female,Conservative,CON,27.0,,790.0,789.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Conservative,CON,9.0,,155.0,182.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Conservative,CON,13.0,,235.0,198.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Conservative,CON,18.0,,526.0,573.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Conservative,CON,20.0,,249.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,65+,age:65+,Conservative,CON,42.0,,367.0,343.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Conservative,CON,7.0,,211.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Conservative,CON,16.0,,385.0,379.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Conservative,CON,21.0,,430.0,449.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Conservative,CON,34.0,,473.0,430.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Total,Total,total,Labour,LAB,30.0,,1532.0,1532.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Male,sex:male,Labour,LAB,30.0,,739.0,740.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Female,sex:female,Labour,LAB,30.0,,790.0,789.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Labour,LAB,35.0,,155.0,182.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Labour,LAB,50.0,,235.0,198.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Labour,LAB,32.0,,526.0,573.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Labour,LAB,32.0,,249.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,65+,age:65+,Labour,LAB,13.0,,367.0,343.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Labour,LAB,41.0,,211.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Labour,LAB,39.0,,385.0,379.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Labour,LAB,31.0,,430.0,449.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Labour,LAB,19.0,,473.0,430.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Total,Total,total,Liberal Democrat,LD,12.0,,1532.0,1532.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Male,sex:male,Liberal Democrat,LD,11.0,,739.0,740.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Female,sex:female,Liberal Democrat,LD,12.0,,790.0,789.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Liberal Democrat,LD,10.0,,155.0,182.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Liberal Democrat,LD,6.0,,235.0,198.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Liberal Democrat,LD,12.0,,526.0,573.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Liberal Democrat,LD,12.0,,249.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,65+,age:65+,Liberal Democrat,LD,15.0,,367.0,343.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Liberal Democrat,LD,7.0,,211.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Liberal Democrat,LD,11.0,,385.0,379.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Liberal Democrat,LD,11.0,,430.0,449.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Liberal Democrat,LD,15.0,,473.0,430.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Total,Total,total,Reform UK,REF,22.0,,1532.0,1532.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Male,sex:male,Reform UK,REF,29.0,,739.0,740.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Female,sex:female,Reform UK,REF,15.0,,790.0,789.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Reform UK,REF,17.0,,155.0,182.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Reform UK,REF,18.0,,235.0,198.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Reform UK,REF,23.0,,526.0,573.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Reform UK,REF,25.0,,249.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,65+,age:65+,Reform UK,REF,22.0,,367.0,343.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Reform UK,REF,18.0,,211.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Reform UK,REF,17.0,,385.0,379.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Reform UK,REF,27.0,,430.0,449.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Reform UK,REF,23.0,,473.0,430.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Total,Total,total,Scottish National Party (SNP),SNP,3.0,,1532.0,1532.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Male,sex:male,Scottish National Party (SNP),SNP,3.0,,739.0,740.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Female,sex:female,Scottish National Party (SNP),SNP,3.0,,790.0,789.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Scottish National Party (SNP),SNP,2.0,,155.0,182.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Scottish National Party (SNP),SNP,0.0,,235.0,198.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Scottish National Party (SNP),SNP,5.0,,526.0,573.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Scottish National Party (SNP),SNP,2.0,,249.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,65+,age:65+,Scottish National Party (SNP),SNP,2.0,,367.0,343.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Scottish National Party (SNP),SNP,1.0,,211.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Scottish National Party (SNP),SNP,5.0,,385.0,379.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Scottish National Party (SNP),SNP,3.0,,430.0,449.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Scottish National Party (SNP),SNP,2.0,,473.0,430.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Total,Total,total,Plaid Cymru (PC),PC,1.0,,1532.0,1532.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Male,sex:male,Plaid Cymru (PC),PC,1.0,,739.0,740.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Female,sex:female,Plaid Cymru (PC),PC,1.0,,790.0,789.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Plaid Cymru (PC),PC,0.0,,155.0,182.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Plaid Cymru (PC),PC,1.0,,235.0,198.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Plaid Cymru (PC),PC,1.0,,526.0,573.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Plaid Cymru (PC),PC,2.0,,249.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,65+,age:65+,Plaid Cymru (PC),PC,1.0,,367.0,343.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Plaid Cymru (PC),PC,2.0,,211.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Plaid Cymru (PC),PC,0.0,,385.0,379.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Plaid Cymru (PC),PC,1.0,,430.0,449.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Plaid Cymru (PC),PC,1.0,,473.0,430.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Total,Total,total,Green,GRN,9.0,,1532.0,1532.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Male,sex:male,Green,GRN,7.0,,739.0,740.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Female,sex:female,Green,GRN,10.0,,790.0,789.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Green,GRN,26.0,,155.0,182.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Green,GRN,11.0,,235.0,198.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Green,GRN,8.0,,526.0,573.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Green,GRN,6.0,,249.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,65+,age:65+,Green,GRN,5.0,,367.0,343.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Green,GRN,22.0,,211.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Green,GRN,11.0,,385.0,379.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Green,GRN,6.0,,430.0,449.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Green,GRN,5.0,,473.0,430.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Total,Total,total,Other,OTH,1.0,,1532.0,1532.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Male,sex:male,Other,OTH,0.0,,739.0,740.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Gender,Female,sex:female,Other,OTH,1.0,,790.0,789.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Other,OTH,1.0,,155.0,182.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Other,OTH,1.0,,235.0,198.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Other,OTH,2.0,,526.0,573.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Other,OTH,0.0,,249.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Age,65+,age:65+,Other,OTH,0.0,,367.0,343.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Other,OTH,1.0,,211.0,237.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Other,OTH,1.0,,385.0,379.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Other,OTH,1.0,,430.0,449.0
+deltapoll-2025-01-03,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Other,OTH,0.0,,473.0,430.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Total,Total,total,Conservative,CON,25.0,,1500.0,1500.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Male,sex:male,Conservative,CON,23.0,,727.0,724.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Female,sex:female,Conservative,CON,27.0,,773.0,776.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Conservative,CON,3.0,,124.0,172.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Conservative,CON,12.0,,252.0,203.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Conservative,CON,21.0,,536.0,562.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Conservative,CON,24.0,,237.0,225.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,65+,age:65+,Conservative,CON,42.0,,351.0,338.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Conservative,CON,3.0,,172.0,205.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Conservative,CON,13.0,,398.0,384.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Conservative,CON,25.0,,465.0,459.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Conservative,CON,38.0,,446.0,430.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Total,Total,total,Labour,LAB,29.0,,1500.0,1500.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Male,sex:male,Labour,LAB,35.0,,727.0,724.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Female,sex:female,Labour,LAB,24.0,,773.0,776.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Labour,LAB,49.0,,124.0,172.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Labour,LAB,43.0,,252.0,203.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Labour,LAB,34.0,,536.0,562.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Labour,LAB,28.0,,237.0,225.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,65+,age:65+,Labour,LAB,11.0,,351.0,338.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Labour,LAB,50.0,,172.0,205.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Labour,LAB,40.0,,398.0,384.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Labour,LAB,30.0,,465.0,459.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Labour,LAB,17.0,,446.0,430.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Total,Total,total,Liberal Democrat,LD,11.0,,1500.0,1500.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Male,sex:male,Liberal Democrat,LD,9.0,,727.0,724.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Female,sex:female,Liberal Democrat,LD,13.0,,773.0,776.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Liberal Democrat,LD,13.0,,124.0,172.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Liberal Democrat,LD,14.0,,252.0,203.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Liberal Democrat,LD,6.0,,536.0,562.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Liberal Democrat,LD,12.0,,237.0,225.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,65+,age:65+,Liberal Democrat,LD,13.0,,351.0,338.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Liberal Democrat,LD,14.0,,172.0,205.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Liberal Democrat,LD,10.0,,398.0,384.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Liberal Democrat,LD,8.0,,465.0,459.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Liberal Democrat,LD,12.0,,446.0,430.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Total,Total,total,Reform UK,REF,22.0,,1500.0,1500.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Male,sex:male,Reform UK,REF,25.0,,727.0,724.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Female,sex:female,Reform UK,REF,19.0,,773.0,776.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Reform UK,REF,18.0,,124.0,172.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Reform UK,REF,13.0,,252.0,203.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Reform UK,REF,21.0,,536.0,562.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Reform UK,REF,26.0,,237.0,225.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,65+,age:65+,Reform UK,REF,28.0,,351.0,338.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Reform UK,REF,18.0,,172.0,205.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Reform UK,REF,15.0,,398.0,384.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Reform UK,REF,24.0,,465.0,459.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Reform UK,REF,27.0,,446.0,430.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Total,Total,total,Scottish National Party (SNP),SNP,3.0,,1500.0,1500.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Male,sex:male,Scottish National Party (SNP),SNP,2.0,,727.0,724.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Female,sex:female,Scottish National Party (SNP),SNP,4.0,,773.0,776.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Scottish National Party (SNP),SNP,1.0,,124.0,172.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Scottish National Party (SNP),SNP,5.0,,252.0,203.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Scottish National Party (SNP),SNP,4.0,,536.0,562.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Scottish National Party (SNP),SNP,2.0,,237.0,225.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,65+,age:65+,Scottish National Party (SNP),SNP,1.0,,351.0,338.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Scottish National Party (SNP),SNP,3.0,,172.0,205.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Scottish National Party (SNP),SNP,5.0,,398.0,384.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Scottish National Party (SNP),SNP,3.0,,465.0,459.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Scottish National Party (SNP),SNP,2.0,,446.0,430.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Total,Total,total,Plaid Cymru (PC),PC,0.0,,1500.0,1500.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Male,sex:male,Plaid Cymru (PC),PC,0.0,,727.0,724.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Female,sex:female,Plaid Cymru (PC),PC,0.0,,773.0,776.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Plaid Cymru (PC),PC,0.0,,124.0,172.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Plaid Cymru (PC),PC,0.0,,252.0,203.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Plaid Cymru (PC),PC,0.0,,536.0,562.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Plaid Cymru (PC),PC,0.0,,237.0,225.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,65+,age:65+,Plaid Cymru (PC),PC,1.0,,351.0,338.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Plaid Cymru (PC),PC,0.0,,172.0,205.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Plaid Cymru (PC),PC,0.0,,398.0,384.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Plaid Cymru (PC),PC,0.0,,465.0,459.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Plaid Cymru (PC),PC,1.0,,446.0,430.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Total,Total,total,Green,GRN,8.0,,1500.0,1500.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Male,sex:male,Green,GRN,5.0,,727.0,724.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Female,sex:female,Green,GRN,11.0,,773.0,776.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Green,GRN,14.0,,124.0,172.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Green,GRN,9.0,,252.0,203.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Green,GRN,11.0,,536.0,562.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Green,GRN,7.0,,237.0,225.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,65+,age:65+,Green,GRN,2.0,,351.0,338.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Green,GRN,11.0,,172.0,205.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Green,GRN,13.0,,398.0,384.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Green,GRN,9.0,,465.0,459.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Green,GRN,3.0,,446.0,430.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Total,Total,total,Other,OTH,2.0,,1500.0,1500.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Male,sex:male,Other,OTH,2.0,,727.0,724.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Gender,Female,sex:female,Other,OTH,2.0,,773.0,776.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Other,OTH,2.0,,124.0,172.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Other,OTH,3.0,,252.0,203.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Other,OTH,3.0,,536.0,562.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Other,OTH,0.0,,237.0,225.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Age,65+,age:65+,Other,OTH,1.0,,351.0,338.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Other,OTH,1.0,,172.0,205.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Other,OTH,4.0,,398.0,384.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Other,OTH,2.0,,465.0,459.0
+deltapoll-2025-01-20,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Other,OTH,1.0,,446.0,430.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Total,Total,total,Conservative,CON,25.0,,1974.0,1974.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Male,sex:male,Conservative,CON,26.0,,939.0,952.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Female,sex:female,Conservative,CON,24.0,,1033.0,1020.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Conservative,CON,8.0,,153.0,227.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Conservative,CON,11.0,,310.0,254.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Conservative,CON,20.0,,716.0,726.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Conservative,CON,28.0,,329.0,318.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,65+,age:65+,Conservative,CON,40.0,,466.0,448.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Conservative,CON,8.0,,215.0,261.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Conservative,CON,17.0,,526.0,499.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Conservative,CON,21.0,,609.0,614.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Conservative,CON,37.0,,580.0,551.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Total,Total,total,Labour,LAB,25.0,,1974.0,1974.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Male,sex:male,Labour,LAB,24.0,,939.0,952.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Female,sex:female,Labour,LAB,26.0,,1033.0,1020.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Labour,LAB,29.0,,153.0,227.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Labour,LAB,37.0,,310.0,254.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Labour,LAB,31.0,,716.0,726.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Labour,LAB,22.0,,329.0,318.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,65+,age:65+,Labour,LAB,12.0,,466.0,448.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Labour,LAB,31.0,,215.0,261.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Labour,LAB,36.0,,526.0,499.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Labour,LAB,26.0,,609.0,614.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Labour,LAB,15.0,,580.0,551.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Total,Total,total,Liberal Democrat,LD,11.0,,1974.0,1974.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Male,sex:male,Liberal Democrat,LD,11.0,,939.0,952.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Female,sex:female,Liberal Democrat,LD,12.0,,1033.0,1020.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Liberal Democrat,LD,13.0,,153.0,227.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Liberal Democrat,LD,15.0,,310.0,254.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Liberal Democrat,LD,9.0,,716.0,726.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Liberal Democrat,LD,7.0,,329.0,318.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,65+,age:65+,Liberal Democrat,LD,16.0,,466.0,448.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Liberal Democrat,LD,11.0,,215.0,261.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Liberal Democrat,LD,11.0,,526.0,499.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Liberal Democrat,LD,10.0,,609.0,614.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Liberal Democrat,LD,12.0,,580.0,551.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Total,Total,total,Reform UK,REF,23.0,,1974.0,1974.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Male,sex:male,Reform UK,REF,27.0,,939.0,952.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Female,sex:female,Reform UK,REF,20.0,,1033.0,1020.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Reform UK,REF,22.0,,153.0,227.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Reform UK,REF,16.0,,310.0,254.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Reform UK,REF,25.0,,716.0,726.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Reform UK,REF,27.0,,329.0,318.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,65+,age:65+,Reform UK,REF,23.0,,466.0,448.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Reform UK,REF,22.0,,215.0,261.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Reform UK,REF,18.0,,526.0,499.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Reform UK,REF,28.0,,609.0,614.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Reform UK,REF,25.0,,580.0,551.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Total,Total,total,Scottish National Party (SNP),SNP,3.0,,1974.0,1974.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Male,sex:male,Scottish National Party (SNP),SNP,3.0,,939.0,952.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Female,sex:female,Scottish National Party (SNP),SNP,3.0,,1033.0,1020.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Scottish National Party (SNP),SNP,2.0,,153.0,227.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Scottish National Party (SNP),SNP,3.0,,310.0,254.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Scottish National Party (SNP),SNP,4.0,,716.0,726.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Scottish National Party (SNP),SNP,3.0,,329.0,318.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,65+,age:65+,Scottish National Party (SNP),SNP,3.0,,466.0,448.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Scottish National Party (SNP),SNP,2.0,,215.0,261.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Scottish National Party (SNP),SNP,2.0,,526.0,499.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Scottish National Party (SNP),SNP,5.0,,609.0,614.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Scottish National Party (SNP),SNP,3.0,,580.0,551.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Total,Total,total,Plaid Cymru (PC),PC,1.0,,1974.0,1974.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Male,sex:male,Plaid Cymru (PC),PC,0.0,,939.0,952.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Female,sex:female,Plaid Cymru (PC),PC,1.0,,1033.0,1020.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Plaid Cymru (PC),PC,4.0,,153.0,227.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Plaid Cymru (PC),PC,1.0,,310.0,254.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Plaid Cymru (PC),PC,0.0,,716.0,726.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Plaid Cymru (PC),PC,2.0,,329.0,318.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,65+,age:65+,Plaid Cymru (PC),PC,0.0,,466.0,448.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Plaid Cymru (PC),PC,3.0,,215.0,261.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Plaid Cymru (PC),PC,1.0,,526.0,499.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Plaid Cymru (PC),PC,1.0,,609.0,614.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Plaid Cymru (PC),PC,1.0,,580.0,551.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Total,Total,total,Green,GRN,9.0,,1974.0,1974.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Male,sex:male,Green,GRN,7.0,,939.0,952.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Female,sex:female,Green,GRN,11.0,,1033.0,1020.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Green,GRN,17.0,,153.0,227.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Green,GRN,16.0,,310.0,254.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Green,GRN,10.0,,716.0,726.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Green,GRN,9.0,,329.0,318.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,65+,age:65+,Green,GRN,3.0,,466.0,448.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Green,GRN,18.0,,215.0,261.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Green,GRN,14.0,,526.0,499.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Green,GRN,9.0,,609.0,614.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Green,GRN,4.0,,580.0,551.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Total,Total,total,Other,OTH,2.0,,1974.0,1974.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Male,sex:male,Other,OTH,2.0,,939.0,952.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Gender,Female,sex:female,Other,OTH,2.0,,1033.0,1020.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Other,OTH,5.0,,153.0,227.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Other,OTH,1.0,,310.0,254.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Other,OTH,1.0,,716.0,726.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Other,OTH,1.0,,329.0,318.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Age,65+,age:65+,Other,OTH,3.0,,466.0,448.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Other,OTH,4.0,,215.0,261.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Other,OTH,2.0,,526.0,499.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Other,OTH,0.0,,609.0,614.0
+deltapoll-2025-03-17,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Other,OTH,3.0,,580.0,551.0

@@ -1,0 +1,7 @@
+requests
+openpyxl
+pypdf
+numpy
+matplotlib
+pandas
+lxml

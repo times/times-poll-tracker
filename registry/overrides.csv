@@ -1,0 +1,4 @@
+tables_url,field,value,reason
+https://www.moreincommon.org.uk/wp-content/uploads/2026/04/voting-intention-february-25.xlsx,fieldwork_end,2026-02-23,"cover reads '20 - 13 February 2026'; listing page and Wikipedia give 20-23 Feb"
+https://freshwaterstrategy.com/wp-content/uploads/Data-Tables-City-AM-Freshwater-Strategy-UK-Polling-070926.xlsx,fieldwork_end,2026-09-06,"methodology sheet reads '4 - 6 August 2026' but file is dated 070926, uploaded 9 Sep, and Wikipedia lists 4-6 Sep with the same n=1,249"
+https://freshwaterstrategy.com/wp-content/uploads/Data-Tables-City-AM-Freshwater-Strategy-UK-Polling-070926.xlsx,fieldwork_start,2026-09-04,"see fieldwork_end"

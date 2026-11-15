@@ -1,0 +1,8 @@
+# Local only: raw downloads and per-poll extraction (each machine keeps its own)
+data/
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+# Previews
+outputs/datawrapper_tracker_preview.png
