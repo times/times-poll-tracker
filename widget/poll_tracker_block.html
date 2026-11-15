@@ -32,54 +32,57 @@
     padding: 0; box-sizing: border-box; -webkit-text-size-adjust: 100%;
   }
   #tt-poll-tracker *, #tt-poll-tracker *::before, #tt-poll-tracker *::after { box-sizing: border-box; }
-  #tt-poll-tracker .tt-title { margin: 0 0 6px; padding: 0; font-family: var(--tt-head); font-size: 28px; font-weight: 700; line-height: 32px; color: var(--tt-ink); }
-  #tt-poll-tracker .tt-sub { margin: 0 0 22px; font-family: var(--tt-serif); font-size: 18px; line-height: 27px; color: var(--tt-ink); }
-  #tt-poll-tracker .tt-cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; margin: 0 0 22px; }
-  #tt-poll-tracker .tt-card { border-top: 4px solid var(--c); padding: 8px 0 0; }
-  #tt-poll-tracker .tt-name { font-size: 16px; font-weight: 500; line-height: 20px; color: var(--t); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  #tt-poll-tracker .tt-big { margin: 4px 0 2px; font-family: var(--tt-head); font-size: 52px; font-weight: 700; line-height: 60px; color: var(--t);
-    font-variant-numeric: lining-nums tabular-nums; }
-  #tt-poll-tracker .tt-big small { font-size: 26px; font-weight: 700; margin-left: 1px; }
-  #tt-poll-tracker .tt-chg { font-size: 13px; line-height: 16px; color: var(--tt-muted); font-variant-numeric: tabular-nums; }
+  #tt-poll-tracker .tt-title { margin: 0 0 4px; padding: 0; font-family: var(--tt-head); font-size: 24px; font-weight: 700; line-height: 28px; color: var(--tt-ink); }
+  #tt-poll-tracker .tt-sub { margin: 0 0 14px; font-family: var(--tt-serif); font-size: 16px; line-height: 22px; color: var(--tt-ink); }
+  #tt-poll-tracker .tt-cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin: 0 0 18px; }
+  #tt-poll-tracker .tt-card { border-top: 3px solid var(--c); padding: 6px 0 0; }
+  #tt-poll-tracker .tt-name { font-size: 14px; font-weight: 500; line-height: 18px; color: var(--t); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #tt-poll-tracker .tt-name .tt-s { display: none; }
+  #tt-poll-tracker .tt-big { margin: 2px 0 0; font-family: var(--tt-head); font-size: 40px; font-weight: 700; line-height: 46px; color: var(--t);
+    font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
+  #tt-poll-tracker .tt-big small { font-size: 20px; font-weight: 700; margin-left: 1px; }
+  #tt-poll-tracker .tt-chg { font-size: 12px; line-height: 16px; color: var(--tt-muted); font-variant-numeric: tabular-nums; }
   #tt-poll-tracker .tt-chg b { font-weight: 500; color: var(--tt-label); }
-  #tt-poll-tracker .tt-moving { display: flex; gap: 10px; align-items: baseline; background: var(--tt-chip); padding: 10px 12px; margin: 0 0 22px;
-    font-family: var(--tt-serif); font-size: 16px; line-height: 22px; }
-  #tt-poll-tracker .tt-moving b { font-family: var(--tt-sans); font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
-  #tt-poll-tracker .tt-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 0 0 6px; }
-  #tt-poll-tracker .tt-label { margin: 0; font-size: 16px; font-weight: 500; line-height: 20px; color: var(--tt-label); }
+  #tt-poll-tracker .tt-moving { display: flex; gap: 10px; align-items: baseline; background: var(--tt-chip); padding: 8px 10px; margin: 0 0 16px;
+    font-family: var(--tt-serif); font-size: 15px; line-height: 20px; }
+  #tt-poll-tracker .tt-moving b { font-family: var(--tt-sans); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  #tt-poll-tracker .tt-main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  #tt-poll-tracker.tt-wide .tt-main { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+  #tt-poll-tracker .tt-bar, #tt-poll-tracker .tt-tbl-head { display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    min-height: 26px; margin: 0 0 4px; }
+  #tt-poll-tracker .tt-label { margin: 0; font-size: 15px; font-weight: 500; line-height: 20px; color: var(--tt-label); }
   #tt-poll-tracker .tt-toggle { display: inline-flex; border: 1px solid var(--tt-border); }
-  #tt-poll-tracker .tt-toggle button { font-family: var(--tt-sans); font-size: 13px; line-height: 16px; border: 0; border-radius: 0; background: #fff;
-    color: var(--tt-label); padding: 6px 10px; margin: 0; cursor: pointer; white-space: nowrap; }
+  #tt-poll-tracker .tt-toggle button { font-family: var(--tt-sans); font-size: 12px; line-height: 16px; border: 0; border-radius: 0; background: #fff;
+    color: var(--tt-label); padding: 4px 8px; margin: 0; cursor: pointer; white-space: nowrap; }
   #tt-poll-tracker .tt-toggle button[aria-pressed="true"] { background: var(--tt-ink); color: #fff; }
-  #tt-poll-tracker .tt-chart { position: relative; margin: 0 0 26px; }
-  #tt-poll-tracker .tt-tbl-head .tt-label { margin: 0; }
+  #tt-poll-tracker .tt-chart { position: relative; margin: 0; }
   #tt-poll-tracker .tt-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
   #tt-poll-tracker .tt-tip { position: absolute; top: 6px; display: none; pointer-events: none; background: #fff; border: 1px solid var(--tt-border);
-    padding: 6px 9px; font-size: 13px; line-height: 19px; white-space: nowrap; }
+    padding: 6px 9px; font-size: 13px; line-height: 19px; white-space: nowrap; z-index: 3; }
   #tt-poll-tracker .tt-tip b { font-weight: 500; }
   #tt-poll-tracker .tt-tip i { display: inline-block; width: 9px; height: 9px; margin-right: 5px; }
-  #tt-poll-tracker .tt-tbl-head { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 4px; }
   #tt-poll-tracker .tt-hint { font-size: 12px; line-height: 16px; color: var(--tt-muted); }
   #tt-poll-tracker .tt-tbl-wrap { overflow-x: auto; overflow-y: auto; -webkit-overflow-scrolling: touch; border-bottom: 1px solid var(--tt-ink); }
   #tt-poll-tracker table { width: 100%; margin: 0; border: 0; border-collapse: collapse; font-variant-numeric: tabular-nums; }
-  #tt-poll-tracker th, #tt-poll-tracker td { padding: 10px 6px; border: 0; text-align: right; font-size: 15px; line-height: 20px;
+  #tt-poll-tracker th, #tt-poll-tracker td { padding: 7px 4px; border: 0; text-align: right; font-size: 14px; line-height: 18px;
     background: var(--tt-dots) left bottom / 4px 1px repeat-x; }
-  #tt-poll-tracker th:first-child, #tt-poll-tracker td:first-child { text-align: left; padding-left: 0; }
-  #tt-poll-tracker thead th { white-space: nowrap; font-size: 13px; font-weight: 500; color: var(--tt-muted); vertical-align: bottom;
+  #tt-poll-tracker th:first-child, #tt-poll-tracker td:first-child { text-align: left; padding-left: 0; white-space: nowrap; }
+  #tt-poll-tracker thead th { white-space: nowrap; font-size: 12px; font-weight: 500; color: var(--tt-muted); vertical-align: bottom;
     position: sticky; top: 0; z-index: 2; background: #fff; box-shadow: inset 0 -1px 0 var(--tt-ink); }
-  #tt-poll-tracker thead th i { display: inline-block; width: 10px; height: 10px; background: var(--c); margin-right: 5px; vertical-align: -1px; }
-  #tt-poll-tracker .tt-date { display: block; font-size: 12px; line-height: 16px; color: var(--tt-muted); font-weight: 400; }
-  @media (max-width: 640px) {
-    #tt-poll-tracker .tt-title { font-size: 24px; line-height: 28px; }
-    #tt-poll-tracker .tt-sub { font-size: 16px; line-height: 24px; margin-bottom: 18px; }
-    #tt-poll-tracker .tt-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 12px; }
-    #tt-poll-tracker .tt-big { font-size: 36px; line-height: 42px; }
-    #tt-poll-tracker .tt-big small { font-size: 18px; }
-    #tt-poll-tracker .tt-name { font-size: 14px; }
-    #tt-poll-tracker th, #tt-poll-tracker td { padding: 9px 4px; font-size: 14px; }
-    #tt-poll-tracker .tt-hide-sm { display: none; }
-  }
-  @media (max-width: 360px) { #tt-poll-tracker .tt-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  #tt-poll-tracker thead th i { display: inline-block; width: 9px; height: 9px; background: var(--c); margin-right: 4px; vertical-align: -1px; }
+  #tt-poll-tracker .tt-date { margin-left: 6px; font-size: 12px; color: var(--tt-muted); }
+  /* Narrow (phones, or a narrow column): one compact row of figures, short party names */
+  #tt-poll-tracker.tt-narrow .tt-title { font-size: 22px; line-height: 26px; }
+  #tt-poll-tracker.tt-narrow .tt-sub { font-size: 15px; line-height: 20px; margin-bottom: 12px; }
+  #tt-poll-tracker.tt-narrow .tt-cards { gap: 8px; margin-bottom: 16px; }
+  #tt-poll-tracker.tt-narrow .tt-name .tt-l { display: none; }
+  #tt-poll-tracker.tt-narrow .tt-name .tt-s { display: inline; }
+  #tt-poll-tracker.tt-narrow .tt-big { font-size: 25px; line-height: 30px; }
+  #tt-poll-tracker.tt-narrow .tt-big small { font-size: 13px; }
+  #tt-poll-tracker.tt-narrow .tt-chg .tt-l { display: none; }
+  #tt-poll-tracker.tt-narrow .tt-chg { font-size: 11px; }
+  #tt-poll-tracker.tt-narrow th, #tt-poll-tracker.tt-narrow td { padding: 6px 2px; font-size: 13px; }
+  #tt-poll-tracker.tt-narrow .tt-date { font-size: 11px; margin-left: 4px; }
 </style>
 
 <div id="tt-poll-tracker"
@@ -88,16 +91,22 @@
   <p class="tt-sub" data-tt="sub">Loading the latest polls&hellip;</p>
   <div class="tt-cards" data-tt="cards"></div>
   <div data-tt="moving"></div>
-  <div class="tt-bar">
-    <p class="tt-label">Poll average</p>
-    <div class="tt-toggle" role="group" aria-label="Chart period">
-      <button type="button" data-range="365" aria-pressed="true">Past year</button>
-      <button type="button" data-range="all" aria-pressed="false" title="Since the July 2024 general election">Since 2024</button>
+  <div class="tt-main">
+    <div class="tt-col">
+      <div class="tt-bar">
+        <p class="tt-label">Poll average</p>
+        <div class="tt-toggle" role="group" aria-label="Chart period">
+          <button type="button" data-range="365" aria-pressed="true">Past year</button>
+          <button type="button" data-range="all" aria-pressed="false" title="Since the July 2024 general election">Since 2024</button>
+        </div>
+      </div>
+      <div class="tt-chart" data-tt="chart"><div class="tt-tip" data-tt="tip"></div></div>
+    </div>
+    <div class="tt-col">
+      <div class="tt-tbl-head"><p class="tt-label">Latest polls</p><span class="tt-hint" data-tt="hint">Scroll for more</span></div>
+      <div class="tt-tbl-wrap" data-tt="scroll"><table data-tt="table"></table></div>
     </div>
   </div>
-  <div class="tt-chart" data-tt="chart"><div class="tt-tip" data-tt="tip"></div></div>
-  <div class="tt-tbl-head"><p class="tt-label">Latest polls</p><span class="tt-hint" data-tt="hint">Scroll for more</span></div>
-  <div class="tt-tbl-wrap" data-tt="scroll"><table data-tt="table"></table></div>
 </div>
 
 <script>
@@ -112,6 +121,7 @@
   var SHORT = { LAB: 'Lab', CON: 'Con', REF: 'Ref', LD: 'LD', GRN: 'Grn' };
   var NOUN = { LAB: 'Labour', CON: 'The Conservatives', REF: 'Reform UK', LD: 'The Lib Dems', GRN: 'The Greens' };
   var SING = { LAB: true, REF: true };
+  var WIDE = 720, NARROW = 560, NARROW_POLLS = 8;   // container widths (px); polls shown when not side by side
   var D, range = '365', lastW = 0;
 
   function pd(s) { var p = s.split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])); }
@@ -136,8 +146,9 @@
     sorted().forEach(function (p) {
       var c = document.createElement('div');
       c.className = 'tt-card'; c.style.setProperty('--c', p.colour); c.style.setProperty('--t', p.text_colour);
-      c.innerHTML = '<div class="tt-name">' + p.name + '</div><div class="tt-big">' + p.share.toFixed(1) + '<small>%</small></div>' +
-        '<div class="tt-chg"><b>' + chg(p.change_30d) + '</b> in 30 days</div>';
+      c.innerHTML = '<div class="tt-name"><span class="tt-l">' + p.name + '</span><span class="tt-s">' + SHORT[p.code] + '</span></div>' +
+        '<div class="tt-big">' + p.share.toFixed(1) + '<small>%</small></div>' +
+        '<div class="tt-chg"><b>' + chg(p.change_30d) + '</b><span class="tt-l"> in 30 days</span></div>';
       c.setAttribute('aria-label', p.name + ', ' + p.share.toFixed(1) + ' per cent; change over 30 days ' + p.change_30d.toFixed(1) + ' points');
       box.appendChild(c);
     });
@@ -150,24 +161,23 @@
   function table() {
     var h = '<thead><tr><th scope="col">Pollster</th>';
     D.parties.forEach(function (p) { h += '<th scope="col"><i style="background:' + p.colour + '"></i>' + SHORT[p.code] + '</th>'; });
-    h += '<th scope="col" class="tt-hide-sm">Sample</th></tr></thead><tbody>';
-    D.polls.forEach(function (r) {
+    h += '</tr></thead><tbody>';
+    var wide = root.classList.contains('tt-wide');
+    (wide ? D.polls : D.polls.slice(0, NARROW_POLLS)).forEach(function (r) {
       h += '<tr><td>' + r.pollster + '<span class="tt-date">' + frange(r.fieldwork_start, r.fieldwork_end) + '</span></td>';
       D.parties.forEach(function (p) { var v = r.shares[p.code]; h += '<td' + '>' + (v == null ? NDASH : v) + '</td>'; });
-      h += '<td class="tt-hide-sm">' + (r.sample ? r.sample.toLocaleString('en-GB') : NDASH) + '</td></tr>';
+      h += '</tr>';
     });
     $('table').innerHTML = h + '</tbody>';
-    var rows = $('table').querySelectorAll('tbody tr'), wrap = $('scroll'), SHOW = 5;
-    if (rows.length > SHOW) {
-      var top = $('table').getBoundingClientRect().top;
-      wrap.style.maxHeight = Math.ceil(rows[SHOW - 1].getBoundingClientRect().bottom - top) + 'px';
-      $('hint').style.display = '';
-    } else { wrap.style.maxHeight = ''; $('hint').style.display = 'none'; }
+    // Side by side: the table ends level with the chart and scrolls. Otherwise: just the latest few polls.
+    var wrap = $('scroll');
+    wrap.style.maxHeight = wide ? Math.max(160, Math.floor($('chart').getBoundingClientRect().bottom - wrap.getBoundingClientRect().top)) + 'px' : '';
+    $('hint').style.display = wide && wrap.scrollHeight > wrap.clientHeight + 2 ? '' : 'none';
   }
   function chart() {
     var box = $('chart'), tip = $('tip'), W = box.clientWidth;
-    if (!W) return; lastW = W;
-    var small = W < 520, H = small ? 230 : 280, padL = 28, padR = small ? 70 : 120, padT = 10, padB = 26;
+    if (!W) return;
+    var small = W < 620, H = W < 420 ? 200 : 250, padL = 28, padR = small ? 70 : 120, padT = 10, padB = 24;
     var dates = D.series.dates, n = dates.length, i0 = 0;
     if (range !== 'all') { var cut = pd(D.latest_date).getTime() - 365 * 864e5; while (i0 < n - 1 && pd(dates[i0]).getTime() < cut) i0++; }
     var ds = dates.slice(i0), t0 = pd(ds[0]).getTime(), t1 = pd(ds[ds.length - 1]).getTime(), vals = [];
@@ -220,7 +230,11 @@
     hit.addEventListener('mousemove', move); hit.addEventListener('mouseleave', out);
     hit.addEventListener('touchstart', move, { passive: true }); hit.addEventListener('touchmove', move, { passive: true }); hit.addEventListener('touchend', out);
   }
-  function render() { head(); cards(); moving(); chart(); table(); }
+  function size() {
+    var w = root.clientWidth;
+    root.classList.toggle('tt-wide', w >= WIDE); root.classList.toggle('tt-narrow', w < NARROW);
+  }
+  function render() { size(); head(); cards(); moving(); chart(); table(); }
 
   root.querySelectorAll('.tt-toggle button').forEach(function (b) {
     b.addEventListener('click', function () {
@@ -232,11 +246,11 @@
   var rt;
   window.addEventListener('resize', function () {
     clearTimeout(rt);
-    rt = setTimeout(function () { if (D && $('chart').clientWidth !== lastW) { chart(); table(); } }, 120);
+    rt = setTimeout(function () { if (D && root.clientWidth !== lastW) { lastW = root.clientWidth; size(); chart(); table(); } }, 120);
   });
   fetch(SRC, { cache: 'no-cache' })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (j) { D = j; render(); })
+    .then(function (j) { D = j; lastW = root.clientWidth; render(); })
     .catch(function () { $('sub').textContent = 'The poll tracker couldn' + APOS + 't load just now.'; });
 })();
 </script>
