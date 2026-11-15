@@ -59,14 +59,29 @@ It's a Kalman filter with house effects. It runs faster when a "momentum check" 
 | `average_house_effects.csv` | Each pollster's estimated lean, by party |
 | `momentum_latest.json`, `momentum_daily.csv` | The momentum check |
 | `widget.json` | Everything the homepage widget needs, in one small file |
+| `groups_daily.csv`, `groups_inputs.csv`, `groups.json` | The average by group (sex, age, class, 2016 and 2024 vote), the poll-by-poll group figures it uses, and the demographics widget's data |
 | `chart_average.png` | Quick-look chart |
+
+## Group averages
+
+`tracker/groups.py` builds the average for different groups from the crosstabs:
+- sex;
+- age (18-34, 35-64, 65+);
+- social grade (ABC1, C2DE);
+- 2016 referendum vote;
+- 2024 general election vote.
+
+Each poll's groups come from the crosstab table whose Total matches its headline figures. Firms cut age differently, so a firm only counts towards an age band when its own bands add up to it exactly. For example, YouGov's 25-49 band can't make 18-34 or 35-64, so YouGov counts only towards 65+.
+
+Each group gets the same Kalman filter as the headline average, weighted by the group's sample size, without the momentum fast mode. Subgroup samples are small (2024 Green voters are often under 100 per poll), so treat those lines as rougher.
 
 ## Homepage widget (`widget/`)
 
 - `poll_tracker_block.html`: paste the whole file into a custom HTML block (homepage / Shorthand).
 - `index.html`: the same widget as a standalone page, for an iframe.
+- `demographics_block.html`: a second widget, showing how different groups would vote. Readers switch between Sex, Age, Class, 2016 vote and 2024 vote. It reads `outputs/groups.json`. `data-group` (or `?group=` on the page) sets the group it opens on, e.g. `ge2024:LAB`. `demographics.html` is the standalone page.
 
-It reads `outputs/widget.json` live from this repo (the `data-src` attribute). It shows the headline averages large, a simplified chart (past year or since the election), any momentum flag, and the latest polls. The fonts and styles are those of the Times budget calculators. The file is ASCII-only: rebuild `index.html` with `python3 scripts/build_widget.py` after editing the block.
+It reads `outputs/widget.json` live from this repo (the `data-src` attribute). It shows the headline averages large, a simplified chart (past year or since the election), any momentum flag, and the latest polls. The fonts and styles are those of the Times budget calculators. The file is ASCII-only: rebuild the standalone pages with `python3 scripts/build_widget.py` after editing a block.
 
 ## Datawrapper
 

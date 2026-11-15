@@ -1,0 +1,285 @@
+<!--
+  The Times poll tracker: how different groups would vote (demographics widget).
+  Paste this whole file into a custom HTML block, or use widget/demographics.html as an iframe.
+  It reads outputs/groups.json live from GitHub (data-src on #tt-poll-groups below). ASCII only.
+  data-group sets the group it opens on (ids in outputs/groups.json, e.g. "ge2024:LAB", "euref:leave").
+-->
+<link rel="preconnect" href="https://static.dwcdn.net" crossorigin>
+
+<style>
+  @font-face { font-family: "Times Roboto"; font-style: normal; font-weight: 400; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Regular.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Regular.woff") format("woff"); }
+  @font-face { font-family: "Times Roboto"; font-style: normal; font-weight: 500; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Medium.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Medium.woff") format("woff"); }
+  @font-face { font-family: "Times Roboto"; font-style: normal; font-weight: 700; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Bold.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Bold.woff") format("woff"); }
+  /* On thetimes.com the page's own "Times Modern" (bold) and "Times Digital W04 Regular" are used first.
+     Those files are served only to Times sites, so elsewhere the public Times Modern Regular stands in. */
+  @font-face { font-family: "TT Times Modern"; font-style: normal; font-weight: 400 700; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesModern-Regular/TIMESMODERN-REGULAR.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesModern-Regular/TIMESMODERN-REGULAR.woff") format("woff"); }
+  #tt-poll-groups {
+    --tt-ink: #000; --tt-label: #191919; --tt-muted: #717171; --tt-border: #8c8c8c; --tt-rule: #e4e4e4;
+    --tt-head: "Times Modern", "TimesModern-Bold", "TT Times Modern", Georgia, "Times New Roman", serif;
+    --tt-serif: "Times Digital W04 Regular", "TimesDigitalW04-Regular", "Times Digital", Georgia, "Times New Roman", serif;
+    --tt-sans: "Times Roboto", Roboto, "Roboto-Regular", "Helvetica Neue", Arial, sans-serif;
+    background: #fff; color: var(--tt-ink); font-family: var(--tt-sans); max-width: 980px; margin: 0 auto;
+    padding: 0; box-sizing: border-box; -webkit-text-size-adjust: 100%;
+  }
+  #tt-poll-groups *, #tt-poll-groups *::before, #tt-poll-groups *::after { box-sizing: border-box; }
+  #tt-poll-groups .tt-title { margin: 0 0 4px; padding: 0; font-family: var(--tt-head); font-size: 24px; font-weight: 700; line-height: 28px; color: var(--tt-ink); }
+  #tt-poll-groups .tt-sub { margin: 0 0 14px; font-family: var(--tt-serif); font-size: 16px; line-height: 22px; color: var(--tt-ink); }
+  /* category tabs (underlined) and group buttons (black when selected, as the period toggle) */
+  #tt-poll-groups .tt-tabs { display: flex; gap: 18px; margin: 0 0 10px; border-bottom: 1px solid var(--tt-rule);
+    overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  #tt-poll-groups .tt-tabs::-webkit-scrollbar { display: none; }
+  #tt-poll-groups .tt-tabs button { flex: none; font-family: var(--tt-sans); font-size: 14px; font-weight: 500; line-height: 18px; color: var(--tt-muted);
+    background: none; border: 0; border-bottom: 2px solid transparent; border-radius: 0; margin: 0 0 -1px; padding: 6px 0 7px; cursor: pointer; white-space: nowrap; }
+  #tt-poll-groups .tt-tabs button[aria-selected="true"] { color: var(--tt-ink); border-bottom-color: var(--tt-ink); }
+  #tt-poll-groups .tt-toggle { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--tt-border); }
+  #tt-poll-groups .tt-toggle button { font-family: var(--tt-sans); font-size: 12px; line-height: 16px; border: 0; border-radius: 0; background: #fff;
+    color: var(--tt-label); padding: 4px 8px; margin: 0; cursor: pointer; white-space: nowrap; }
+  #tt-poll-groups .tt-toggle button[aria-pressed="true"] { background: var(--tt-ink); color: #fff; }
+  #tt-poll-groups .tt-toggle button .tt-s { display: none; }
+  #tt-poll-groups .tt-groups { margin: 0 0 16px; }
+  /* party figures: name and gap to all voters on the top line, the share underneath */
+  #tt-poll-groups .tt-cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin: 0 0 18px; }
+  #tt-poll-groups .tt-card { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 6px; align-items: baseline;
+    border-top: 3px solid var(--c); padding: 6px 0 0; }
+  #tt-poll-groups .tt-name { grid-column: 1; grid-row: 1; font-size: 14px; font-weight: 500; line-height: 18px; color: var(--t);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #tt-poll-groups .tt-name .tt-s { display: none; }
+  #tt-poll-groups .tt-big { grid-column: 1 / -1; grid-row: 2; margin: 2px 0 0; font-family: var(--tt-head); font-size: 40px; font-weight: 700; line-height: 46px; color: var(--t);
+    font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
+  #tt-poll-groups .tt-big small { font-size: 20px; font-weight: 700; margin-left: 1px; }
+  #tt-poll-groups .tt-gap { grid-column: 2; grid-row: 1; text-align: right; font-size: 12px; line-height: 18px; font-weight: 500;
+    color: var(--t); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  #tt-poll-groups.tt-gap-below .tt-gap { grid-column: 1 / -1; grid-row: 3; text-align: left; }
+  /* wide: the figures stack in a column beside the chart */
+  #tt-poll-groups .tt-main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; }
+  #tt-poll-groups.tt-wide .tt-main { grid-template-columns: 210px minmax(0, 1fr); gap: 32px; align-items: start; }
+  #tt-poll-groups.tt-wide .tt-cards { grid-template-columns: minmax(0, 1fr); gap: 10px; margin: 0; }
+  #tt-poll-groups.tt-wide .tt-big { font-size: 32px; line-height: 36px; }
+  #tt-poll-groups.tt-wide .tt-big small { font-size: 16px; }
+  #tt-poll-groups .tt-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 26px; margin: 0 0 4px; }
+  #tt-poll-groups .tt-label { margin: 0; font-size: 15px; font-weight: 500; line-height: 20px; color: var(--tt-label); }
+  #tt-poll-groups .tt-chart { position: relative; margin: 0; }
+  #tt-poll-groups .tt-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+  #tt-poll-groups .tt-tip { position: absolute; top: 6px; display: none; pointer-events: none; background: #fff; border: 1px solid var(--tt-border);
+    padding: 6px 9px; font-size: 13px; line-height: 19px; white-space: nowrap; z-index: 3; }
+  #tt-poll-groups .tt-tip b { font-weight: 500; }
+  #tt-poll-groups .tt-tip i { display: inline-block; width: 9px; height: 9px; margin-right: 5px; }
+  /* narrow (phones): short names, smaller figures */
+  #tt-poll-groups.tt-narrow .tt-title { font-size: 22px; line-height: 26px; }
+  #tt-poll-groups.tt-narrow .tt-sub { font-size: 15px; line-height: 20px; margin-bottom: 12px; }
+  #tt-poll-groups.tt-narrow .tt-tabs { gap: 14px; }
+  #tt-poll-groups.tt-narrow .tt-tabs button { font-size: 13px; }
+  #tt-poll-groups.tt-narrow .tt-toggle button .tt-l { display: none; }
+  #tt-poll-groups.tt-narrow .tt-toggle button .tt-s { display: inline; }
+  #tt-poll-groups.tt-narrow .tt-cards { gap: 8px; margin-bottom: 16px; }
+  #tt-poll-groups.tt-narrow .tt-name .tt-l { display: none; }
+  #tt-poll-groups.tt-narrow .tt-name .tt-s { display: inline; }
+  #tt-poll-groups.tt-narrow .tt-big { font-size: 25px; line-height: 30px; }
+  #tt-poll-groups.tt-narrow .tt-big small { font-size: 13px; }
+  #tt-poll-groups.tt-narrow .tt-gap { font-size: 11px; }
+</style>
+
+<div id="tt-poll-groups"
+     data-src="https://raw.githubusercontent.com/times/times-poll-tracker/main/outputs/groups.json"
+     data-group="age:18-34">
+  <h2 class="tt-title" data-tt="head">How different groups would vote</h2>
+  <p class="tt-sub" data-tt="sub">Loading the latest polls&hellip;</p>
+  <div class="tt-tabs" role="tablist" aria-label="Group by" data-tt="tabs"></div>
+  <div class="tt-groups"><div class="tt-toggle" role="group" aria-label="Group" data-tt="groups"></div></div>
+  <div class="tt-main">
+    <div class="tt-cards" data-tt="cards"></div>
+    <div class="tt-col">
+      <div class="tt-bar">
+        <p class="tt-label">Poll average</p>
+        <div class="tt-toggle" role="group" aria-label="Chart period" data-tt="period">
+          <button type="button" data-range="365" aria-pressed="true">Past year</button>
+          <button type="button" data-range="all" aria-pressed="false" title="Since the July 2024 general election">Since 2024</button>
+        </div>
+      </div>
+      <div class="tt-chart" data-tt="chart"><div class="tt-tip" data-tt="tip"></div></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('tt-poll-groups');
+  if (!root) return;
+  var $ = function (k) { return root.querySelector('[data-tt="' + k + '"]'); };
+  var q = new URLSearchParams(location.search);
+  var SRC = q.get('data') || root.getAttribute('data-src');
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var MINUS = '\u2212', APOS = '\u2019';
+  var SHORT = { LAB: 'Lab', CON: 'Con', REF: 'Ref', LD: 'LD', GRN: 'Grn' };
+  var NOUN = { LAB: 'Labour', CON: 'The Conservatives', REF: 'Reform UK', LD: 'The Lib Dems', GRN: 'The Greens' };
+  var SING = { LAB: true, REF: true };
+  var VOTE = { LAB: 'Labour', CON: 'Conservative', REF: 'Reform', LD: 'Lib Dem', GRN: 'Green' };
+  var WIDE = 680, NARROW = 560;   // container widths (px)
+  var D, cat = 'Age', pick = {}, range = '365', lastW = 0;
+
+  function pd(s) { var p = s.split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])); }
+  function fdate(s, yr) { var d = pd(s); return d.getUTCDate() + ' ' + MONTHS[d.getUTCMonth()] + (yr ? ' ' + d.getUTCFullYear() : ''); }
+  function gap(v) { return (v > 0.05 ? '+' + v.toFixed(1) : v < -0.05 ? MINUS + Math.abs(v).toFixed(1) : '0.0'); }
+  function inCat(c) { return D.groups.filter(function (g) { return g.category === c; }); }
+  function group() { var gs = inCat(cat); return gs.filter(function (g) { return g.id === pick[cat]; })[0] || gs[0]; }
+  function party(code) { return D.parties.filter(function (p) { return p.code === code; })[0]; }
+  function sorted(g) { return D.parties.slice().sort(function (a, b) { return g.latest[b.code] - g.latest[a.code]; }); }
+
+  function tabs() {
+    $('tabs').innerHTML = D.categories.map(function (c) {
+      return '<button type="button" role="tab" aria-selected="' + (c === cat) + '" data-cat="' + c + '">' + c + '</button>';
+    }).join('');
+    [].forEach.call($('tabs').querySelectorAll('button'), function (b) {
+      b.addEventListener('click', function () { cat = b.getAttribute('data-cat'); render(); });
+    });
+    var g = group();
+    $('groups').innerHTML = inCat(cat).map(function (x) {
+      return '<button type="button" aria-pressed="' + (x.id === g.id) + '" data-g="' + x.id + '"><span class="tt-l">' + x.label +
+        '</span><span class="tt-s">' + x.short + '</span></button>';
+    }).join('');
+    [].forEach.call($('groups').querySelectorAll('button'), function (b) {
+      b.addEventListener('click', function () { pick[cat] = b.getAttribute('data-g'); render(); });
+    });
+  }
+  function head() {
+    var g = group(), ps = sorted(g), a = ps[0], b = ps[1], h;
+    if (g.category === '2024 vote') {
+      var own = g.id.split(':')[1];
+      h = Math.round(g.latest[own]) + '% of ' + g.phrase + ' would vote ' + VOTE[own] + ' again';
+    } else {
+      var lead = g.latest[a.code] - g.latest[b.code];
+      if (lead < 1) h = NOUN[a.code] + ' and ' + NOUN[b.code].replace('The ', 'the ') + ' are neck and neck among ' + g.phrase;
+      else h = NOUN[a.code] + (SING[a.code] ? ' leads' : ' lead') + ' by ' + Math.round(lead) + (Math.round(lead) === 1 ? ' point' : ' points') + ' among ' + g.phrase;
+    }
+    $('head').textContent = h;
+    // the gap to all voters says little about people grouped by how they voted in 2024, so it isn't shown there
+    $('sub').textContent = 'The Times average of Westminster voting intention among ' + g.phrase + (g.category === '2024 vote' ? '' : ', with the gap to all voters');
+  }
+  function cards() {
+    var g = group(), box = $('cards'); box.innerHTML = '';
+    sorted(g).forEach(function (p) {
+      var v = g.latest[p.code], d = v - D.all_voters[p.code], c = document.createElement('div');
+      c.className = 'tt-card'; c.style.setProperty('--c', p.colour); c.style.setProperty('--t', p.text_colour);
+      c.innerHTML = '<div class="tt-name"><span class="tt-l">' + p.name + '</span><span class="tt-s">' + SHORT[p.code] + '</span></div>' +
+        (g.category === '2024 vote' ? '' : '<div class="tt-gap" title="Gap to all voters">' + gap(d) + '</div>') +
+        '<div class="tt-big">' + v.toFixed(1) + '<small>%</small></div>';
+      c.setAttribute('aria-label', p.name + ', ' + v.toFixed(1) + ' per cent' + (g.category === '2024 vote' ? '' : ', ' + gap(d) + ' points compared with all voters'));
+      box.appendChild(c);
+    });
+  }
+  function fitGap() {
+    root.classList.remove('tt-gap-below');
+    var over = [].some.call(root.querySelectorAll('.tt-name'), function (n) {
+      var text = 0; [].forEach.call(n.children, function (c) { text += c.getBoundingClientRect().width; });
+      return text + 4 > n.clientWidth;
+    });
+    root.classList.toggle('tt-gap-below', over);
+  }
+  function chart() {
+    var box = $('chart'), tip = $('tip'), W = box.clientWidth;
+    if (!W) return;
+    var g = group(), wide = root.classList.contains('tt-wide'), small = W < 620;
+    // side by side, the chart's x axis lines up with the bottom of the figures column
+    var H = wide ? Math.max(240, Math.round($('cards').getBoundingClientRect().bottom - box.getBoundingClientRect().top) + 24) : W < 420 ? 220 : 260;
+    var padL = 28, padR = small ? 44 : 100, padT = 10, padB = 24;
+    var dates = D.dates, n = dates.length, i0 = 0;
+    if (range !== 'all') { var cut = pd(D.latest_date).getTime() - 365 * 864e5; while (i0 < n - 1 && pd(dates[i0]).getTime() < cut) i0++; }
+    var ds = dates.slice(i0), t0 = pd(ds[0]).getTime(), t1 = pd(ds[ds.length - 1]).getTime(), vals = [];
+    // one scale for every group in the category, so switching groups compares like with like
+    inCat(cat).forEach(function (x) { D.parties.forEach(function (p) { vals = vals.concat(x.series[p.code].slice(i0).filter(function (v) { return v != null; })); }); });
+    var lo = Math.max(0, Math.floor((Math.min.apply(null, vals) - 1) / 5) * 5), hi = Math.ceil((Math.max.apply(null, vals) + 1) / 5) * 5;
+    var step = hi - lo > 40 ? 10 : 5;
+    function X(t) { return padL + (t - t0) / ((t1 - t0) || 1) * (W - padL - padR); }
+    function Y(v) { return padT + (hi - v) / (hi - lo) * (H - padT - padB); }
+    var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Line chart of voting intention among ' + g.phrase + ', ' + fdate(ds[0], true) +
+      ' to ' + fdate(ds[ds.length - 1], true) + '">';
+    for (var y = lo; y <= hi; y += step) {
+      s += '<line x1="' + padL + '" x2="' + (W - padR + 4) + '" y1="' + Y(y) + '" y2="' + Y(y) + '" stroke="' + (y === lo ? '#000' : '#e4e4e4') + '"/>' +
+        '<text x="' + (padL - 6) + '" y="' + (Y(y) + 4) + '" text-anchor="end" font-size="12" fill="#717171" font-family="Times Roboto, Roboto, Roboto-Regular, Arial, sans-serif">' + y + (y + step > hi ? '%' : '') + '</text>';
+    }
+    var d0 = pd(ds[0]), d1 = pd(ds[ds.length - 1]), mstep = range === 'all' ? (small ? 6 : 3) : (small ? 3 : 2);
+    for (var m = new Date(Date.UTC(d0.getUTCFullYear(), d0.getUTCMonth() + 1, 1)); m <= d1; m = new Date(Date.UTC(m.getUTCFullYear(), m.getUTCMonth() + 1, 1))) {
+      if (m.getUTCMonth() % mstep) continue;
+      s += '<line x1="' + X(m.getTime()) + '" x2="' + X(m.getTime()) + '" y1="' + Y(lo) + '" y2="' + (Y(lo) + 4) + '" stroke="#000"/>';
+      var lab = MONTHS[m.getUTCMonth()] + (m.getUTCMonth() < mstep ? ' ' + m.getUTCFullYear() : '');
+      s += '<text x="' + X(m.getTime()) + '" y="' + (H - 6) + '" text-anchor="middle" font-size="12" fill="#717171" font-family="Times Roboto, Roboto, Roboto-Regular, Arial, sans-serif">' + lab + '</text>';
+    }
+    var ends = [];
+    D.parties.forEach(function (p) {
+      var pts = [];
+      g.series[p.code].slice(i0).forEach(function (v, i) { if (v != null) pts.push(X(pd(ds[i]).getTime()).toFixed(1) + ',' + Y(v).toFixed(1)); });
+      s += '<polyline points="' + pts.join(' ') + '" fill="none" stroke="' + p.colour + '" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>';
+      var v = g.series[p.code][n - 1]; ends.push({ p: p, y: Y(v) });
+      s += '<circle cx="' + X(t1) + '" cy="' + Y(v) + '" r="4" fill="' + p.colour + '" stroke="#fff" stroke-width="1.5"/>';
+    });
+    ends.sort(function (a, b) { return a.y - b.y; });
+    for (var k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 15) ends[k].y = ends[k - 1].y + 15;
+    if (ends.length && ends[ends.length - 1].y > Y(lo) - 4) {
+      ends[ends.length - 1].y = Y(lo) - 4;
+      for (k = ends.length - 2; k >= 0; k--) if (ends[k + 1].y - ends[k].y < 15) ends[k].y = ends[k + 1].y - 15;
+    }
+    ends.forEach(function (e) {
+      s += '<text x="' + (X(t1) + 9) + '" y="' + (e.y + 4) + '" font-size="13" font-weight="500" fill="' + e.p.text_colour +
+        '" font-family="Times Roboto, Roboto, Roboto-Regular, Arial, sans-serif">' + (small ? SHORT[e.p.code] : e.p.name) + '</text>';
+    });
+    s += '<line data-tt="x" y1="' + padT + '" y2="' + (H - padB) + '" stroke="#717171" stroke-dasharray="2 3" visibility="hidden"/>' +
+      '<rect data-tt="hit" x="' + padL + '" y="' + padT + '" width="' + (W - padL - padR) + '" height="' + (H - padT - padB) + '" fill="transparent"/></svg>';
+    box.innerHTML = s; box.appendChild(tip);
+    var hit = box.querySelector('[data-tt="hit"]'), xl = box.querySelector('[data-tt="x"]');
+    function move(ev) {
+      var r = box.getBoundingClientRect(), cx = (ev.touches ? ev.touches[0].clientX : ev.clientX) - r.left;
+      var t = t0 + (cx - padL) / (W - padL - padR) * (t1 - t0), best = 0, bd = Infinity;
+      ds.forEach(function (d, i) { var dd = Math.abs(pd(d).getTime() - t); if (dd < bd) { bd = dd; best = i; } });
+      var x = X(pd(ds[best]).getTime());
+      xl.setAttribute('x1', x); xl.setAttribute('x2', x); xl.setAttribute('visibility', 'visible');
+      var rows = D.parties.map(function (p) { return { p: p, v: g.series[p.code][i0 + best] }; })
+        .filter(function (o) { return o.v != null; }).sort(function (a, b) { return b.v - a.v; });
+      tip.innerHTML = '<b>' + (best === ds.length - 1 ? 'Latest, ' : 'Week to ') + fdate(ds[best], true) + '</b><br>' +
+        rows.map(function (o) { return '<i style="background:' + o.p.colour + '"></i>' + o.p.name + ' ' + o.v.toFixed(1) + '%'; }).join('<br>');
+      tip.style.display = 'block';
+      tip.style.left = Math.min(Math.max(0, x + 10), W - tip.offsetWidth) + 'px';
+    }
+    function out() { tip.style.display = 'none'; xl.setAttribute('visibility', 'hidden'); }
+    hit.addEventListener('mousemove', move); hit.addEventListener('mouseleave', out);
+    hit.addEventListener('touchstart', move, { passive: true }); hit.addEventListener('touchmove', move, { passive: true }); hit.addEventListener('touchend', out);
+  }
+  function size() {
+    var w = root.clientWidth;
+    root.classList.toggle('tt-wide', w >= WIDE); root.classList.toggle('tt-narrow', w < NARROW);
+  }
+  function render() { size(); tabs(); head(); cards(); fitGap(); chart(); }
+
+  [].forEach.call($('period').querySelectorAll('button'), function (b) {
+    b.addEventListener('click', function () {
+      range = b.getAttribute('data-range');
+      [].forEach.call($('period').querySelectorAll('button'), function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      chart();
+    });
+  });
+  var rt;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt);
+    rt = setTimeout(function () { if (D && root.clientWidth !== lastW) { lastW = root.clientWidth; size(); fitGap(); chart(); } }, 120);
+  });
+  fetch(SRC, { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (j) {
+      D = j; lastW = root.clientWidth;
+      // opening group: ?group=... on the page, else data-group above (e.g. "ge2024:LAB", "euref:leave", "sex:female")
+      var start = q.get('group') || root.getAttribute('data-group'), sg = D.groups.filter(function (g) { return g.id === start; })[0];
+      if (sg) { cat = sg.category; pick[cat] = sg.id; }
+      if (D.categories.indexOf(cat) < 0) cat = D.categories[0];
+      render();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { fitGap(); chart(); });
+    })
+    .catch(function () { $('sub').textContent = 'The poll tracker couldn' + APOS + 't load just now.'; });
+})();
+</script>
