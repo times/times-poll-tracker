@@ -6,13 +6,21 @@ or JS \\u escapes).
 
     widget/poll_tracker_block.html   -> widget/index.html          (headline tracker)
     widget/demographics_block.html   -> widget/demographics.html   (how different groups would vote)
+    widget/flows_block.html          -> widget/flows.html          (where 2024 voters have gone)
+    widget/leans_block.html          -> widget/leans.html          (how each pollster leans)
+    widget/undecided_block.html      -> widget/undecided.html      (undecided voters)
 """
 from pathlib import Path
 
 W = Path(__file__).resolve().parent.parent / "widget"
 PAGES = {"poll_tracker_block.html": ("index.html", "The Times poll tracker"),
-         "demographics_block.html": ("demographics.html", "How different groups would vote")}
+         "demographics_block.html": ("demographics.html", "How different groups would vote"),
+         "flows_block.html": ("flows.html", "Where 2024 voters have gone"),
+         "leans_block.html": ("leans.html", "How each pollster leans"),
+         "undecided_block.html": ("undecided.html", "Undecided voters")}
 for src, (dest, title) in PAGES.items():
+    if not (W / src).exists():
+        continue
     block = (W / src).read_text()
     bad = [(i + 1, ch) for i, line in enumerate(block.splitlines()) for ch in line if ord(ch) > 127]
     if bad:

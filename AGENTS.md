@@ -13,7 +13,7 @@ When the user says **"update times polls"** (or "update the poll tracker", "upda
 It does everything:
 1. Pulls the latest copy from GitHub.
 2. Checks every pollster for new polls and adds them.
-3. Rebuilds the average, momentum check, group averages (for the demographics widget), widget data and chart.
+3. Rebuilds the average, momentum check, group averages, pollster leans, undecided voters, widget data and chart.
 4. Commits and pushes `outputs/` and `registry/` to GitHub, which updates the live widget within about 5 minutes.
 
 It takes a few minutes. Don't interrupt it, and don't run the steps one at a time. As it checks each pollster, it prints a progress line such as `[####------]  4/10  Opinium: nothing new (52s so far)`. Don't pipe the output through `tail` or `grep`, so these lines show up as it goes. If the user asks how it's getting on, read back the latest one.
@@ -47,6 +47,6 @@ If `./update.sh` fails with a missing Python module, run `python3 -m pip install
 - Commit straight to `main`. No branches or pull requests.
 - Never commit `data/` (raw files) or any API key.
 - The pollster list and inclusion rules are in `registry/pollsters.json` and `notes/pollster_audit.md`. Don't add or drop pollsters unless asked.
-- The widgets are `widget/poll_tracker_block.html` (headline tracker) and `widget/demographics_block.html` (groups). After editing either, run `python3 scripts/build_widget.py`, which rebuilds the standalone pages and checks the blocks are ASCII-only.
+- The widgets are `widget/poll_tracker_block.html` (headline tracker), `demographics_block.html` (groups), `flows_block.html` (where 2024 voters went), `leans_block.html` (pollster leans) and `undecided_block.html` (undecided voters). After editing any of them, run `python3 scripts/build_widget.py`, which rebuilds the standalone pages and checks the blocks are ASCII-only.
 
 More detail is in `README.md`.

@@ -202,6 +202,9 @@ def main():
         for g, (sh, n) in groups_for(t, p["n"]).items():
             # the group's gap to its own poll's total, placed on the headline average for that day
             adj = {k: base[k] + sh.get(k, 0) - total.get(k, 0) for k in PARTIES}
+            # everyone else (SNP, Plaid, Restore Britain, others): 100 minus the five, the same way
+            adj["OTH"] = (100 - sum(base[k] for k in PARTIES)) + (100 - sum(sh.get(k, 0) for k in PARTIES)) \
+                - (100 - sum(total.get(k, 0) for k in PARTIES))
             by_group[g].append({**p, "shares": adj, "n": int(n) if n else None})
             rows.append({"poll_id": p["poll_id"], "pollster_id": p["firm"], "published": day, "group": g,
                          "n": int(n) if n else "", **{k: round(sh.get(k, 0), 1) for k in PARTIES},
@@ -218,7 +221,7 @@ def main():
         ps = sorted(by_group.get(g, []), key=lambda p: (p["published"], p["firm"]))
         if len(ps) < 20:
             continue
-        for party in PARTIES:
+        for party in PARTIES + ["OTH"]:
             r = kalman_run(ps, START, end, party, q=KALMAN_Q, smooth=True)
             for d in sorted(r["smoothed"]):
                 lv, sd = r["smoothed"][d]
@@ -244,8 +247,8 @@ def main():
         recent = [p for p in ps if (end - p["published"]).days <= 90]
         groups.append({
             "id": g, "category": cat, "label": label, "short": short, "phrase": phrase,
-            "latest": {k: round(series[g][days[-1]][k], 1) for k in PARTIES},
-            "series": {k: [round(series[g][d][k], 1) if d in series[g] else None for d in pick] for k in PARTIES},
+            "latest": {k: round(series[g][days[-1]][k], 1) for k in PARTIES + ["OTH"]},
+            "series": {k: [round(series[g][d][k], 1) if d in series[g] else None for d in pick] for k in PARTIES + ["OTH"]},
             "first": min(series[g]),
             "n_polls": len(ps), "n_polls_90d": len(recent),
             "pollsters": sorted({p["firm"] for p in ps}),

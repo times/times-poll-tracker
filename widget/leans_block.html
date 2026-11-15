@@ -1,0 +1,129 @@
+<!--
+  The Times poll tracker: how each pollster leans.
+  Paste this whole file into a custom HTML block, or use widget/leans.html as an iframe.
+  It reads outputs/leans.json live from GitHub (data-src on #tt-poll-leans below). ASCII only.
+-->
+<link rel="preconnect" href="https://static.dwcdn.net" crossorigin>
+
+<style>
+  @font-face { font-family: "Times Roboto"; font-style: normal; font-weight: 400; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Regular.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Regular.woff") format("woff"); }
+  @font-face { font-family: "Times Roboto"; font-style: normal; font-weight: 500; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Medium.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Medium.woff") format("woff"); }
+  /* On thetimes.com the page's own "Times Modern" (bold) and "Times Digital W04 Regular" are used first.
+     Those files are served only to Times sites, so elsewhere the public Times Modern Regular stands in. */
+  @font-face { font-family: "TT Times Modern"; font-style: normal; font-weight: 400 700; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesModern-Regular/TIMESMODERN-REGULAR.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesModern-Regular/TIMESMODERN-REGULAR.woff") format("woff"); }
+  #tt-poll-leans {
+    --tt-ink: #000; --tt-label: #191919; --tt-muted: #717171; --tt-faint: #b3b3b3; --tt-border: #8c8c8c; --tt-rule: #e4e4e4;
+    --tt-head: "Times Modern", "TimesModern-Bold", "TT Times Modern", Georgia, "Times New Roman", serif;
+    --tt-serif: "Times Digital W04 Regular", "TimesDigitalW04-Regular", "Times Digital", Georgia, "Times New Roman", serif;
+    --tt-sans: "Times Roboto", Roboto, "Roboto-Regular", "Helvetica Neue", Arial, sans-serif;
+    --tt-dots: linear-gradient(to right, #cbcbcb 2px, transparent 2px);
+    background: #fff; color: var(--tt-ink); font-family: var(--tt-sans); max-width: 980px; margin: 0 auto;
+    padding: 0; box-sizing: border-box; -webkit-text-size-adjust: 100%;
+  }
+  #tt-poll-leans *, #tt-poll-leans *::before, #tt-poll-leans *::after { box-sizing: border-box; }
+  #tt-poll-leans .tt-title { margin: 0 0 4px; padding: 0; font-family: var(--tt-head); font-size: 24px; font-weight: 700; line-height: 28px; color: var(--tt-ink); }
+  #tt-poll-leans .tt-sub { margin: 0 0 14px; font-family: var(--tt-serif); font-size: 16px; line-height: 22px; color: var(--tt-ink); }
+  #tt-poll-leans table { width: 100%; margin: 0; border: 0; border-collapse: collapse; table-layout: fixed; font-variant-numeric: tabular-nums; }
+  #tt-poll-leans th, #tt-poll-leans td { padding: 8px 6px; border: 0; font-size: 14px; line-height: 18px; text-align: left;
+    background: var(--tt-dots) left bottom / 4px 1px repeat-x; vertical-align: middle; }
+  #tt-poll-leans th:first-child, #tt-poll-leans td:first-child { padding-left: 0; width: 26%; }
+  #tt-poll-leans thead th { font-size: 12px; font-weight: 500; color: var(--tt-muted); background: none; box-shadow: inset 0 -1px 0 var(--tt-ink); white-space: nowrap; }
+  #tt-poll-leans thead th button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+  #tt-poll-leans thead th button[aria-pressed="true"] { color: var(--tt-ink); text-decoration: underline; text-underline-offset: 3px; }
+  #tt-poll-leans thead th i { display: inline-block; width: 9px; height: 9px; margin-right: 4px; vertical-align: -1px; }
+  #tt-poll-leans tbody tr:last-child td { box-shadow: inset 0 -1px 0 var(--tt-ink); background: none; }
+  #tt-poll-leans .tt-firm { font-weight: 500; }
+  #tt-poll-leans .tt-n { display: block; font-size: 12px; color: var(--tt-muted); font-weight: 400; }
+  /* a lean: the figure, and a bar either side of a centre line */
+  #tt-poll-leans .tt-cell { display: flex; align-items: center; gap: 6px; }
+  #tt-poll-leans .tt-v { flex: none; width: 34px; text-align: right; font-weight: 500; color: var(--t); }
+  #tt-poll-leans .tt-track { position: relative; flex: 1; height: 12px; }
+  #tt-poll-leans .tt-track::before { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: var(--tt-border); }
+  #tt-poll-leans .tt-fill { position: absolute; top: 0; height: 100%; background: var(--c); }
+  #tt-poll-leans .tt-weak .tt-v { color: var(--tt-faint); font-weight: 400; }
+  #tt-poll-leans .tt-weak .tt-fill { opacity: .3; }
+  #tt-poll-leans.tt-narrow .tt-title { font-size: 22px; line-height: 26px; }
+  #tt-poll-leans.tt-narrow .tt-sub { font-size: 15px; line-height: 20px; margin-bottom: 12px; }
+  #tt-poll-leans.tt-narrow th, #tt-poll-leans.tt-narrow td { padding: 7px 2px; font-size: 13px; text-align: right; }
+  #tt-poll-leans.tt-narrow th:first-child, #tt-poll-leans.tt-narrow td:first-child { width: 34%; text-align: left; }
+  #tt-poll-leans.tt-narrow .tt-track { display: none; }
+  #tt-poll-leans.tt-narrow .tt-cell { justify-content: flex-end; }
+  #tt-poll-leans.tt-narrow .tt-v { width: auto; }
+  #tt-poll-leans.tt-narrow .tt-n { font-size: 11px; }
+</style>
+
+<div id="tt-poll-leans"
+     data-src="https://raw.githubusercontent.com/times/times-poll-tracker/main/outputs/leans.json">
+  <h2 class="tt-title" data-tt="head">How each pollster leans</h2>
+  <p class="tt-sub" data-tt="sub">Loading the latest polls&hellip;</p>
+  <table data-tt="table"></table>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('tt-poll-leans');
+  if (!root) return;
+  var $ = function (k) { return root.querySelector('[data-tt="' + k + '"]'); };
+  var q = new URLSearchParams(location.search);
+  var SRC = q.get('data') || root.getAttribute('data-src');
+  var MINUS = '\u2212', APOS = '\u2019';
+  var SHORT = { LAB: 'Lab', CON: 'Con', REF: 'Ref', LD: 'LD', GRN: 'Grn' };
+  var THE = { LAB: 'Labour', CON: 'the Conservatives', REF: 'Reform UK', LD: 'the Lib Dems', GRN: 'the Greens' };
+  var NARROW = 560, SCALE = 4;    // a bar reaching the cell edge = 4 points
+  var D, sortBy = null, lastW = 0;
+
+  function fmt(v) { return v > 0.05 ? '+' + v.toFixed(1) : v < -0.05 ? MINUS + Math.abs(v).toFixed(1) : '0.0'; }
+  function head() {
+    var best = null;
+    D.firms.forEach(function (f) { D.parties.forEach(function (p) {
+      var l = f.leans[p.code]; if (l && l.clear && (!best || Math.abs(l.lean) > Math.abs(best.l))) best = { f: f.name, k: p.code, l: l.lean };
+    }); });
+    $('head').textContent = best ? best.f + ' shows ' + THE[best.k] + ' ' + Math.abs(best.l).toFixed(1) + ' points ' +
+      (best.l > 0 ? 'higher' : 'lower') + ' than other pollsters' : 'How each pollster leans';
+    $('sub').textContent = 'How each pollster' + APOS + 's figures compare with the others' + APOS + ', by party, once timing is allowed for. ' +
+      'Pale figures are within the margin of error';
+  }
+  function table() {
+    var h = '<thead><tr><th scope="col">Pollster</th>';
+    D.parties.forEach(function (p) {
+      h += '<th scope="col"><button type="button" data-k="' + p.code + '" aria-pressed="' + (sortBy === p.code) + '" title="Sort by ' + p.name + '">' +
+        '<i style="background:' + p.colour + '"></i>' + SHORT[p.code] + '</button></th>';
+    });
+    h += '</tr></thead><tbody>';
+    var firms = D.firms.slice();
+    if (sortBy) firms.sort(function (a, b) { return (b.leans[sortBy] || {}).lean - (a.leans[sortBy] || {}).lean; });
+    firms.forEach(function (f) {
+      h += '<tr><td><span class="tt-firm">' + f.name + '</span><span class="tt-n">' + f.polls_12m + ' polls in past year</span></td>';
+      D.parties.forEach(function (p) {
+        var l = f.leans[p.code] || { lean: 0, margin: 0, clear: false }, w = Math.min(Math.abs(l.lean), SCALE) / SCALE * 50;
+        h += '<td class="' + (l.clear ? '' : 'tt-weak') + '" style="--c:' + p.colour + ';--t:' + p.text_colour + '" title="' + f.name + ', ' + p.name +
+          ': ' + fmt(l.lean) + ' points (margin ' + PM() + l.margin.toFixed(1) + ')"><div class="tt-cell"><span class="tt-v">' + fmt(l.lean) +
+          '</span><span class="tt-track"><span class="tt-fill" style="' + (l.lean >= 0 ? 'left:50%' : 'right:50%') + ';width:' + w.toFixed(1) + '%"></span></span></div></td>';
+      });
+      h += '</tr>';
+    });
+    $('table').innerHTML = h + '</tbody>';
+    [].forEach.call($('table').querySelectorAll('thead button'), function (b) {
+      b.addEventListener('click', function () { var k = b.getAttribute('data-k'); sortBy = sortBy === k ? null : k; table(); });
+    });
+  }
+  function PM() { return '\u00B1'; }
+  function size() { root.classList.toggle('tt-narrow', root.clientWidth < NARROW); }
+  function render() { size(); head(); table(); }
+  var rt;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt);
+    rt = setTimeout(function () { if (D && root.clientWidth !== lastW) { lastW = root.clientWidth; size(); } }, 120);
+  });
+  fetch(SRC, { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (j) { D = j; lastW = root.clientWidth; render(); })
+    .catch(function () { $('sub').textContent = 'The poll tracker couldn' + APOS + 't load just now.'; });
+})();
+</script>

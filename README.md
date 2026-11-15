@@ -56,10 +56,11 @@ It's a Kalman filter with house effects. It runs faster when a "momentum check" 
 | `crosstabs/<pollster>_<year>.csv` | Full crosstabs (age, region, past vote and so on), long format |
 | `average_daily.csv` | The average, day by day. `share` is the smoothed history, `share_realtime` is what it said at the time |
 | `average_inputs.csv` | Which polls fed the average, and why any were left out |
-| `average_house_effects.csv` | Each pollster's estimated lean, by party |
 | `momentum_latest.json`, `momentum_daily.csv` | The momentum check |
 | `widget.json` | Everything the homepage widget needs, in one small file |
 | `groups_daily.csv`, `groups_inputs.csv`, `groups.json` | The average by group (sex, age, class, 2016 and 2024 vote), the poll-by-poll group figures it uses, and the demographics widget's data |
+| `average_house_effects.csv`, `leans.json` | Each pollster's lean by party relative to the other firms, with its margin of error, and the leans widget's data |
+| `undecided_daily.csv`, `undecided_inputs.csv`, `undecided.json` | Undecided voters over time, which way they lean when pushed, and the undecided widget's data |
 | `chart_average.png` | Quick-look chart |
 
 ## Group averages
@@ -75,11 +76,24 @@ Each poll's groups come from the crosstab table whose Total matches its headline
 
 Each group is measured against its own poll. For every poll, the method takes the group's gap to that poll's total and adds it to the headline average for that day. This cancels each pollster's general lean, and stops a firm joining or leaving a group from moving the line. For example, YouGov changed its class question in March 2026 and stopped contributing to class. The gaps are smoothed with the same Kalman filter as the headline average, weighted by the group's sample size, without the momentum fast mode. Subgroup samples are small (2024 Green voters are often under 100 per poll), so treat those lines as rougher.
 
+## Pollster leans and undecided voters
+
+- **Leans** (`tracker/leans.py`): the average estimates a lean for each pollster and party. The widget shows it relative to the other firms (centred), with a margin of error taken from the filter. A pale figure means the lean is within that margin.
+- **Undecided** (`tracker/undecided.py`): "don't know" as a share of people who would vote, from each firm's first voting intention question (won't vote and refused are left out), smoothed with a lean per firm.
+  - Which way the undecided lean comes from follow-up questions put only to the undecided. That's Ipsos and More in Common, pooled over six months.
+  - A follow-up is only used if it was asked of under half the first question's sample.
+  - YouGov's follow-up goes to everyone, so it isn't used. BMG's follow-up table is misread by its parser, so it's left out until that parser is fixed.
+
 ## Homepage widget (`widget/`)
 
 - `poll_tracker_block.html`: paste the whole file into a custom HTML block (homepage / Shorthand).
 - `index.html`: the same widget as a standalone page, for an iframe.
 - `demographics_block.html`: a second widget, showing how different groups would vote. Readers switch between Sex, Age, Class, 2016 vote and 2024 vote. It reads `outputs/groups.json`. `data-group` (or `?group=` on the page) sets the group it opens on, e.g. `ge2024:LAB`. `demographics.html` is the standalone page.
+- `flows_block.html`: where 2024 voters have gone, as a bar per 2024 party showing who they'd back now, a year ago or six months ago. It reads `groups.json`.
+- `leans_block.html`: how each pollster leans, by party. Click a party to sort. It reads `leans.json`.
+- `undecided_block.html`: undecided voters over time, and which way they lean when pushed. It reads `undecided.json`.
+
+Each block has a standalone page with the same name (`flows.html`, `leans.html`, `undecided.html`).
 
 It reads `outputs/widget.json` live from this repo (the `data-src` attribute). It shows the headline averages large, a simplified chart (past year or since the election), any momentum flag, and the latest polls. The fonts and styles are those of the Times budget calculators. The file is ASCII-only: rebuild the standalone pages with `python3 scripts/build_widget.py` after editing a block.
 

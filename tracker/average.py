@@ -137,8 +137,18 @@ def kalman_daily():
             rows.append({"date": d.isoformat(), "party": k, "share": round(lv, 2), "sd": round(sd, 2),
                          "share_realtime": round(lv_rt, 2), "sd_realtime": round(sd_rt, 2),
                          "fast_mode": int(flags.get(d, {}).get(k, 0) != 0)})
-        for f, h in r["kf"].house().items():
-            house.append({"as_of": end.isoformat(), "party": k, "pollster_id": f, "house_effect": round(h, 2)})
+        kf = r["kf"]
+        # leans relative to the other firms: centre the house effects, and take their uncertainty from the
+        # filter's covariance (the uncertainty shared by every firm, about the overall level, cancels out)
+        import numpy as _np
+        hs = _np.array(list(kf.house().values()))
+        m = len(hs)
+        A = _np.eye(m) - _np.ones((m, m)) / m
+        cov = A @ kf.P[1:, 1:] @ A.T
+        lean = A @ hs
+        for i, f in enumerate(kf.house()):
+            house.append({"as_of": end.isoformat(), "party": k, "pollster_id": f, "house_effect": round(float(hs[i]), 2),
+                          "lean": round(float(lean[i]), 2), "lean_sd": round(float(cov[i, i]) ** 0.5, 2)})
     return rows, house
 
 
@@ -150,7 +160,7 @@ def main():
         w.writeheader()
         w.writerows(krows)
     with (C.OUTPUTS / "average_house_effects.csv").open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["as_of", "party", "pollster_id", "house_effect"])
+        w = csv.DictWriter(f, fieldnames=["as_of", "party", "pollster_id", "house_effect", "lean", "lean_sd"])
         w.writeheader()
         w.writerows(house)
     last = max(r["date"] for r in krows)

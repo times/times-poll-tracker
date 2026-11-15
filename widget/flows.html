@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where 2024 voters have gone</title>
+<style>body{margin:0;padding:16px;background:#fff}</style>
+</head>
+<body>
+<!--
+  The Times poll tracker: where 2024 voters have gone.
+  Paste this whole file into a custom HTML block, or use widget/flows.html as an iframe.
+  It reads outputs/groups.json live from GitHub (data-src on #tt-poll-flows below). ASCII only.
+-->
+<link rel="preconnect" href="https://static.dwcdn.net" crossorigin>
+
+<style>
+  @font-face { font-family: "Times Roboto"; font-style: normal; font-weight: 400; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Regular.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Regular.woff") format("woff"); }
+  @font-face { font-family: "Times Roboto"; font-style: normal; font-weight: 500; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Medium.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesRoboto-Medium.woff") format("woff"); }
+  /* On thetimes.com the page's own "Times Modern" (bold) and "Times Digital W04 Regular" are used first.
+     Those files are served only to Times sites, so elsewhere the public Times Modern Regular stands in. */
+  @font-face { font-family: "TT Times Modern"; font-style: normal; font-weight: 400 700; font-display: swap;
+    src: url("https://static.dwcdn.net/custom/themes/thetimes/TimesModern-Regular/TIMESMODERN-REGULAR.woff2") format("woff2"),
+         url("https://static.dwcdn.net/custom/themes/thetimes/TimesModern-Regular/TIMESMODERN-REGULAR.woff") format("woff"); }
+  #tt-poll-flows {
+    --tt-ink: #000; --tt-label: #191919; --tt-muted: #717171; --tt-border: #8c8c8c; --tt-rule: #e4e4e4; --tt-other: #b9b9b9;
+    --tt-head: "Times Modern", "TimesModern-Bold", "TT Times Modern", Georgia, "Times New Roman", serif;
+    --tt-serif: "Times Digital W04 Regular", "TimesDigitalW04-Regular", "Times Digital", Georgia, "Times New Roman", serif;
+    --tt-sans: "Times Roboto", Roboto, "Roboto-Regular", "Helvetica Neue", Arial, sans-serif;
+    position: relative; background: #fff; color: var(--tt-ink); font-family: var(--tt-sans); max-width: 980px; margin: 0 auto;
+    padding: 0; box-sizing: border-box; -webkit-text-size-adjust: 100%;
+  }
+  #tt-poll-flows *, #tt-poll-flows *::before, #tt-poll-flows *::after { box-sizing: border-box; }
+  #tt-poll-flows .tt-title { margin: 0 0 4px; padding: 0; font-family: var(--tt-head); font-size: 24px; font-weight: 700; line-height: 28px; color: var(--tt-ink); }
+  #tt-poll-flows .tt-sub { margin: 0 0 14px; font-family: var(--tt-serif); font-size: 16px; line-height: 22px; color: var(--tt-ink); }
+  #tt-poll-flows .tt-bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; min-height: 26px; margin: 0 0 12px; }
+  #tt-poll-flows .tt-toggle { display: inline-flex; border: 1px solid var(--tt-border); }
+  #tt-poll-flows .tt-toggle button { font-family: var(--tt-sans); font-size: 12px; line-height: 16px; border: 0; border-radius: 0; background: #fff;
+    color: var(--tt-label); padding: 4px 8px; margin: 0; cursor: pointer; white-space: nowrap; }
+  #tt-poll-flows .tt-toggle button[aria-pressed="true"] { background: var(--tt-ink); color: #fff; }
+  #tt-poll-flows .tt-key { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; line-height: 16px; color: var(--tt-label); }
+  #tt-poll-flows .tt-key i { display: inline-block; width: 9px; height: 9px; margin-right: 4px; vertical-align: -1px; }
+  #tt-poll-flows .tt-rows { margin: 0; padding: 0; list-style: none; }
+  #tt-poll-flows .tt-row { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 4px 16px; align-items: center;
+    padding: 10px 0; border-top: 1px solid var(--tt-rule); }
+  #tt-poll-flows .tt-row:last-child { border-bottom: 1px solid var(--tt-rule); }
+  #tt-poll-flows .tt-who { font-size: 14px; font-weight: 500; line-height: 18px; color: var(--t); }
+  #tt-poll-flows .tt-stay { display: block; font-size: 12px; font-weight: 400; line-height: 16px; color: var(--tt-muted); margin-top: 2px; }
+  #tt-poll-flows .tt-stay b { font-weight: 500; color: var(--t); }
+  #tt-poll-flows .tt-stack { display: flex; height: 30px; width: 100%; gap: 2px; }
+  #tt-poll-flows .tt-seg { position: relative; height: 100%; min-width: 0; display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 500; font-variant-numeric: tabular-nums; overflow: hidden; white-space: nowrap; cursor: default;
+    transition: flex-basis .35s ease; }
+  #tt-poll-flows .tt-tip { position: absolute; display: none; pointer-events: none; background: #fff; border: 1px solid var(--tt-border);
+    padding: 6px 9px; font-size: 13px; line-height: 18px; max-width: 240px; z-index: 3; }
+  #tt-poll-flows .tt-tip b { font-weight: 500; }
+  #tt-poll-flows.tt-narrow .tt-title { font-size: 22px; line-height: 26px; }
+  #tt-poll-flows.tt-narrow .tt-sub { font-size: 15px; line-height: 20px; margin-bottom: 12px; }
+  #tt-poll-flows.tt-narrow .tt-row { grid-template-columns: minmax(0, 1fr); }
+  #tt-poll-flows.tt-narrow .tt-who { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  #tt-poll-flows.tt-narrow .tt-stay { margin: 0; text-align: right; }
+</style>
+
+<div id="tt-poll-flows"
+     data-src="https://raw.githubusercontent.com/times/times-poll-tracker/main/outputs/groups.json">
+  <h2 class="tt-title" data-tt="head">Where 2024 voters have gone</h2>
+  <p class="tt-sub" data-tt="sub">Loading the latest polls&hellip;</p>
+  <div class="tt-bar">
+    <div class="tt-toggle" role="group" aria-label="When" data-tt="when">
+      <button type="button" data-back="0" aria-pressed="true">Now</button>
+      <button type="button" data-back="26" aria-pressed="false">6 months ago</button>
+      <button type="button" data-back="52" aria-pressed="false">A year ago</button>
+    </div>
+    <div class="tt-key" data-tt="key"></div>
+  </div>
+  <ul class="tt-rows" data-tt="rows"></ul>
+  <div class="tt-tip" data-tt="tip"></div>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('tt-poll-flows');
+  if (!root) return;
+  var $ = function (k) { return root.querySelector('[data-tt="' + k + '"]'); };
+  var q = new URLSearchParams(location.search);
+  var SRC = q.get('data') || root.getAttribute('data-src');
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var APOS = '\u2019';
+  var NAME = { LAB: 'Labour', CON: 'Conservative', REF: 'Reform', LD: 'Lib Dem', GRN: 'Green', OTH: 'another party' };
+  var ORDER = ['LAB', 'CON', 'REF', 'LD', 'GRN'];
+  var DARK_TEXT = { REF: 1, LD: 1, OTH: 1 };     // light fills take black labels
+  var NARROW = 560;
+  var D, back = 0, lastW = 0;
+
+  function pd(s) { var p = s.split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])); }
+  function fdate(s) { var d = pd(s); return d.getUTCDate() + ' ' + MONTHS[d.getUTCMonth()] + ' ' + d.getUTCFullYear(); }
+  function party(code) { return D.parties.filter(function (p) { return p.code === code; })[0]; }
+  function colour(code) { return code === 'OTH' ? '#b9b9b9' : party(code).colour; }
+  function group(code) { return D.groups.filter(function (g) { return g.id === 'ge2024:' + code; })[0]; }
+  // shares at a point in time, scaled so the row adds up to 100 (each party's line is smoothed separately)
+  function at(g, b) {
+    var i = D.dates.length - 1 - b, v = {}, tot = 0;
+    ORDER.concat(['OTH']).forEach(function (k) { var x = g.series[k] ? g.series[k][i] : null; v[k] = Math.max(0, x || 0); tot += v[k]; });
+    Object.keys(v).forEach(function (k) { v[k] = tot ? v[k] / tot * 100 : 0; });
+    return v;
+  }
+
+  function head() {
+    // headline: the party whose hold on its 2024 voters has changed most in a year
+    var best = null;
+    ORDER.forEach(function (k) {
+      var g = group(k); if (!g) return;
+      var now = at(g, 0)[k], then = at(g, 52)[k];
+      if (!best || Math.abs(now - then) > Math.abs(best.now - best.then)) best = { k: k, now: now, then: then };
+    });
+    var r = Math.round(best.now), t = Math.round(best.then), who = best.k === 'LAB' ? 'Labour' : best.k === 'CON' ? 'The Conservatives' :
+      best.k === 'REF' ? 'Reform' : best.k === 'LD' ? 'The Lib Dems' : 'The Greens';
+    var sing = best.k === 'LAB' || best.k === 'REF';
+    $('head').textContent = who + (sing ? ' is' : ' are') + ' keeping ' + r + '% of ' + (sing ? 'its' : 'their') + ' 2024 voters, ' +
+      (r < t ? 'down' : 'up') + ' from ' + t + '% a year ago';
+    $('sub').textContent = 'How people who voted for each party at the 2024 general election would vote now, from the Times poll average';
+  }
+  function key() {
+    $('key').innerHTML = ORDER.concat(['OTH']).map(function (k) {
+      return '<span><i style="background:' + colour(k) + '"></i>' + (k === 'OTH' ? 'Other' : party(k).name) + '</span>';
+    }).join('');
+  }
+  function rows() {
+    var box = $('rows'), html = '', when = D.dates[D.dates.length - 1 - back];
+    ORDER.forEach(function (k) {
+      var g = group(k); if (!g) return;
+      var v = at(g, back), p = party(k);
+      var segs = [k].concat(ORDER.filter(function (x) { return x !== k; }).sort(function (a, b) { return v[b] - v[a]; })).concat(['OTH']);
+      html += '<li class="tt-row" style="--t:' + p.text_colour + '"><div class="tt-who">' + NAME[k] + ' 2024 voters' +
+        '<span class="tt-stay"><b>' + Math.round(v[k]) + '%</b> would vote ' + NAME[k] + ' again</span></div><div class="tt-stack">';
+      segs.forEach(function (s) {
+        var w = v[s], lab = Math.round(w);
+        html += '<div class="tt-seg" data-from="' + k + '" data-to="' + s + '" data-v="' + w.toFixed(1) + '" style="flex:0 0 calc(' + w.toFixed(2) +
+          '% - 2px);background:' + colour(s) + ';color:' + (DARK_TEXT[s] ? '#000' : '#fff') + '">' + (lab >= 1 ? lab : '') + '</div>';
+      });
+      html += '</div></li>';
+    });
+    box.innerHTML = html;
+    // hide figures that don't fit inside their segment
+    [].forEach.call(box.querySelectorAll('.tt-seg'), function (s) { if (s.scrollWidth > s.clientWidth + 1 || s.clientWidth < 22) s.textContent = ''; });
+    [].forEach.call(box.querySelectorAll('.tt-seg'), function (s) {
+      function show(ev) {
+        var r = root.getBoundingClientRect(), from = s.getAttribute('data-from'), to = s.getAttribute('data-to'), tip = $('tip');
+        tip.innerHTML = '<b>' + (+s.getAttribute('data-v')).toFixed(1) + '%</b> of 2024 ' + NAME[from] + ' voters ' +
+          (to === from ? 'would vote ' + NAME[to] + ' again' : 'would now vote ' + (to === 'OTH' ? 'for another party' : NAME[to])) +
+          (back ? ' (' + fdate(when) + ')' : '');
+        tip.style.display = 'block';
+        var x = (ev.touches ? ev.touches[0].clientX : ev.clientX) - r.left, y = s.getBoundingClientRect().bottom - r.top + 6;
+        tip.style.left = Math.min(Math.max(0, x - tip.offsetWidth / 2), root.clientWidth - tip.offsetWidth) + 'px';
+        tip.style.top = y + 'px';
+      }
+      s.addEventListener('mousemove', show); s.addEventListener('touchstart', show, { passive: true });
+      s.addEventListener('mouseleave', function () { $('tip').style.display = 'none'; });
+    });
+  }
+  function size() { root.classList.toggle('tt-narrow', root.clientWidth < NARROW); }
+  function render() { size(); head(); key(); rows(); }
+
+  [].forEach.call($('when').querySelectorAll('button'), function (b) {
+    b.addEventListener('click', function () {
+      back = +b.getAttribute('data-back');
+      [].forEach.call($('when').querySelectorAll('button'), function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      rows();
+    });
+  });
+  document.addEventListener('touchstart', function (e) { if (!root.contains(e.target)) $('tip').style.display = 'none'; }, { passive: true });
+  var rt;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt);
+    rt = setTimeout(function () { if (D && root.clientWidth !== lastW) { lastW = root.clientWidth; size(); rows(); } }, 120);
+  });
+  fetch(SRC, { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (j) {
+      D = j; lastW = root.clientWidth; render();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(rows);
+    })
+    .catch(function () { $('sub').textContent = 'The poll tracker couldn' + APOS + 't load just now.'; });
+})();
+</script>
+
+</body>
+</html>

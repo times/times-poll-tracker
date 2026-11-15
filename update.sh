@@ -17,11 +17,13 @@ BEFORE=$(count_polls)
 
 echo "== Checking pollsters for new polls"
 python3 -u -m tracker.update
-echo "== Rebuilding the average, momentum check, group averages and widget data"
+echo "== Rebuilding the average, momentum check, group averages, pollster leans, undecided and widget data"
 python3 -m tracker.average
 python3 -m tracker.momentum
 python3 -m tracker.widget_data
 python3 -m tracker.groups > /dev/null
+python3 -m tracker.leans > /dev/null
+python3 -m tracker.undecided > /dev/null
 python3 scripts/chart_average.py > /dev/null
 if [ -n "$DW_KEY" ]; then python3 scripts/datawrapper_tracker.py --data-only; fi
 
