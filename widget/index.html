@@ -50,8 +50,11 @@
   #tt-poll-tracker .tt-big { margin: 2px 0 0; font-family: var(--tt-head); font-size: 40px; font-weight: 700; line-height: 46px; color: var(--t);
     font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
   #tt-poll-tracker .tt-big small { font-size: 20px; font-weight: 700; margin-left: 1px; }
-  #tt-poll-tracker .tt-chg { font-size: 12px; line-height: 16px; color: var(--tt-muted); font-variant-numeric: tabular-nums; }
-  #tt-poll-tracker .tt-chg b { font-weight: 500; color: var(--tt-label); }
+  /* the 30-day change sits stacked to the right of the big number, and drops below it when the card is too narrow */
+  #tt-poll-tracker .tt-row { display: flex; flex-wrap: wrap; align-items: center; column-gap: 10px; }
+  #tt-poll-tracker .tt-chg { font-size: 11px; line-height: 15px; color: var(--tt-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  #tt-poll-tracker .tt-chg b { display: block; font-size: 13px; line-height: 17px; font-weight: 500; color: var(--tt-label); }
+  #tt-poll-tracker .tt-chg .tt-l { display: block; }
   #tt-poll-tracker .tt-moving { display: flex; gap: 10px; align-items: baseline; background: var(--tt-chip); padding: 8px 10px; margin: 0 0 16px;
     font-family: var(--tt-serif); font-size: 15px; line-height: 20px; }
   #tt-poll-tracker .tt-moving b { font-family: var(--tt-sans); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
@@ -89,7 +92,7 @@
   #tt-poll-tracker.tt-narrow .tt-big { font-size: 25px; line-height: 30px; }
   #tt-poll-tracker.tt-narrow .tt-big small { font-size: 13px; }
   #tt-poll-tracker.tt-narrow .tt-chg .tt-l { display: none; }
-  #tt-poll-tracker.tt-narrow .tt-chg { font-size: 11px; }
+  #tt-poll-tracker.tt-narrow .tt-chg b { font-size: 11px; line-height: 15px; }
   #tt-poll-tracker.tt-narrow th, #tt-poll-tracker.tt-narrow td { padding: 6px 2px; font-size: 13px; }
   #tt-poll-tracker.tt-narrow .tt-date { font-size: 11px; margin-left: 4px; }
 </style>
@@ -156,8 +159,8 @@
       var c = document.createElement('div');
       c.className = 'tt-card'; c.style.setProperty('--c', p.colour); c.style.setProperty('--t', p.text_colour);
       c.innerHTML = '<div class="tt-name"><span class="tt-l">' + p.name + '</span><span class="tt-s">' + SHORT[p.code] + '</span></div>' +
-        '<div class="tt-big">' + p.share.toFixed(1) + '<small>%</small></div>' +
-        '<div class="tt-chg"><b>' + chg(p.change_30d) + '</b><span class="tt-l"> in 30 days</span></div>';
+        '<div class="tt-row"><div class="tt-big">' + p.share.toFixed(1) + '<small>%</small></div>' +
+        '<div class="tt-chg"><b>' + chg(p.change_30d) + '</b><span class="tt-l">in 30 days</span></div></div>';
       c.setAttribute('aria-label', p.name + ', ' + p.share.toFixed(1) + ' per cent; change over 30 days ' + p.change_30d.toFixed(1) + ' points');
       box.appendChild(c);
     });
