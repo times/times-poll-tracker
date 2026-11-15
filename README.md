@@ -10,12 +10,15 @@ Westminster voting intention polls since the July 2024 general election, read di
 ./update.sh
 ```
 
+Or, in an AI coding assistant (Claude, Copilot, Codex, Cursor) opened in this folder, just say **"update times polls"**. `AGENTS.md` tells it what to run and what to report back.
+
 This does the following:
-1. Checks every pollster for new polls. It looks back 45 days from each pollster's latest poll and skips anything already listed in `registry/files_seen.csv`.
-2. Downloads and reads only the new files.
-3. Adds the new polls to the master files.
-4. Rebuilds the average, momentum check, widget data and chart.
-5. Commits and pushes `outputs/` and `registry/` to GitHub.
+1. Pulls the latest copy from GitHub.
+2. Checks every pollster for new polls. It looks back 45 days from each pollster's latest poll and skips anything already listed in `registry/files_seen.csv`.
+3. Downloads and reads only the new files.
+4. Adds the new polls to the master files.
+5. Rebuilds the average, momentum check, widget data and chart, and prints a summary.
+6. Commits and pushes `outputs/` and `registry/` to GitHub.
 
 It works on any machine with a copy of this repo, even with none of the old raw files. Use `./update.sh --no-push` to update without pushing. If you set `DW_KEY` (your Datawrapper key) in the shell first, it also refreshes the Datawrapper chart's data. It never publishes, and never changes titles or styling.
 
