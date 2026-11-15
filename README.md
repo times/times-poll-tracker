@@ -73,7 +73,7 @@ It's a Kalman filter with house effects. It runs faster when a "momentum check" 
 
 Each poll's groups come from the crosstab table whose Total matches its headline figures. Firms cut age differently, so a firm only counts towards an age band when its own bands add up to it exactly. For example, YouGov's 25-49 band can't make 18-34 or 35-64, so YouGov counts only towards 65+.
 
-Each group gets the same Kalman filter as the headline average, weighted by the group's sample size, without the momentum fast mode. Subgroup samples are small (2024 Green voters are often under 100 per poll), so treat those lines as rougher.
+Each group is measured against its own poll. For every poll, the method takes the group's gap to that poll's total and adds it to the headline average for that day. This cancels each pollster's general lean, and stops a firm joining or leaving a group from moving the line. For example, YouGov changed its class question in March 2026 and stopped contributing to class. The gaps are smoothed with the same Kalman filter as the headline average, weighted by the group's sample size, without the momentum fast mode. Subgroup samples are small (2024 Green voters are often under 100 per poll), so treat those lines as rougher.
 
 ## Homepage widget (`widget/`)
 

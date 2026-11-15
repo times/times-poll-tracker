@@ -1,12 +1,100 @@
 poll_id,question_ref,table_base,break_var,break_label,break_std,option_label,party_code,pct,n_weighted,n_unweighted_col,n_weighted_col
 deltapoll-2024-07-03,GEVI,vi_headline_derived,Total,Total,total,Conservative,CON,22.0,,1737.0,1737.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Conservative,CON,100.0,,299.0,382.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Conservative,CON,0.0,,666.0,677.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Conservative,CON,0.0,,111.0,174.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Conservative,CON,0.0,,249.0,295.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Conservative,CON,0.0,,144.0,208.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Conservative,CON,46.0,,542.0,669.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Conservative,CON,3.0,,442.0,502.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Conservative,CON,8.0,,95.0,176.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Conservative,CON,3.0,,116.0,160.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Conservative,CON,17.0,,580.0,680.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Conservative,CON,30.0,,635.0,734.0
 deltapoll-2024-07-03,GEVI,vi_headline_derived,Total,Total,total,Labour,LAB,39.0,,1737.0,1737.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Labour,LAB,0.0,,299.0,382.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Labour,LAB,100.0,,666.0,677.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Labour,LAB,0.0,,111.0,174.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Labour,LAB,0.0,,249.0,295.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Labour,LAB,0.0,,144.0,208.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Labour,LAB,17.0,,542.0,669.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Labour,LAB,77.0,,442.0,502.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Labour,LAB,30.0,,95.0,176.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Labour,LAB,12.0,,116.0,160.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Labour,LAB,51.0,,580.0,680.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Labour,LAB,26.0,,635.0,734.0
 deltapoll-2024-07-03,GEVI,vi_headline_derived,Total,Total,total,Liberal Democrat,LD,10.0,,1737.0,1737.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Liberal Democrat,LD,0.0,,299.0,382.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Liberal Democrat,LD,0.0,,666.0,677.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Liberal Democrat,LD,100.0,,111.0,174.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Liberal Democrat,LD,0.0,,249.0,295.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Liberal Democrat,LD,0.0,,144.0,208.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Liberal Democrat,LD,6.0,,542.0,669.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Liberal Democrat,LD,4.0,,442.0,502.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Liberal Democrat,LD,51.0,,95.0,176.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Liberal Democrat,LD,3.0,,116.0,160.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Liberal Democrat,LD,12.0,,580.0,680.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Liberal Democrat,LD,7.0,,635.0,734.0
 deltapoll-2024-07-03,GEVI,vi_headline_derived,Total,Total,total,Reform UK,REF,17.0,,1737.0,1737.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Reform UK,REF,0.0,,299.0,382.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Reform UK,REF,0.0,,666.0,677.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Reform UK,REF,0.0,,111.0,174.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Reform UK,REF,100.0,,249.0,295.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Reform UK,REF,0.0,,144.0,208.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Reform UK,REF,27.0,,542.0,669.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Reform UK,REF,7.0,,442.0,502.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Reform UK,REF,5.0,,95.0,176.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Reform UK,REF,26.0,,116.0,160.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Reform UK,REF,4.0,,580.0,680.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Reform UK,REF,29.0,,635.0,734.0
 deltapoll-2024-07-03,GEVI,vi_headline_derived,Total,Total,total,Scottish National Party (SNP),SNP,2.0,,1737.0,1737.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Scottish National Party (SNP),SNP,0.0,,299.0,382.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Scottish National Party (SNP),SNP,0.0,,666.0,677.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Scottish National Party (SNP),SNP,0.0,,111.0,174.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Scottish National Party (SNP),SNP,0.0,,249.0,295.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Scottish National Party (SNP),SNP,15.0,,144.0,208.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Scottish National Party (SNP),SNP,0.0,,542.0,669.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Scottish National Party (SNP),SNP,0.0,,442.0,502.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Scottish National Party (SNP),SNP,0.0,,95.0,176.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Scottish National Party (SNP),SNP,17.0,,116.0,160.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Scottish National Party (SNP),SNP,3.0,,580.0,680.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Scottish National Party (SNP),SNP,1.0,,635.0,734.0
 deltapoll-2024-07-03,GEVI,vi_headline_derived,Total,Total,total,Plaid Cymru (PC),PC,1.0,,1737.0,1737.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Plaid Cymru (PC),PC,0.0,,299.0,382.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Plaid Cymru (PC),PC,0.0,,666.0,677.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Plaid Cymru (PC),PC,0.0,,111.0,174.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Plaid Cymru (PC),PC,0.0,,249.0,295.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Plaid Cymru (PC),PC,12.0,,144.0,208.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Plaid Cymru (PC),PC,1.0,,542.0,669.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Plaid Cymru (PC),PC,0.0,,442.0,502.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Plaid Cymru (PC),PC,0.0,,95.0,176.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Plaid Cymru (PC),PC,8.0,,116.0,160.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Plaid Cymru (PC),PC,1.0,,580.0,680.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Plaid Cymru (PC),PC,2.0,,635.0,734.0
 deltapoll-2024-07-03,GEVI,vi_headline_derived,Total,Total,total,Green,GRN,7.0,,1737.0,1737.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Green,GRN,0.0,,299.0,382.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Green,GRN,0.0,,666.0,677.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Green,GRN,0.0,,111.0,174.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Green,GRN,0.0,,249.0,295.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Green,GRN,57.0,,144.0,208.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Green,GRN,1.0,,542.0,669.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Green,GRN,8.0,,442.0,502.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Green,GRN,4.0,,95.0,176.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Green,GRN,26.0,,116.0,160.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Green,GRN,9.0,,580.0,680.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Green,GRN,4.0,,635.0,734.0
 deltapoll-2024-07-03,GEVI,vi_headline_derived,Total,Total,total,Other,OTH,2.0,,1737.0,1737.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Other,OTH,0.0,,299.0,382.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Other,OTH,0.0,,666.0,677.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Other,OTH,0.0,,111.0,174.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Other,OTH,0.0,,249.0,295.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Other,OTH,15.0,,144.0,208.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Other,OTH,1.0,,542.0,669.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Other,OTH,1.0,,442.0,502.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Other,OTH,2.0,,95.0,176.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Other,OTH,6.0,,116.0,160.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Other,OTH,3.0,,580.0,680.0
+deltapoll-2024-07-03,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Other,OTH,1.0,,635.0,734.0
 deltapoll-2024-10-07,GEVI,vi_headline_derived,Total,Total,total,Conservative,CON,25.0,,2108.0,2108.0
 deltapoll-2024-10-07,GEVI,vi_headline_derived,Gender,Male,sex:male,Conservative,CON,23.0,,1029.0,1012.0
 deltapoll-2024-10-07,GEVI,vi_headline_derived,Gender,Female,sex:female,Conservative,CON,28.0,,1073.0,1090.0

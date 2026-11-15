@@ -20,7 +20,7 @@ import pypdf
 from .. import common as C
 
 PID = "deltapoll"
-SCRAPER = "deltapoll@0.1"
+SCRAPER = "deltapoll@0.2"   # 0.2: later-page columns named from the page's own header, never by count
 LIB = "https://deltapoll.co.uk/polls-library"
 
 FIRST = [("Total", "Total"), ("Gender", "Male"), ("Gender", "Female"), ("Age", "18 to 24"), ("Age", "25 to 34"),
@@ -116,7 +116,69 @@ VOCAB = {  # Deltapoll crossbreak labels (squashed form -> (group, label))
     "Remain": ("EU Ref Vote", "Remain"), "Leave": ("EU Ref Vote", "Leave"),
     "Con": ("GE 2024 Vote", "Con"), "Lab": ("GE 2024 Vote", "Lab"), "LibDem": ("GE 2024 Vote", "Lib Dem"),
     "Reform": ("GE 2024 Vote", "Reform"), "ABC1": ("Social Grade", "ABC1"), "C2DE": ("Social Grade", "C2DE"),
+    "Green": ("GE 2024 Vote", "Green"), "Other": ("GE 2024 Vote", "Other"),
+    "Conservative": ("GE 2024 Vote", "Con"), "Labour": ("GE 2024 Vote", "Lab"), "ReformUK": ("GE 2024 Vote", "Reform"),
+    "White": ("Ethnicity", "White"), "Non-White": ("Ethnicity", "Non-White"),
+    "Under\u00a314k": ("Income", "Under \u00a314k"), "\u00a314kto\u00a321k": ("Income", "\u00a314k to \u00a321k"),
+    "\u00a321kto\u00a334k": ("Income", "\u00a321k to \u00a334k"), "\u00a334kto\u00a348k": ("Income", "\u00a334k to \u00a348k"),
+    "Morethan\u00a348k": ("Income", "More than \u00a348k"),
 }
+# group headings can be printed among the labels; skipped when matching
+SKIP = {"Generation", "EURefVote", "GE2024Vote", "Region", "SocialGrade", "VotingIntention", "Education", "Gender", "Age"}
+# group headings printed under the column labels on later pages
+GROUP_HEADS = {"Gender", "Age", "Generation", "EU Ref Vote", "GE 2024 Vote", "Region", "Social Grade",
+               "Voting Intention", "Education"}
+PARTY_LABELS = {"Con", "Lab", "Lib Dem", "Reform", "Green", "Other"}
+
+
+def _page_header_cols(page):
+    """Column labels of a later crossbreak page, read from the page's own header text (it isn't in
+    extract_text's output, but the text pieces are there). Returns [(group, label)] in column order, or []
+    if none found. Party-name columns belong to 'GE 2024 Vote' or, on pages that crossbreak by current
+    vote, 'Voting Intention', in the order those headings are printed."""
+    frags = []
+    page.extract_text(visitor_text=lambda t, *a: frags.append(t.strip()) if t.strip() else None)
+    if "Total" not in frags:
+        return []
+    after = frags[frags.index("Total") + 1:]
+    heads = [f for f in after if f in GROUP_HEADS]
+    labels = []
+    for f in after:                # the labels sit between 'Total' and the first number (then counts, %s, footer)
+        if re.match(r"^[\d%. ]+$", f):
+            break
+        labels.append(f)
+    # drop spreadsheet column letters (a run of 3+ pieces like L, M, ... AA, AB); a lone 'Z' in 'Generation' 'Z' stays
+    letter = [bool(re.fullmatch(r"[A-Z]{1,2}", f)) and f != "UK" for f in labels]
+    keep, i = [True] * len(labels), 0
+    while i < len(labels):
+        j = i
+        while j < len(labels) and letter[j]:
+            j += 1
+        if j - i >= 3:
+            keep[i:j] = [False] * (j - i)
+        i = max(j, i + 1)
+    labels = [f for f, k in zip(labels, keep) if k]
+    sq = re.sub(r"\s+", "", "".join(labels))
+    keys = sorted(list(VOCAB) + list(SKIP), key=len, reverse=True)
+    out, i = [], 0
+    while i < len(sq):
+        k = next((k for k in keys if sq.startswith(k, i)), None)
+        if not k:
+            return []              # something unrecognised in the header: don't guess
+        if k not in SKIP:
+            out.append(VOCAB[k])
+        i += len(k)
+    party_groups = [h for h in heads if h in ("GE 2024 Vote", "Voting Intention")]
+    run, res, prev_party = -1, [], False
+    for g, lab in out:
+        is_party = lab in PARTY_LABELS
+        if is_party and not prev_party:
+            run += 1
+        if is_party:
+            g = party_groups[min(run, len(party_groups) - 1)] if party_groups else g
+        res.append((g, lab))
+        prev_party = is_party
+    return res
 
 
 def _header_cols(lines):
@@ -224,8 +286,11 @@ def parse(path, meta):
         pct = [[float(x.rstrip("%")) for x in l.split()] for l in lines if PCTS.match(l) and len(l.split()) > 1]
         if not pct:
             continue
-        cols = PAGE_COLS.get(len(pct[0]))
+        # name the columns from the page's own header; the column count alone is not enough
+        # (a 'VI etc.' file can have 8 columns that are social grade + current vote, not regions + grade)
+        cols = _page_header_cols(reader.pages[pg - 1])
         if not cols or len(pct) != len(order) or any(len(r) != len(cols) for r in pct):
+            notes.append(f"page {pg}: {len(pct[0])} crossbreak columns, {len(cols)} labels read; columns skipped")
             continue
         a, w = (cnt[1], cnt[0]) if len(cnt) >= 2 else ([None] * len(cols), [None] * len(cols))
         for lab, vals in zip(order, pct):

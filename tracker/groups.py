@@ -8,9 +8,13 @@ figures (within 1.5 points, after taking out don't knows) is the source; its bre
 groups. Firms cut age differently, so age bands are built only where a firm's own bands add up exactly
 (e.g. 18-24 + 25-34 = 18-34); a firm whose bands don't fit a group simply doesn't count towards it.
 
-Each group and party gets the same Kalman filter as the headline average (house effects, history smoothed
-with later polls), weighted by the group's own sample size, without the momentum fast mode (subgroups are
-too noisy for it).
+Groups are measured against their own poll, not on their own: for each poll, a group's share is taken as
+its gap to that poll's total, added to the headline average on the poll's publication date
+(group - poll total + average). That cancels each pollster's general lean and stops a firm joining or leaving
+a group (YouGov's class question changed in March 2026; YouGov's age bands only fit 65+) from moving the
+line. Each group and party then gets the same Kalman filter as the headline average (history smoothed with
+later polls), weighted by the group's own sample size, without the momentum fast mode (subgroups are too
+noisy for it).
 
 Writes outputs/groups_inputs.csv (one row per poll x group), outputs/groups_daily.csv and
 outputs/groups.json (for the demographics widget).
@@ -128,6 +132,13 @@ def headline_table(tables, headline):
     return tables[best[1]] if best else None
 
 
+def load_average():
+    avg = defaultdict(dict)
+    for r in csv.DictReader((C.OUTPUTS / "average_daily.csv").open()):
+        avg[r["date"]][r["party"]] = float(r["share"])
+    return avg
+
+
 def groups_for(breaks, total_n):
     """Map one table's breaks to {group id: (shares, n)}."""
     out = {}
@@ -177,18 +188,27 @@ def groups_for(breaks, total_n):
 def main():
     polls = load_tracker(C.OUTPUTS)
     tabs = load_tables({p["poll_id"] for p in polls})
+    avg = load_average()
+    adays = sorted(avg)
     by_group, rows, unmatched = defaultdict(list), [], defaultdict(int)
     for p in polls:
         t = headline_table(tabs.get(p["poll_id"], {}), p["shares"])
         if not t:
             unmatched[p["firm"]] += 1
             continue
+        total = rebase(t["total"]["shares"])
+        day = p["published"].isoformat()
+        base = avg.get(day) or avg[min(adays, key=lambda d: abs(dt.date.fromisoformat(d) - p["published"]))]
         for g, (sh, n) in groups_for(t, p["n"]).items():
-            by_group[g].append({**p, "shares": sh, "n": int(n) if n else None})
-            rows.append({"poll_id": p["poll_id"], "pollster_id": p["firm"], "published": p["published"].isoformat(),
-                         "group": g, "n": int(n) if n else "", **{k: round(sh.get(k, 0), 1) for k in PARTIES}})
+            # the group's gap to its own poll's total, placed on the headline average for that day
+            adj = {k: base[k] + sh.get(k, 0) - total.get(k, 0) for k in PARTIES}
+            by_group[g].append({**p, "shares": adj, "n": int(n) if n else None})
+            rows.append({"poll_id": p["poll_id"], "pollster_id": p["firm"], "published": day, "group": g,
+                         "n": int(n) if n else "", **{k: round(sh.get(k, 0), 1) for k in PARTIES},
+                         **{f"{k}_gap": round(sh.get(k, 0) - total.get(k, 0), 1) for k in PARTIES}})
     with (C.OUTPUTS / "groups_inputs.csv").open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["poll_id", "pollster_id", "published", "group", "n"] + PARTIES)
+        w = csv.DictWriter(f, fieldnames=["poll_id", "pollster_id", "published", "group", "n"] + PARTIES
+                           + [f"{k}_gap" for k in PARTIES])
         w.writeheader()
         w.writerows(sorted(rows, key=lambda r: (r["group"], r["published"], r["poll_id"])))
 
