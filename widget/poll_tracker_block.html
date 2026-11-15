@@ -42,10 +42,16 @@
     font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
   #tt-poll-tracker .tt-big small { font-size: 20px; font-weight: 700; margin-left: 1px; }
   /* the 30-day change sits stacked to the right of the big number, and drops below it when the card is too narrow */
-  #tt-poll-tracker .tt-row { display: flex; flex-wrap: wrap; align-items: center; column-gap: 10px; }
-  #tt-poll-tracker .tt-chg { font-size: 11px; line-height: 15px; color: var(--tt-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
-  #tt-poll-tracker .tt-chg b { display: block; font-size: 13px; line-height: 17px; font-weight: 500; color: var(--tt-label); }
+  #tt-poll-tracker .tt-row { display: flex; align-items: center; justify-content: space-between; column-gap: 6px; }
+  #tt-poll-tracker .tt-chg { flex: none; text-align: right; font-size: 11px; line-height: 14px; color: var(--tt-muted);
+    font-variant-numeric: tabular-nums; white-space: nowrap; }
+  #tt-poll-tracker .tt-chg i { display: block; font-style: normal; font-size: 10px; line-height: 13px; color: var(--tt-label); }
+  #tt-poll-tracker .tt-chg b { display: block; font-size: 12px; line-height: 15px; font-weight: 500; color: var(--tt-label); }
   #tt-poll-tracker .tt-chg .tt-l { display: block; }
+  /* if any card is too narrow for the change beside its number, every card puts it underneath */
+  #tt-poll-tracker.tt-chg-below .tt-row { display: block; }
+  #tt-poll-tracker.tt-chg-below .tt-chg { text-align: left; }
+  #tt-poll-tracker.tt-chg-below .tt-chg i, #tt-poll-tracker.tt-chg-below .tt-chg b { display: inline; margin-right: 3px; }
   #tt-poll-tracker .tt-moving { display: flex; gap: 10px; align-items: baseline; background: var(--tt-chip); padding: 8px 10px; margin: 0 0 16px;
     font-family: var(--tt-serif); font-size: 15px; line-height: 20px; }
   #tt-poll-tracker .tt-moving b { font-family: var(--tt-sans); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
@@ -83,7 +89,6 @@
   #tt-poll-tracker.tt-narrow .tt-big { font-size: 25px; line-height: 30px; }
   #tt-poll-tracker.tt-narrow .tt-big small { font-size: 13px; }
   #tt-poll-tracker.tt-narrow .tt-chg .tt-l { display: none; }
-  #tt-poll-tracker.tt-narrow .tt-chg b { font-size: 11px; line-height: 15px; }
   #tt-poll-tracker.tt-narrow th, #tt-poll-tracker.tt-narrow td { padding: 6px 2px; font-size: 13px; }
   #tt-poll-tracker.tt-narrow .tt-date { font-size: 11px; margin-left: 4px; }
 </style>
@@ -134,7 +139,15 @@
     var x = pd(a), y = pd(b);
     return x.getUTCMonth() === y.getUTCMonth() ? x.getUTCDate() + NDASH + fdate(b) : fdate(a) + ' ' + NDASH + ' ' + fdate(b);
   }
-  function chg(v) { return v > 0.05 ? UP + ' +' + v.toFixed(1) : v < -0.05 ? DOWN + ' ' + v.toFixed(1).replace('-', '\u2212') : 'No change'; }
+  function chg(v) {
+    var a = v > 0.05 ? UP : v < -0.05 ? DOWN : '', n = v > 0.05 ? '+' + v.toFixed(1) : v < -0.05 ? v.toFixed(1).replace('-', '\u2212') : '0.0';
+    return (a ? '<i>' + a + '</i>' : '') + '<b>' + n + '</b>';
+  }
+  function fitChg() {
+    root.classList.remove('tt-chg-below');
+    var over = [].some.call(root.querySelectorAll('.tt-row'), function (r) { return r.scrollWidth > r.clientWidth + 1; });
+    root.classList.toggle('tt-chg-below', over);
+  }
   function sorted() { return D.parties.slice().sort(function (a, b) { return b.share - a.share; }); }
 
   function head() {
@@ -151,7 +164,7 @@
       c.className = 'tt-card'; c.style.setProperty('--c', p.colour); c.style.setProperty('--t', p.text_colour);
       c.innerHTML = '<div class="tt-name"><span class="tt-l">' + p.name + '</span><span class="tt-s">' + SHORT[p.code] + '</span></div>' +
         '<div class="tt-row"><div class="tt-big">' + p.share.toFixed(1) + '<small>%</small></div>' +
-        '<div class="tt-chg"><b>' + chg(p.change_30d) + '</b><span class="tt-l">in 30 days</span></div></div>';
+        '<div class="tt-chg">' + chg(p.change_30d) + '<span class="tt-l">in 30 days</span></div></div>';
       c.setAttribute('aria-label', p.name + ', ' + p.share.toFixed(1) + ' per cent; change over 30 days ' + p.change_30d.toFixed(1) + ' points');
       box.appendChild(c);
     });
@@ -240,7 +253,7 @@
     var w = root.clientWidth;
     root.classList.toggle('tt-wide', w >= WIDE); root.classList.toggle('tt-narrow', w < NARROW);
   }
-  function render() { size(); head(); cards(); moving(); chart(); table(); }
+  function render() { size(); head(); cards(); fitChg(); moving(); chart(); table(); }
 
   root.querySelectorAll('.tt-toggle button').forEach(function (b) {
     b.addEventListener('click', function () {
@@ -252,11 +265,14 @@
   var rt;
   window.addEventListener('resize', function () {
     clearTimeout(rt);
-    rt = setTimeout(function () { if (D && root.clientWidth !== lastW) { lastW = root.clientWidth; size(); chart(); table(); } }, 120);
+    rt = setTimeout(function () { if (D && root.clientWidth !== lastW) { lastW = root.clientWidth; size(); fitChg(); chart(); table(); } }, 120);
   });
   fetch(SRC, { cache: 'no-cache' })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (j) { D = j; lastW = root.clientWidth; render(); })
+    .then(function (j) {
+      D = j; lastW = root.clientWidth; render();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { fitChg(); table(); });
+    })
     .catch(function () { $('sub').textContent = 'The poll tracker couldn' + APOS + 't load just now.'; });
 })();
 </script>
