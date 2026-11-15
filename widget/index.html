@@ -204,9 +204,8 @@
     }
     var d0 = pd(ds[0]), d1 = pd(ds[ds.length - 1]), step = range === 'all' ? (small ? 6 : 3) : (small ? 3 : 2);
     for (var m = new Date(Date.UTC(d0.getUTCFullYear(), d0.getUTCMonth() + 1, 1)); m <= d1; m = new Date(Date.UTC(m.getUTCFullYear(), m.getUTCMonth() + 1, 1))) {
-      if (!(m.getUTCMonth() % (range === 'all' ? 3 : 1)))
-        s += '<line x1="' + X(m.getTime()) + '" x2="' + X(m.getTime()) + '" y1="' + Y(lo) + '" y2="' + (Y(lo) + 4) + '" stroke="#000"/>';
       if (m.getUTCMonth() % step) continue;
+      s += '<line x1="' + X(m.getTime()) + '" x2="' + X(m.getTime()) + '" y1="' + Y(lo) + '" y2="' + (Y(lo) + 4) + '" stroke="#000"/>';
       var lab = MONTHS[m.getUTCMonth()] + (m.getUTCMonth() < step ? ' ' + m.getUTCFullYear() : '');
       s += '<text x="' + X(m.getTime()) + '" y="' + (H - 6) + '" text-anchor="middle" font-size="12" fill="#717171" font-family="Times Roboto, Roboto, Roboto-Regular, Arial, sans-serif">' + lab + '</text>';
     }
