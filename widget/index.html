@@ -62,6 +62,7 @@
   #tt-poll-tracker .tt-moving b { font-family: var(--tt-sans); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
   #tt-poll-tracker .tt-main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
   #tt-poll-tracker.tt-wide .tt-main { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+  #tt-poll-tracker.tt-mid .tt-main { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
   #tt-poll-tracker .tt-bar, #tt-poll-tracker .tt-tbl-head { display: flex; justify-content: space-between; align-items: center; gap: 12px;
     min-height: 26px; margin: 0 0 4px; }
   #tt-poll-tracker .tt-label { margin: 0; font-size: 15px; font-weight: 500; line-height: 20px; color: var(--tt-label); }
@@ -135,7 +136,7 @@
   var SHORT = { LAB: 'Lab', CON: 'Con', REF: 'Ref', LD: 'LD', GRN: 'Grn' };
   var NOUN = { LAB: 'Labour', CON: 'The Conservatives', REF: 'Reform UK', LD: 'The Lib Dems', GRN: 'The Greens' };
   var SING = { LAB: true, REF: true };
-  var WIDE = 900, NARROW = 560, NARROW_POLLS = 8;   // container widths (px); polls shown when not side by side
+  var WIDE = 680, MID = 940, NARROW = 560, NARROW_POLLS = 8;   // container widths (px); polls shown when not side by side
   var D, range = '365', lastW = 0, axisY = 0;
 
   function pd(s) { var p = s.split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])); }
@@ -203,7 +204,7 @@
   function chart() {
     var box = $('chart'), tip = $('tip'), W = box.clientWidth;
     if (!W) return;
-    var small = W < 620, H = W < 420 ? 200 : 250, padL = 28, padR = small ? 44 : 100, padT = 10, padB = 24;
+    var small = W < 620, H = root.classList.contains('tt-mid') ? 280 : W < 420 ? 200 : 250, padL = 28, padR = small ? 44 : 100, padT = 10, padB = 24;
     axisY = H - padB;
     var dates = D.series.dates, n = dates.length, i0 = 0;
     if (range !== 'all') { var cut = pd(D.latest_date).getTime() - 365 * 864e5; while (i0 < n - 1 && pd(dates[i0]).getTime() < cut) i0++; }
@@ -260,7 +261,8 @@
   }
   function size() {
     var w = root.clientWidth;
-    root.classList.toggle('tt-wide', w >= WIDE); root.classList.toggle('tt-narrow', w < NARROW);
+    root.classList.toggle('tt-wide', w >= WIDE); root.classList.toggle('tt-mid', w >= WIDE && w < MID);
+    root.classList.toggle('tt-narrow', w < NARROW);
   }
   function render() { size(); head(); cards(); fitChg(); moving(); chart(); table(); }
 
