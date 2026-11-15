@@ -16,7 +16,7 @@ It does everything:
 3. Rebuilds the average, momentum check, widget data and chart.
 4. Commits and pushes `outputs/` and `registry/` to GitHub, which updates the live widget within about 5 minutes.
 
-It takes a few minutes. Don't interrupt it, and don't run the steps one at a time.
+It takes a few minutes. Don't interrupt it, and don't run the steps one at a time. As it checks each pollster, it prints a progress line such as `[####------]  4/10  Opinium: nothing new (52s so far)`. Don't pipe the output through `tail` or `grep`, so these lines show up as it goes. If the user asks how it's getting on, read back the latest one.
 
 **Afterwards, tell the user** what the `== Summary` block says:
 - how many new polls were added;

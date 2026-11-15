@@ -24,10 +24,12 @@ import argparse
 import csv
 import datetime as dt
 import json
+import time
 
 from . import common as C
 from .build_tables import PARTIES
 from .run import SCRAPERS, log_error, process
+from .widget_data import NAMES
 
 SEEN = C.PROJECT / "registry" / "files_seen.csv"
 SEEN_COLS = ["pollster_id", "url", "source_page_url", "published_at", "sha256", "status", "poll_id",
@@ -152,7 +154,14 @@ def main():
     man = C.load_manifest()
     today = dt.date.today().isoformat()
     new_polls, summary = [], []
-    for pid in a.pollsters:
+    total, t0 = len(a.pollsters), time.time()
+
+    def progress(i, pid, msg):
+        # one line per pollster as it finishes, e.g.  [####------]  4/10  Opinium: 1 new file (52s so far)
+        bar = "#" * i + "-" * (total - i)
+        print(f"[{bar}] {i:>2}/{total}  {NAMES.get(pid, pid)}: {msg} ({time.time() - t0:.0f}s so far)", flush=True)
+
+    for i, pid in enumerate(a.pollsters, 1):
         mod = SCRAPERS[pid]
         last = latest.get(pid)
         since = ((dt.date.fromisoformat(last) - dt.timedelta(days=a.lookback)).isoformat() if last else DEFAULT_START)
@@ -164,6 +173,7 @@ def main():
             log_error(pid, "discover", e)
             print(f"  ! discovery failed: {e!r}")
             summary.append((pid, "discovery failed"))
+            progress(i, pid, "check FAILED (see above)")
             continue
         for found in candidates:
             if found["url"] in seen:
@@ -198,6 +208,7 @@ def main():
                                   "status": status, "poll_id": ";".join(poll_ids), "first_seen": today,
                                   "extra": json.dumps(extra, ensure_ascii=False) if extra else ""}
         summary.append((pid, f"{found_new} new file(s)"))
+        progress(i, pid, "nothing new" if not found_new else f"{found_new} new file{'s' if found_new > 1 else ''}")
     if not a.dry_run:
         merge(new_polls)
         save_seen(seen)

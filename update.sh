@@ -16,7 +16,7 @@ git pull -q --rebase --autostash || echo "   (couldn't reach GitHub; carrying on
 BEFORE=$(count_polls)
 
 echo "== Checking pollsters for new polls"
-python3 -m tracker.update
+python3 -u -m tracker.update
 echo "== Rebuilding the average, momentum check and widget data"
 python3 -m tracker.average
 python3 -m tracker.momentum
