@@ -37,7 +37,7 @@
   #tt-poll-tracker .tt-cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; margin: 0 0 22px; }
   #tt-poll-tracker .tt-card { border-top: 4px solid var(--c); padding: 8px 0 0; }
   #tt-poll-tracker .tt-name { font-size: 16px; font-weight: 500; line-height: 20px; color: var(--t); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  #tt-poll-tracker .tt-big { margin: 4px 0 2px; font-family: var(--tt-head); font-size: 52px; font-weight: 700; line-height: 60px; color: var(--tt-ink);
+  #tt-poll-tracker .tt-big { margin: 4px 0 2px; font-family: var(--tt-head); font-size: 52px; font-weight: 700; line-height: 60px; color: var(--t);
     font-variant-numeric: lining-nums tabular-nums; }
   #tt-poll-tracker .tt-big small { font-size: 26px; font-weight: 700; margin-left: 1px; }
   #tt-poll-tracker .tt-chg { font-size: 13px; line-height: 16px; color: var(--tt-muted); font-variant-numeric: tabular-nums; }
@@ -61,15 +61,13 @@
   #tt-poll-tracker .tt-tbl-head { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 4px; }
   #tt-poll-tracker .tt-hint { font-size: 12px; line-height: 16px; color: var(--tt-muted); }
   #tt-poll-tracker .tt-tbl-wrap { overflow-x: auto; overflow-y: auto; -webkit-overflow-scrolling: touch; border-bottom: 1px solid var(--tt-ink); }
-  #tt-poll-tracker thead th { position: sticky; top: 0; z-index: 1; background: #fff; }
   #tt-poll-tracker table { width: 100%; margin: 0; border: 0; border-collapse: collapse; font-variant-numeric: tabular-nums; }
   #tt-poll-tracker th, #tt-poll-tracker td { padding: 10px 6px; border: 0; text-align: right; font-size: 15px; line-height: 20px;
     background: var(--tt-dots) left bottom / 4px 1px repeat-x; }
   #tt-poll-tracker th:first-child, #tt-poll-tracker td:first-child { text-align: left; padding-left: 0; }
-  #tt-poll-tracker thead th { white-space: nowrap; font-size: 13px; font-weight: 500; color: var(--tt-muted); vertical-align: bottom; background: none; border-bottom: 1px solid var(--tt-ink); }
+  #tt-poll-tracker thead th { white-space: nowrap; font-size: 13px; font-weight: 500; color: var(--tt-muted); vertical-align: bottom;
+    position: sticky; top: 0; z-index: 2; background: #fff; box-shadow: inset 0 -1px 0 var(--tt-ink); }
   #tt-poll-tracker thead th i { display: inline-block; width: 10px; height: 10px; background: var(--c); margin-right: 5px; vertical-align: -1px; }
-  #tt-poll-tracker td.tt-top { font-weight: 700; }
-  #tt-poll-tracker .tt-poll { font-weight: 500; }
   #tt-poll-tracker .tt-date { display: block; font-size: 12px; line-height: 16px; color: var(--tt-muted); font-weight: 400; }
   @media (max-width: 640px) {
     #tt-poll-tracker .tt-title { font-size: 24px; line-height: 28px; }
@@ -91,7 +89,7 @@
   <div class="tt-cards" data-tt="cards"></div>
   <div data-tt="moving"></div>
   <div class="tt-bar">
-    <p class="tt-label">The Times poll average</p>
+    <p class="tt-label">Poll average</p>
     <div class="tt-toggle" role="group" aria-label="Chart period">
       <button type="button" data-range="365" aria-pressed="true">Past year</button>
       <button type="button" data-range="all" aria-pressed="false" title="Since the July 2024 general election">Since 2024</button>
@@ -131,14 +129,14 @@
     if (lead < 1) h = NOUN[a.code] + ' and ' + NOUN[b.code].replace('The ', 'the ') + ' are neck and neck';
     else h = NOUN[a.code] + (SING[a.code] ? ' leads' : ' lead') + ' by ' + Math.round(lead) + (Math.round(lead) === 1 ? ' point' : ' points');
     $('head').textContent = h;
-    $('sub').textContent = 'The Times average of Westminster voting intention polls, ' + fdate(D.latest_date, true);
+    $('sub').textContent = 'The Times average of Westminster voting intention polls';
   }
   function cards() {
     var box = $('cards'); box.innerHTML = '';
     sorted().forEach(function (p) {
       var c = document.createElement('div');
       c.className = 'tt-card'; c.style.setProperty('--c', p.colour); c.style.setProperty('--t', p.text_colour);
-      c.innerHTML = '<div class="tt-name">' + p.name + '</div><div class="tt-big">' + Math.round(p.share) + '<small>%</small></div>' +
+      c.innerHTML = '<div class="tt-name">' + p.name + '</div><div class="tt-big">' + p.share.toFixed(1) + '<small>%</small></div>' +
         '<div class="tt-chg"><b>' + chg(p.change_30d) + '</b> in 30 days</div>';
       c.setAttribute('aria-label', p.name + ', ' + p.share.toFixed(1) + ' per cent; change over 30 days ' + p.change_30d.toFixed(1) + ' points');
       box.appendChild(c);
@@ -154,9 +152,8 @@
     D.parties.forEach(function (p) { h += '<th scope="col"><i style="background:' + p.colour + '"></i>' + SHORT[p.code] + '</th>'; });
     h += '<th scope="col" class="tt-hide-sm">Sample</th></tr></thead><tbody>';
     D.polls.forEach(function (r) {
-      var mx = Math.max.apply(null, D.parties.map(function (p) { return r.shares[p.code] || 0; }));
-      h += '<tr><td><span class="tt-poll">' + r.pollster + '</span><span class="tt-date">' + frange(r.fieldwork_start, r.fieldwork_end) + '</span></td>';
-      D.parties.forEach(function (p) { var v = r.shares[p.code]; h += '<td' + (v === mx ? ' class="tt-top"' : '') + '>' + (v == null ? NDASH : v) + '</td>'; });
+      h += '<tr><td>' + r.pollster + '<span class="tt-date">' + frange(r.fieldwork_start, r.fieldwork_end) + '</span></td>';
+      D.parties.forEach(function (p) { var v = r.shares[p.code]; h += '<td' + '>' + (v == null ? NDASH : v) + '</td>'; });
       h += '<td class="tt-hide-sm">' + (r.sample ? r.sample.toLocaleString('en-GB') : NDASH) + '</td></tr>';
     });
     $('table').innerHTML = h + '</tbody>';
