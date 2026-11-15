@@ -131,7 +131,7 @@
   var NOUN = { LAB: 'Labour', CON: 'The Conservatives', REF: 'Reform UK', LD: 'The Lib Dems', GRN: 'The Greens' };
   var SING = { LAB: true, REF: true };
   var WIDE = 720, NARROW = 560, NARROW_POLLS = 8;   // container widths (px); polls shown when not side by side
-  var D, range = '365', lastW = 0;
+  var D, range = '365', lastW = 0, axisY = 0;
 
   function pd(s) { var p = s.split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])); }
   function fdate(s, yr) { var d = pd(s); return d.getUTCDate() + ' ' + MONTHS[d.getUTCMonth()] + (yr ? ' ' + d.getUTCFullYear() : ''); }
@@ -180,13 +180,15 @@
     $('table').innerHTML = h + '</tbody>';
     // Side by side: the table ends level with the chart and scrolls. Otherwise: just the latest few polls.
     var wrap = $('scroll');
-    wrap.style.maxHeight = wide ? Math.max(160, Math.floor($('chart').getBoundingClientRect().bottom - wrap.getBoundingClientRect().top)) + 'px' : '';
+    var axis = $('chart').getBoundingClientRect().top + axisY + 0.5;
+    wrap.style.maxHeight = wide ? Math.max(160, Math.round(axis - wrap.getBoundingClientRect().top)) + 'px' : '';
     $('hint').style.display = wide && wrap.scrollHeight > wrap.clientHeight + 2 ? '' : 'none';
   }
   function chart() {
     var box = $('chart'), tip = $('tip'), W = box.clientWidth;
     if (!W) return;
     var small = W < 620, H = W < 420 ? 200 : 250, padL = 28, padR = small ? 70 : 120, padT = 10, padB = 24;
+    axisY = H - padB;
     var dates = D.series.dates, n = dates.length, i0 = 0;
     if (range !== 'all') { var cut = pd(D.latest_date).getTime() - 365 * 864e5; while (i0 < n - 1 && pd(dates[i0]).getTime() < cut) i0++; }
     var ds = dates.slice(i0), t0 = pd(ds[0]).getTime(), t1 = pd(ds[ds.length - 1]).getTime(), vals = [];
@@ -202,6 +204,8 @@
     }
     var d0 = pd(ds[0]), d1 = pd(ds[ds.length - 1]), step = range === 'all' ? (small ? 6 : 3) : (small ? 3 : 2);
     for (var m = new Date(Date.UTC(d0.getUTCFullYear(), d0.getUTCMonth() + 1, 1)); m <= d1; m = new Date(Date.UTC(m.getUTCFullYear(), m.getUTCMonth() + 1, 1))) {
+      if (!(m.getUTCMonth() % (range === 'all' ? 3 : 1)))
+        s += '<line x1="' + X(m.getTime()) + '" x2="' + X(m.getTime()) + '" y1="' + Y(lo) + '" y2="' + (Y(lo) + 4) + '" stroke="#000"/>';
       if (m.getUTCMonth() % step) continue;
       var lab = MONTHS[m.getUTCMonth()] + (m.getUTCMonth() < step ? ' ' + m.getUTCFullYear() : '');
       s += '<text x="' + X(m.getTime()) + '" y="' + (H - 6) + '" text-anchor="middle" font-size="12" fill="#717171" font-family="Times Roboto, Roboto, Roboto-Regular, Arial, sans-serif">' + lab + '</text>';
@@ -249,7 +253,7 @@
     b.addEventListener('click', function () {
       range = b.getAttribute('data-range');
       root.querySelectorAll('.tt-toggle button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-      chart();
+      chart(); table();
     });
   });
   var rt;
