@@ -109,8 +109,8 @@
       <div class="tt-bar">
         <p class="tt-label">Poll average</p>
         <div class="tt-toggle" role="group" aria-label="Chart period" data-tt="period">
-          <button type="button" data-range="365" aria-pressed="true">Past year</button>
-          <button type="button" data-range="all" aria-pressed="false" title="Since the July 2024 general election">Since 2024</button>
+          <button type="button" data-range="365" aria-pressed="false">Past year</button>
+          <button type="button" data-range="all" aria-pressed="true" title="Since the July 2024 general election">Since 2024</button>
         </div>
       </div>
       <div class="tt-chart" data-tt="chart"><div class="tt-tip" data-tt="tip"></div></div>
@@ -132,7 +132,7 @@
   var SING = { LAB: true, REF: true };
   var VOTE = { LAB: 'Labour', CON: 'Conservative', REF: 'Reform', LD: 'Lib Dem', GRN: 'Green' };
   var WIDE = 680, NARROW = 560;   // container widths (px)
-  var D, cat = 'Age', pick = {}, range = '365', lastW = 0;
+  var D, cat = 'Age', pick = {}, range = 'all', lastW = 0;
 
   function pd(s) { var p = s.split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])); }
   function fdate(s, yr) { var d = pd(s); return d.getUTCDate() + ' ' + MONTHS[d.getUTCMonth()] + (yr ? ' ' + d.getUTCFullYear() : ''); }
