@@ -12,7 +12,7 @@ import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 
 OUT = Path(__file__).resolve().parent.parent / "outputs"
-P = [("LAB", "Labour", "#E4003B"), ("CON", "Conservative", "#0087DC"), ("REF", "Reform UK", "#12B6CF"),
+P = [("LAB", "Labour", "#E4003B"), ("CON", "Conservative", "#4093B2"), ("REF", "Reform UK", "#12B6CF"),
      ("LD", "Lib Dem", "#FAA61A"), ("GRN", "Green", "#02A95B")]
 
 avg = list(csv.DictReader((OUT / "average_daily.csv").open()))

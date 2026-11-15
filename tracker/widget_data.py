@@ -12,8 +12,8 @@ import json
 
 from . import common as C
 
-PARTIES = [("LAB", "Labour", "#da5c5b", "#c5494a"), ("CON", "Conservative", "#5691af", "#437e9c"),
-           ("REF", "Reform UK", "#54b3cc", "#398198"), ("LD", "Lib Dem", "#d8ad45", "#957224"),
+PARTIES = [("LAB", "Labour", "#da5c5b", "#c5494a"), ("CON", "Conservative", "#4093b2", "#4093b2"),
+           ("REF", "Reform UK", "#12b6cf", "#12b6cf"), ("LD", "Lib Dem", "#d8ad45", "#957224"),
            ("GRN", "Green", "#72a768", "#4f8247")]
 NAMES = {"yougov": "YouGov", "moreincommon": "More in Common", "findoutnow": "Find Out Now", "opinium": "Opinium",
          "survation": "Survation", "bmg": "BMG", "freshwater": "Freshwater Strategy", "trajectory": "Trajectory",
