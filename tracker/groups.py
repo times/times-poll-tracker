@@ -53,6 +53,8 @@ GROUPS = {
     "ge2024:LD": ("2024 vote", "Lib Dem", "LD", "2024 Lib Dem voters"),
     "ge2024:GRN": ("2024 vote", "Green", "Grn", "2024 Green voters"),
 }
+# 2024 general election, Great Britain vote shares (%), to size the 2024-vote groups in the flows chart
+GE2024_GB = {"LAB": 34.7, "CON": 24.4, "REF": 14.7, "LD": 12.6, "GRN": 6.9}
 AGE_TARGETS = {"age:18-34": (18, 34), "age:35-64": (35, 64), "age:65+": (65, 200)}
 GRADE_KEYS = ("social_grade", "seg", "seg_1", "socioeconomic_group")
 
@@ -261,6 +263,7 @@ def main():
     out = {"updated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"), "latest_date": days[-1],
            "parties": [{"code": c, "name": n, "colour": col, "text_colour": txt} for c, n, col, txt in WIDGET_PARTIES],
            "all_voters": {k: round(allv[k], 1) for k in PARTIES},
+           "ge2024_gb": GE2024_GB,
            "dates": pick, "categories": list(dict.fromkeys(v[0] for v in GROUPS.values())), "groups": groups}
     (C.OUTPUTS / "groups.json").write_text(json.dumps(out, separators=(",", ":"), ensure_ascii=False))
 

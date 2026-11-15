@@ -89,7 +89,7 @@ Each group is measured against its own poll. For every poll, the method takes th
 - `poll_tracker_block.html`: paste the whole file into a custom HTML block (homepage / Shorthand).
 - `index.html`: the same widget as a standalone page, for an iframe.
 - `demographics_block.html`: a second widget, showing how different groups would vote. Readers switch between Sex, Age, Class, 2016 vote and 2024 vote. It reads `outputs/groups.json`. `data-group` (or `?group=` on the page) sets the group it opens on, e.g. `ge2024:LAB`. `demographics.html` is the standalone page.
-- `flows_block.html`: where 2024 voters have gone, as a bar per 2024 party showing who they'd back now, a year ago or six months ago. It reads `groups.json`.
+- `flows_block.html`: where 2024 voters have gone, as a Sankey from 2024 vote to current vote (now, six months ago or a year ago). Each 2024 party is sized by its GB vote share (`ge2024_gb` in `groups.json`). It reads `groups.json`.
 - `leans_block.html`: how each pollster leans, by party. Click a party to sort. It reads `leans.json`.
 - `undecided_block.html`: undecided voters over time, and which way they lean when pushed. It reads `undecided.json`.
 
