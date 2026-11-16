@@ -1,20 +1,19 @@
 {
- "as_of": "2026-11-13",
+ "as_of": "2026-11-16",
  "lookback_days": 7,
  "parties": {
   "LAB": {
-   "n_polls": 7,
+   "n_polls": 6,
    "up": 2,
-   "down": 5,
+   "down": 4,
    "same": 0,
-   "mean_change": -0.379,
-   "p": 0.453,
+   "mean_change": -0.11,
+   "p": 0.688,
    "flag": false,
    "firms": [
     "deltapoll",
     "findoutnow",
     "moreincommon",
-    "opinium",
     "survation",
     "trajectory",
     "yougov"
@@ -23,18 +22,17 @@
    "sentence": null
   },
   "CON": {
-   "n_polls": 7,
+   "n_polls": 6,
    "up": 3,
    "down": 3,
-   "same": 1,
-   "mean_change": -0.177,
+   "same": 0,
+   "mean_change": -0.135,
    "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
     "findoutnow",
     "moreincommon",
-    "opinium",
     "survation",
     "trajectory",
     "yougov"
@@ -43,18 +41,17 @@
    "sentence": null
   },
   "REF": {
-   "n_polls": 7,
+   "n_polls": 6,
    "up": 1,
-   "down": 6,
+   "down": 5,
    "same": 0,
-   "mean_change": -1.121,
-   "p": 0.125,
+   "mean_change": -1.208,
+   "p": 0.219,
    "flag": false,
    "firms": [
     "deltapoll",
     "findoutnow",
     "moreincommon",
-    "opinium",
     "survation",
     "trajectory",
     "yougov"
@@ -63,18 +60,17 @@
    "sentence": null
   },
   "LD": {
-   "n_polls": 7,
+   "n_polls": 6,
    "up": 5,
    "down": 0,
-   "same": 2,
-   "mean_change": 1.152,
+   "same": 1,
+   "mean_change": 1.325,
    "p": 0.062,
    "flag": false,
    "firms": [
     "deltapoll",
     "findoutnow",
     "moreincommon",
-    "opinium",
     "survation",
     "trajectory",
     "yougov"
@@ -83,18 +79,17 @@
    "sentence": null
   },
   "GRN": {
-   "n_polls": 7,
-   "up": 1,
+   "n_polls": 6,
+   "up": 0,
    "down": 3,
    "same": 3,
-   "mean_change": -0.005,
-   "p": 0.625,
+   "mean_change": -0.481,
+   "p": 0.25,
    "flag": false,
    "firms": [
     "deltapoll",
     "findoutnow",
     "moreincommon",
-    "opinium",
     "survation",
     "trajectory",
     "yougov"

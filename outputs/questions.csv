@@ -1589,3 +1589,4 @@ yougov-2026-11-09,YG_HEADLINE,vi_headline_derived,HEADLINE VOTING INTENTION West
 yougov-2026-11-09,YG_GENERIC,vi_first,"If there were a general election held tomorrow, which party would you vote for?",,2,,
 yougov-2026-11-09,YG_CONSTITUENCY,vi_first,"Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for?",,3,,
 yougov-2026-11-09,YG_OTHER_FOLLOWUP,vi_second_screen,And which of these parties would you vote for?,Asked only to those who said 'Some other party'; N=79,4,,
+deltapoll-2026-11-16,GEVI,vi_headline_derived,,Excluding 'Don't know' and 'Would not vote',1,Male Female 18 to 24 25 to 34 35 to 54 55 to 64 65+ General Election Voting Intention,

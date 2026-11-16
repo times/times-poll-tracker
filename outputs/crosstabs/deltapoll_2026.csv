@@ -2959,3 +2959,267 @@ deltapoll-2026-11-09,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_v
 deltapoll-2026-11-09,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Other,OTH,0.0,,411.0,667.0
 deltapoll-2026-11-09,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Other,OTH,0.0,,125.0,216.0
 deltapoll-2026-11-09,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Other,OTH,58.0,,125.0,200.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Total,Total,total,Conservative,CON,23.0,,2026.0,2740.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Male,sex:male,Conservative,CON,20.0,,938.0,1402.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Female,sex:female,Conservative,CON,25.0,,1088.0,1338.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Conservative,CON,10.0,,157.0,288.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Conservative,CON,11.0,,270.0,358.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Conservative,CON,22.0,,753.0,986.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Conservative,CON,25.0,,359.0,442.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,65+,age:65+,Conservative,CON,34.0,,487.0,666.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Total,Total,total,Labour,LAB,31.0,,2026.0,2740.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Male,sex:male,Labour,LAB,31.0,,938.0,1402.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Female,sex:female,Labour,LAB,30.0,,1088.0,1338.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Labour,LAB,29.0,,157.0,288.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Labour,LAB,37.0,,270.0,358.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Labour,LAB,32.0,,753.0,986.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Labour,LAB,31.0,,359.0,442.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,65+,age:65+,Labour,LAB,26.0,,487.0,666.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Total,Total,total,Liberal Democrat,LD,7.0,,2026.0,2740.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Male,sex:male,Liberal Democrat,LD,7.0,,938.0,1402.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Female,sex:female,Liberal Democrat,LD,7.0,,1088.0,1338.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Liberal Democrat,LD,11.0,,157.0,288.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Liberal Democrat,LD,7.0,,270.0,358.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Liberal Democrat,LD,5.0,,753.0,986.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Liberal Democrat,LD,7.0,,359.0,442.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,65+,age:65+,Liberal Democrat,LD,6.0,,487.0,666.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Total,Total,total,Reform UK,REF,25.0,,2026.0,2740.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Male,sex:male,Reform UK,REF,29.0,,938.0,1402.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Female,sex:female,Reform UK,REF,22.0,,1088.0,1338.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Reform UK,REF,18.0,,157.0,288.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Reform UK,REF,26.0,,270.0,358.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Reform UK,REF,26.0,,753.0,986.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Reform UK,REF,26.0,,359.0,442.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,65+,age:65+,Reform UK,REF,27.0,,487.0,666.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Total,Total,total,Scottish National Party,SNP,3.0,,2026.0,2740.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Male,sex:male,Scottish National Party,SNP,3.0,,938.0,1402.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Female,sex:female,Scottish National Party,SNP,2.0,,1088.0,1338.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Scottish National Party,SNP,3.0,,157.0,288.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Scottish National Party,SNP,1.0,,270.0,358.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Scottish National Party,SNP,3.0,,753.0,986.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Scottish National Party,SNP,3.0,,359.0,442.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,65+,age:65+,Scottish National Party,SNP,2.0,,487.0,666.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Total,Total,total,Plaid Cymru,PC,1.0,,2026.0,2740.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Male,sex:male,Plaid Cymru,PC,1.0,,938.0,1402.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Female,sex:female,Plaid Cymru,PC,1.0,,1088.0,1338.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Plaid Cymru,PC,1.0,,157.0,288.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Plaid Cymru,PC,0.0,,270.0,358.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Plaid Cymru,PC,1.0,,753.0,986.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Plaid Cymru,PC,1.0,,359.0,442.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,65+,age:65+,Plaid Cymru,PC,1.0,,487.0,666.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Total,Total,total,Green,GRN,8.0,,2026.0,2740.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Male,sex:male,Green,GRN,6.0,,938.0,1402.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Female,sex:female,Green,GRN,9.0,,1088.0,1338.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Green,GRN,25.0,,157.0,288.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Green,GRN,15.0,,270.0,358.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Green,GRN,6.0,,753.0,986.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Green,GRN,4.0,,359.0,442.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,65+,age:65+,Green,GRN,2.0,,487.0,666.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Total,Total,total,Other,OTH,3.0,,2026.0,2740.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Male,sex:male,Other,OTH,3.0,,938.0,1402.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Gender,Female,sex:female,Other,OTH,4.0,,1088.0,1338.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,18 to 24,age:18 to 24,Other,OTH,3.0,,157.0,288.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,25 to 34,age:25 to 34,Other,OTH,2.0,,270.0,358.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,35 to 54,age:35 to 54,Other,OTH,4.0,,753.0,986.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,55 to 64,age:55 to 64,Other,OTH,4.0,,359.0,442.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Age,65+,age:65+,Other,OTH,3.0,,487.0,666.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Conservative,CON,8.0,,276.0,439.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Conservative,CON,22.0,,545.0,758.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Conservative,CON,22.0,,623.0,750.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Conservative,CON,32.0,,556.0,748.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Conservative,CON,23.0,,702.0,1019.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Conservative,CON,29.0,,696.0,1012.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Conservative,CON,71.0,,350.0,602.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Conservative,CON,5.0,,620.0,900.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Conservative,CON,11.0,,113.0,197.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Conservative,CON,11.0,,243.0,373.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Conservative,CON,4.0,,174.0,207.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Labour,LAB,30.0,,276.0,439.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Labour,LAB,35.0,,545.0,758.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Labour,LAB,33.0,,623.0,750.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Labour,LAB,26.0,,556.0,748.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Labour,LAB,45.0,,702.0,1019.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Labour,LAB,17.0,,696.0,1012.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Labour,LAB,5.0,,350.0,602.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Labour,LAB,71.0,,620.0,900.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Labour,LAB,19.0,,113.0,197.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Labour,LAB,2.0,,243.0,373.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Labour,LAB,8.0,,174.0,207.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Liberal Democrat,LD,10.0,,276.0,439.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Liberal Democrat,LD,6.0,,545.0,758.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Liberal Democrat,LD,6.0,,623.0,750.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Liberal Democrat,LD,6.0,,556.0,748.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Liberal Democrat,LD,9.0,,702.0,1019.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Liberal Democrat,LD,3.0,,696.0,1012.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Liberal Democrat,LD,1.0,,350.0,602.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Liberal Democrat,LD,3.0,,620.0,900.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Liberal Democrat,LD,55.0,,113.0,197.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Liberal Democrat,LD,1.0,,243.0,373.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Liberal Democrat,LD,3.0,,174.0,207.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Reform UK,REF,24.0,,276.0,439.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Reform UK,REF,22.0,,545.0,758.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Reform UK,REF,27.0,,623.0,750.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Reform UK,REF,28.0,,556.0,748.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Reform UK,REF,9.0,,702.0,1019.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Reform UK,REF,44.0,,696.0,1012.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Reform UK,REF,22.0,,350.0,602.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Reform UK,REF,13.0,,620.0,900.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Reform UK,REF,7.0,,113.0,197.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Reform UK,REF,82.0,,243.0,373.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Reform UK,REF,5.0,,174.0,207.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Scottish National Party,SNP,2.0,,276.0,439.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Scottish National Party,SNP,2.0,,545.0,758.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Scottish National Party,SNP,4.0,,623.0,750.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Scottish National Party,SNP,3.0,,556.0,748.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Scottish National Party,SNP,5.0,,702.0,1019.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Scottish National Party,SNP,1.0,,696.0,1012.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Scottish National Party,SNP,0.0,,350.0,602.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Scottish National Party,SNP,0.0,,620.0,900.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Scottish National Party,SNP,0.0,,113.0,197.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Scottish National Party,SNP,0.0,,243.0,373.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Scottish National Party,SNP,31.0,,174.0,207.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Plaid Cymru,PC,0.0,,276.0,439.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Plaid Cymru,PC,1.0,,545.0,758.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Plaid Cymru,PC,1.0,,623.0,750.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Plaid Cymru,PC,1.0,,556.0,748.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Plaid Cymru,PC,1.0,,702.0,1019.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Plaid Cymru,PC,1.0,,696.0,1012.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Plaid Cymru,PC,0.0,,350.0,602.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Plaid Cymru,PC,0.0,,620.0,900.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Plaid Cymru,PC,0.0,,113.0,197.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Plaid Cymru,PC,0.0,,243.0,373.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Plaid Cymru,PC,8.0,,174.0,207.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Green,GRN,23.0,,276.0,439.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Green,GRN,8.0,,545.0,758.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Green,GRN,4.0,,623.0,750.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Green,GRN,2.0,,556.0,748.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Green,GRN,7.0,,702.0,1019.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Green,GRN,2.0,,696.0,1012.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Green,GRN,1.0,,350.0,602.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Green,GRN,6.0,,620.0,900.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Green,GRN,5.0,,113.0,197.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Green,GRN,0.0,,243.0,373.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Green,GRN,33.0,,174.0,207.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation Z,generation:generation z,Other,OTH,3.0,,276.0,439.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Millennials,generation:millennials,Other,OTH,3.0,,545.0,758.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Generation X,generation:generation x,Other,OTH,4.0,,623.0,750.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Generation,Baby Boomers,generation:baby boomers,Other,OTH,3.0,,556.0,748.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Remain,euref:remain,Other,OTH,1.0,,702.0,1019.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,EU Ref Vote,Leave,euref:leave,Other,OTH,4.0,,696.0,1012.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Con,ge2024:CON,Other,OTH,1.0,,350.0,602.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lab,ge2024:LAB,Other,OTH,1.0,,620.0,900.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Lib Dem,ge2024:LD,Other,OTH,2.0,,113.0,197.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Reform,ge2024:REF,Other,OTH,5.0,,243.0,373.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,GE 2024 Vote,Other,ge2024:OTH,Other,OTH,9.0,,174.0,207.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,London,region:london,Conservative,CON,28.0,,178.0,357.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Rest of South,region:rest of south,Conservative,CON,26.0,,646.0,922.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Midlands,region:midlands,Conservative,CON,24.0,,370.0,441.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,North,region:north,Conservative,CON,21.0,,530.0,645.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Wales,region:wales,Conservative,CON,11.0,,121.0,127.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Scotland,region:scotland,Conservative,CON,10.0,,180.0,247.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,ABC1,social_grade:abc1,Conservative,CON,25.0,,1132.0,1807.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,C2DE,social_grade:c2de,Conservative,CON,19.0,,867.0,909.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,London,region:london,Labour,LAB,36.0,,178.0,357.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Rest of South,region:rest of south,Labour,LAB,28.0,,646.0,922.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Midlands,region:midlands,Labour,LAB,31.0,,370.0,441.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,North,region:north,Labour,LAB,36.0,,530.0,645.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Wales,region:wales,Labour,LAB,20.0,,121.0,127.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Scotland,region:scotland,Labour,LAB,23.0,,180.0,247.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,ABC1,social_grade:abc1,Labour,LAB,33.0,,1132.0,1807.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,C2DE,social_grade:c2de,Labour,LAB,27.0,,867.0,909.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,London,region:london,Liberal Democrat,LD,8.0,,178.0,357.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Rest of South,region:rest of south,Liberal Democrat,LD,9.0,,646.0,922.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Midlands,region:midlands,Liberal Democrat,LD,6.0,,370.0,441.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,North,region:north,Liberal Democrat,LD,4.0,,530.0,645.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Wales,region:wales,Liberal Democrat,LD,2.0,,121.0,127.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Scotland,region:scotland,Liberal Democrat,LD,8.0,,180.0,247.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,ABC1,social_grade:abc1,Liberal Democrat,LD,8.0,,1132.0,1807.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,C2DE,social_grade:c2de,Liberal Democrat,LD,5.0,,867.0,909.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,London,region:london,Reform UK,REF,16.0,,178.0,357.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Rest of South,region:rest of south,Reform UK,REF,27.0,,646.0,922.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Midlands,region:midlands,Reform UK,REF,27.0,,370.0,441.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,North,region:north,Reform UK,REF,28.0,,530.0,645.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Wales,region:wales,Reform UK,REF,35.0,,121.0,127.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Scotland,region:scotland,Reform UK,REF,21.0,,180.0,247.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,ABC1,social_grade:abc1,Reform UK,REF,22.0,,1132.0,1807.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,C2DE,social_grade:c2de,Reform UK,REF,31.0,,867.0,909.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,London,region:london,Scottish National Party,SNP,0.0,,178.0,357.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Rest of South,region:rest of south,Scottish National Party,SNP,0.0,,646.0,922.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Midlands,region:midlands,Scottish National Party,SNP,0.0,,370.0,441.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,North,region:north,Scottish National Party,SNP,0.0,,530.0,645.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Wales,region:wales,Scottish National Party,SNP,0.0,,121.0,127.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Scotland,region:scotland,Scottish National Party,SNP,30.0,,180.0,247.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,ABC1,social_grade:abc1,Scottish National Party,SNP,2.0,,1132.0,1807.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,C2DE,social_grade:c2de,Scottish National Party,SNP,4.0,,867.0,909.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,London,region:london,Plaid Cymru,PC,0.0,,178.0,357.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Rest of South,region:rest of south,Plaid Cymru,PC,0.0,,646.0,922.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Midlands,region:midlands,Plaid Cymru,PC,0.0,,370.0,441.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,North,region:north,Plaid Cymru,PC,0.0,,530.0,645.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Wales,region:wales,Plaid Cymru,PC,18.0,,121.0,127.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Scotland,region:scotland,Plaid Cymru,PC,0.0,,180.0,247.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,ABC1,social_grade:abc1,Plaid Cymru,PC,1.0,,1132.0,1807.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,C2DE,social_grade:c2de,Plaid Cymru,PC,1.0,,867.0,909.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,London,region:london,Green,GRN,10.0,,178.0,357.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Rest of South,region:rest of south,Green,GRN,7.0,,646.0,922.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Midlands,region:midlands,Green,GRN,8.0,,370.0,441.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,North,region:north,Green,GRN,8.0,,530.0,645.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Wales,region:wales,Green,GRN,11.0,,121.0,127.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Scotland,region:scotland,Green,GRN,4.0,,180.0,247.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,ABC1,social_grade:abc1,Green,GRN,7.0,,1132.0,1807.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,C2DE,social_grade:c2de,Green,GRN,9.0,,867.0,909.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,London,region:london,Other,OTH,2.0,,178.0,357.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Rest of South,region:rest of south,Other,OTH,4.0,,646.0,922.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Midlands,region:midlands,Other,OTH,3.0,,370.0,441.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,North,region:north,Other,OTH,3.0,,530.0,645.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Wales,region:wales,Other,OTH,4.0,,121.0,127.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Region,Scotland,region:scotland,Other,OTH,4.0,,180.0,247.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,ABC1,social_grade:abc1,Other,OTH,3.0,,1132.0,1807.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Social Grade,C2DE,social_grade:c2de,Other,OTH,5.0,,867.0,909.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Con,current_vi:CON,Conservative,CON,100.0,,341.0,622.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lab,current_vi:LAB,Conservative,CON,0.0,,550.0,840.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_vi:LD,Conservative,CON,0.0,,91.0,181.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Conservative,CON,0.0,,461.0,698.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Conservative,CON,0.0,,128.0,212.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Conservative,CON,0.0,,112.0,165.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Con,current_vi:CON,Labour,LAB,0.0,,341.0,622.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lab,current_vi:LAB,Labour,LAB,100.0,,550.0,840.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_vi:LD,Labour,LAB,0.0,,91.0,181.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Labour,LAB,0.0,,461.0,698.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Labour,LAB,0.0,,128.0,212.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Labour,LAB,0.0,,112.0,165.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Con,current_vi:CON,Liberal Democrat,LD,0.0,,341.0,622.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lab,current_vi:LAB,Liberal Democrat,LD,0.0,,550.0,840.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_vi:LD,Liberal Democrat,LD,100.0,,91.0,181.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Liberal Democrat,LD,0.0,,461.0,698.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Liberal Democrat,LD,0.0,,128.0,212.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Liberal Democrat,LD,0.0,,112.0,165.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Con,current_vi:CON,Reform UK,REF,0.0,,341.0,622.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lab,current_vi:LAB,Reform UK,REF,0.0,,550.0,840.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_vi:LD,Reform UK,REF,0.0,,91.0,181.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Reform UK,REF,100.0,,461.0,698.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Reform UK,REF,0.0,,128.0,212.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Reform UK,REF,0.0,,112.0,165.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Con,current_vi:CON,Scottish National Party,SNP,0.0,,341.0,622.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lab,current_vi:LAB,Scottish National Party,SNP,0.0,,550.0,840.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_vi:LD,Scottish National Party,SNP,0.0,,91.0,181.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Scottish National Party,SNP,0.0,,461.0,698.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Scottish National Party,SNP,0.0,,128.0,212.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Scottish National Party,SNP,45.0,,112.0,165.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Con,current_vi:CON,Plaid Cymru,PC,0.0,,341.0,622.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lab,current_vi:LAB,Plaid Cymru,PC,0.0,,550.0,840.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_vi:LD,Plaid Cymru,PC,0.0,,91.0,181.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Plaid Cymru,PC,0.0,,461.0,698.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Plaid Cymru,PC,0.0,,128.0,212.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Plaid Cymru,PC,0.0,,112.0,165.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Con,current_vi:CON,Green,GRN,0.0,,341.0,622.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lab,current_vi:LAB,Green,GRN,0.0,,550.0,840.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_vi:LD,Green,GRN,0.0,,91.0,181.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Green,GRN,0.0,,461.0,698.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Green,GRN,100.0,,128.0,212.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Green,GRN,0.0,,112.0,165.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Con,current_vi:CON,Other,OTH,0.0,,341.0,622.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lab,current_vi:LAB,Other,OTH,0.0,,550.0,840.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Lib Dem,current_vi:LD,Other,OTH,0.0,,91.0,181.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Reform,current_vi:REF,Other,OTH,0.0,,461.0,698.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Green,current_vi:GRN,Other,OTH,0.0,,128.0,212.0
+deltapoll-2026-11-16,GEVI,vi_headline_derived,Voting Intention,Other,current_vi:OTH,Other,OTH,55.0,,112.0,165.0
