@@ -33,6 +33,10 @@ def load_tracker(outputs, include_all=False):
         # and if missing or implausibly late (re-uploads), assume end + 2 days
         if not pub or pub < p["end"] or (pub - p["end"]).days > 14:
             pub = p["end"] + dt.timedelta(days=2)
+        # and never later than the day we first downloaded it (so never in the future)
+        seen = _d(meta.get("scraped_at"))
+        if seen and seen >= p["end"]:
+            pub = min(pub, seen)
         n = meta.get("sample_size_vi_unweighted") or meta.get("sample_size_total")
         out.append({"poll_id": p["poll_id"], "firm": p["pollster_id"], "end": p["end"], "published": pub,
                     "n": int(float(n)) if n else None, "shares": p["shares"]})

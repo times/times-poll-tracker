@@ -41,6 +41,8 @@ def process(mod, meta):
     C.apply_overrides(d["poll"])
     if not d["poll"].get("overridden"):
         C.sanity_dates(d["poll"], fix_old=getattr(mod, "FIX_OLD_DATES", True))
+    if getattr(mod, "PUBLISHED_IS_BOUND", False):  # only an upper bound, for the check above: not a real date
+        d["poll"]["published_date"] = None
     pid = d["poll"]["poll_id"]
     for k in ("questions", "options", "results", "headline"):
         for r in d[k]:

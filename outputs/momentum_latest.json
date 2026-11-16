@@ -3,11 +3,11 @@
  "lookback_days": 7,
  "parties": {
   "LAB": {
-   "n_polls": 6,
+   "n_polls": 7,
    "up": 2,
    "down": 4,
-   "same": 0,
-   "mean_change": -0.11,
+   "same": 1,
+   "mean_change": -0.138,
    "p": 0.688,
    "flag": false,
    "firms": [
@@ -22,11 +22,11 @@
    "sentence": null
   },
   "CON": {
-   "n_polls": 6,
-   "up": 3,
+   "n_polls": 7,
+   "up": 4,
    "down": 3,
    "same": 0,
-   "mean_change": -0.135,
+   "mean_change": 0.281,
    "p": 1.0,
    "flag": false,
    "firms": [
@@ -41,12 +41,12 @@
    "sentence": null
   },
   "REF": {
-   "n_polls": 6,
-   "up": 1,
+   "n_polls": 7,
+   "up": 2,
    "down": 5,
    "same": 0,
-   "mean_change": -1.208,
-   "p": 0.219,
+   "mean_change": -0.928,
+   "p": 0.453,
    "flag": false,
    "firms": [
     "deltapoll",
@@ -60,12 +60,12 @@
    "sentence": null
   },
   "LD": {
-   "n_polls": 6,
+   "n_polls": 7,
    "up": 5,
-   "down": 0,
+   "down": 1,
    "same": 1,
-   "mean_change": 1.325,
-   "p": 0.062,
+   "mean_change": 0.84,
+   "p": 0.219,
    "flag": false,
    "firms": [
     "deltapoll",
@@ -79,11 +79,11 @@
    "sentence": null
   },
   "GRN": {
-   "n_polls": 6,
+   "n_polls": 7,
    "up": 0,
    "down": 3,
-   "same": 3,
-   "mean_change": -0.481,
+   "same": 4,
+   "mean_change": -0.423,
    "p": 0.25,
    "flag": false,
    "firms": [

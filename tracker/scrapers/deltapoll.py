@@ -20,6 +20,9 @@ import pypdf
 from .. import common as C
 
 PID = "deltapoll"
+# the site gives no usable publication date (blank, or before fieldwork), so the end of the PDF's upload
+# month is used as an upper bound for the year check, then dropped (the average assumes end + 2 days)
+PUBLISHED_IS_BOUND = True
 SCRAPER = "deltapoll@0.2"   # 0.2: later-page columns named from the page's own header, never by count
 LIB = "https://deltapoll.co.uk/polls-library"
 

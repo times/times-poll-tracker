@@ -44,7 +44,7 @@ The full register, including exact question wording, is in `registry/pollsters.j
 
 The average adjusts each poll for its pollster's usual lean and updates as new polls arrive, moving steadily when the polls are stable and quickly when several show the same shift.
 
-It's a Kalman filter with house effects. It runs faster when a "momentum check" (each pollster against its own previous poll) shows a real move. The history is smoothed with later polls, while today's figure only uses polls already published. The method was chosen by replaying the 2015, 2017, 2019 and 2024 campaigns. Details and evidence are in `notes/average_method.md`.
+It's a Kalman filter with house effects. It runs faster when a "momentum check" (each pollster against its own previous poll) shows a real move. The history is smoothed with later polls, while today's figure only uses polls already published. The method was chosen by replaying the 2015, 2017, 2019 and 2024 campaigns. Details and evidence are in `notes/average_method.md`. Each poll enters on its publication date. Where a pollster doesn't give one (Deltapoll's site doesn't), it's assumed to be two days after fieldwork ends, and never later than the day the tracker first downloaded it.
 
 ## Output files (`outputs/`)
 
