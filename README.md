@@ -95,6 +95,8 @@ Each group is measured against its own poll. For every poll, the method takes th
 
 Each block has a standalone page with the same name (`flows.html`, `leans.html`, `undecided.html`).
 
+- `react/PollTracker.jsx`: the headline tracker as a React component (React 16.8+, no other dependencies, styles included). `<PollTracker />` reads `widget.json` from GitHub; pass `src` for another URL or `data` to skip the fetch. To preview it with no build step, serve the repo root (`python3 -m http.server`) and open `/widget/react/demo.html`. It isn't built from the block, so a change to `poll_tracker_block.html` needs making here too.
+
 It reads `outputs/widget.json` live from this repo (the `data-src` attribute). It shows the headline averages large, a simplified chart (past year or since the election), any momentum flag, and the latest polls. The fonts and styles are those of the Times budget calculators. The file is ASCII-only: rebuild the standalone pages with `python3 scripts/build_widget.py` after editing a block.
 
 ## Datawrapper

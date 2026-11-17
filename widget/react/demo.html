@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poll tracker (React preview)</title>
+<!--
+  Preview of PollTracker.jsx with no build step: React from a CDN, JSX compiled in the browser by Babel.
+  Serve the repo root (python3 -m http.server) and open /widget/react/demo.html.
+  It reads the local outputs/widget.json; add ?live to read the copy on GitHub instead.
+-->
+<style>
+  body { margin: 0; padding: 16px; background: #fff; font-family: Arial, sans-serif; }
+  .demo-bar { display: flex; gap: 6px; align-items: center; margin: 0 0 16px; font-size: 13px; color: #555; }
+  .demo-bar button { font: inherit; padding: 3px 8px; cursor: pointer; }
+  .demo-frame { margin: 0 auto; outline: 1px dashed #ddd; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "react": "https://cdn.jsdelivr.net/npm/react@18.3.1/+esm",
+  "react-dom/client": "https://cdn.jsdelivr.net/npm/react-dom@18.3.1/client/+esm"
+} }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.26.4/babel.min.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<script type="module">
+import React, { useState } from 'react';
+import { createRoot } from 'react-dom/client';
+
+// Compile PollTracker.jsx in the browser (no build step), then import it.
+const jsx = await (await fetch('./PollTracker.jsx', { cache: 'no-cache' })).text();
+const js = Babel.transform(jsx, { presets: ['react'], filename: 'PollTracker.jsx' }).code;
+const { default: PollTracker, DEFAULT_SRC } = await import(URL.createObjectURL(new Blob([js], { type: 'text/javascript' })));
+
+const h = React.createElement;
+const src = new URLSearchParams(location.search).has('live') ? DEFAULT_SRC : '../../outputs/widget.json';
+const WIDTHS = [980, 760, 600, 375, 320];
+
+function Demo() {
+  const [w, setW] = useState(980);
+  return h(React.Fragment, null,
+    h('div', { className: 'demo-bar' }, 'Width:',
+      WIDTHS.map((x) => h('button', { key: x, onClick: () => setW(x), 'aria-pressed': x === w }, x + 'px'))),
+    h('div', { className: 'demo-frame', style: { maxWidth: w + 'px' } }, h(PollTracker, { src })));
+}
+createRoot(document.getElementById('app')).render(h(Demo));
+</script>
+</body>
+</html>
