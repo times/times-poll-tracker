@@ -4289,3 +4289,8 @@ date,party,n_polls,up,down,mean_change,p,fires,flag_on
 2026-11-16,REF,7,2,5,-0.93,0.4531,False,False
 2026-11-16,LD,7,5,1,0.84,0.2188,False,False
 2026-11-16,GRN,7,0,3,-0.42,0.25,False,False
+2026-11-17,LAB,7,1,4,-0.4,0.375,False,False
+2026-11-17,CON,7,5,2,0.9,0.4531,False,False
+2026-11-17,REF,7,3,4,-0.73,1.0,False,False
+2026-11-17,LD,7,4,2,0.5,0.6875,False,False
+2026-11-17,GRN,7,0,4,-0.61,0.125,False,False

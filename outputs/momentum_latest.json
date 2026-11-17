@@ -1,14 +1,14 @@
 {
- "as_of": "2026-11-16",
+ "as_of": "2026-11-17",
  "lookback_days": 7,
  "parties": {
   "LAB": {
    "n_polls": 7,
-   "up": 2,
+   "up": 1,
    "down": 4,
-   "same": 1,
-   "mean_change": -0.138,
-   "p": 0.688,
+   "same": 2,
+   "mean_change": -0.395,
+   "p": 0.375,
    "flag": false,
    "firms": [
     "deltapoll",
@@ -23,11 +23,11 @@
   },
   "CON": {
    "n_polls": 7,
-   "up": 4,
-   "down": 3,
+   "up": 5,
+   "down": 2,
    "same": 0,
-   "mean_change": 0.281,
-   "p": 1.0,
+   "mean_change": 0.9,
+   "p": 0.453,
    "flag": false,
    "firms": [
     "deltapoll",
@@ -42,11 +42,11 @@
   },
   "REF": {
    "n_polls": 7,
-   "up": 2,
-   "down": 5,
+   "up": 3,
+   "down": 4,
    "same": 0,
-   "mean_change": -0.928,
-   "p": 0.453,
+   "mean_change": -0.729,
+   "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
@@ -61,11 +61,11 @@
   },
   "LD": {
    "n_polls": 7,
-   "up": 5,
-   "down": 1,
+   "up": 4,
+   "down": 2,
    "same": 1,
-   "mean_change": 0.84,
-   "p": 0.219,
+   "mean_change": 0.504,
+   "p": 0.688,
    "flag": false,
    "firms": [
     "deltapoll",
@@ -81,10 +81,10 @@
   "GRN": {
    "n_polls": 7,
    "up": 0,
-   "down": 3,
-   "same": 4,
-   "mean_change": -0.423,
-   "p": 0.25,
+   "down": 4,
+   "same": 3,
+   "mean_change": -0.609,
+   "p": 0.125,
    "flag": false,
    "firms": [
     "deltapoll",

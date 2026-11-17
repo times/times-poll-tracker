@@ -37231,3 +37231,987 @@ yougov-2026-11-09,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:
 yougov-2026-11-09,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Refused,REFUSED,0.0,,400.0,391.0
 yougov-2026-11-09,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Refused,REFUSED,5.0,,295.0,273.0
 yougov-2026-11-09,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Refused,REFUSED,0.0,,836.0,873.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,Con,CON,23.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,Con,CON,68.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Con,CON,7.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Con,CON,11.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Con,CON,15.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,Con,CON,7.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,Con,CON,18.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,Con,CON,32.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,Con,CON,20.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,Con,CON,25.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,Con,CON,7.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,Con,CON,14.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,Con,CON,25.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,Con,CON,33.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Con,CON,27.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Con,CON,26.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Con,CON,19.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,Con,CON,24.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,Con,CON,14.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,Con,CON,12.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,Con,CON,17.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,Con,CON,26.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,Con,CON,23.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,Lab,LAB,27.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,Lab,LAB,4.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Lab,LAB,64.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Lab,LAB,17.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Lab,LAB,3.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,Lab,LAB,18.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,Lab,LAB,39.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,Lab,LAB,11.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,Lab,LAB,27.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,Lab,LAB,26.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,Lab,LAB,30.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,Lab,LAB,34.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,Lab,LAB,28.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,Lab,LAB,17.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Lab,LAB,32.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Lab,LAB,23.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Lab,LAB,20.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,Lab,LAB,27.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,Lab,LAB,23.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,Lab,LAB,23.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,Lab,LAB,35.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,Lab,LAB,26.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,Lab,LAB,36.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,Lib Dem,LD,11.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,Lib Dem,LD,2.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Lib Dem,LD,7.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Lib Dem,LD,60.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Lib Dem,LD,1.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,Lib Dem,LD,9.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,Lib Dem,LD,18.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,Lib Dem,LD,6.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,Lib Dem,LD,9.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,Lib Dem,LD,13.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,Lib Dem,LD,12.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,Lib Dem,LD,11.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,Lib Dem,LD,10.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,Lib Dem,LD,12.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Lib Dem,LD,12.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Lib Dem,LD,11.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Lib Dem,LD,10.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,Lib Dem,LD,12.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,Lib Dem,LD,2.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,Lib Dem,LD,6.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,Lib Dem,LD,6.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,Lib Dem,LD,9.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,Lib Dem,LD,11.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,SNP,SNP,3.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,SNP,SNP,0.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,SNP,SNP,2.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,SNP,SNP,0.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,SNP,SNP,0.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,SNP,SNP,1.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,SNP,SNP,6.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,SNP,SNP,1.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,SNP,SNP,3.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,SNP,SNP,3.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,SNP,SNP,1.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,SNP,SNP,5.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,SNP,SNP,3.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,SNP,SNP,2.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,SNP,SNP,3.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,SNP,SNP,3.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,SNP,SNP,4.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,SNP,SNP,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,SNP,SNP,0.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,SNP,SNP,35.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,SNP,SNP,0.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,SNP,SNP,0.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,SNP,SNP,0.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,Plaid Cymru,PC,1.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,Plaid Cymru,PC,0.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Plaid Cymru,PC,2.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Plaid Cymru,PC,1.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Plaid Cymru,PC,0.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,Plaid Cymru,PC,0.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,Plaid Cymru,PC,2.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,Plaid Cymru,PC,1.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,Plaid Cymru,PC,2.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,Plaid Cymru,PC,1.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,Plaid Cymru,PC,1.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,Plaid Cymru,PC,2.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,Plaid Cymru,PC,1.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,Plaid Cymru,PC,1.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Plaid Cymru,PC,1.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Plaid Cymru,PC,3.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Plaid Cymru,PC,1.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,Plaid Cymru,PC,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,Plaid Cymru,PC,29.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,Plaid Cymru,PC,0.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,Plaid Cymru,PC,0.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,Plaid Cymru,PC,0.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,Plaid Cymru,PC,0.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,Reform UK,REF,21.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,Reform UK,REF,25.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Reform UK,REF,5.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Reform UK,REF,4.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Reform UK,REF,73.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,Reform UK,REF,7.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,Reform UK,REF,5.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,Reform UK,REF,40.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,Reform UK,REF,27.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,Reform UK,REF,16.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,Reform UK,REF,8.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,Reform UK,REF,14.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,Reform UK,REF,23.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,Reform UK,REF,30.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Reform UK,REF,12.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Reform UK,REF,23.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Reform UK,REF,35.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,Reform UK,REF,22.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,Reform UK,REF,26.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,Reform UK,REF,13.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,Reform UK,REF,24.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,Reform UK,REF,26.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,Reform UK,REF,15.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,Green,GRN,9.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,Green,GRN,1.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Green,GRN,10.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Green,GRN,5.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Green,GRN,0.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,Green,GRN,57.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,Green,GRN,10.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,Green,GRN,3.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,Green,GRN,6.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,Green,GRN,12.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,Green,GRN,36.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,Green,GRN,13.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,Green,GRN,6.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,Green,GRN,3.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Green,GRN,9.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Green,GRN,8.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Green,GRN,5.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,Green,GRN,10.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,Green,GRN,3.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,Green,GRN,6.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,Green,GRN,10.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,Green,GRN,8.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,Green,GRN,14.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,Restore Britain,RB,3.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,Restore Britain,RB,0.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Restore Britain,RB,1.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Restore Britain,RB,3.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Restore Britain,RB,8.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,Restore Britain,RB,0.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,Restore Britain,RB,1.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,Restore Britain,RB,4.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,Restore Britain,RB,4.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,Restore Britain,RB,2.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,Restore Britain,RB,5.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,Restore Britain,RB,4.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,Restore Britain,RB,2.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,Restore Britain,RB,2.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Restore Britain,RB,2.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Restore Britain,RB,2.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Restore Britain,RB,5.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,Restore Britain,RB,3.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,Restore Britain,RB,3.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,Restore Britain,RB,4.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,Restore Britain,RB,5.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,Restore Britain,RB,2.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,Restore Britain,RB,1.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Total,Total,total,Other,OTH,2.0,,2252.0,2252.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Con,ge2024:CON,Other,OTH,0.0,,325.0,405.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Other,OTH,2.0,,633.0,579.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Other,OTH,1.0,,235.0,207.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Other,OTH,1.0,,238.0,243.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Vote in 2024 GE,Green,ge2024:GRN,Other,OTH,1.0,,130.0,131.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Remain,euref:remain,Other,OTH,1.0,,945.0,766.0
+yougov-2026-11-16,YG_HEADLINE,as_published,EU Ref 2016,Leave,euref:leave,Other,OTH,3.0,,723.0,811.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Male,sex:male,Other,OTH,2.0,,969.0,1088.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Gender,Female,sex:female,Other,OTH,2.0,,1283.0,1164.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,18-24,age:18-24,Other,OTH,1.0,,183.0,236.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,25-49,age:25-49,Other,OTH,3.0,,842.0,928.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,50-64,age:50-64,Other,OTH,2.0,,653.0,556.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Age,65+,age:65+,Other,OTH,1.0,,574.0,531.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Other,OTH,2.0,,902.0,763.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Other,OTH,1.0,,506.0,504.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Other,OTH,2.0,,472.0,673.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,England,nation:england,Other,OTH,2.0,,1920.0,1948.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Wales,nation:wales,Other,OTH,0.0,,133.0,108.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Country,Scotland,nation:scotland,Other,OTH,2.0,,199.0,196.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,North,region:north,Other,OTH,3.0,,507.0,534.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Midlands,region:midlands,Other,OTH,2.0,,353.0,369.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,London,region:london,Other,OTH,1.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Conservative,CON,16.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Conservative,CON,57.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Conservative,CON,5.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Conservative,CON,10.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Conservative,CON,10.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Conservative,CON,5.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Conservative,CON,14.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Conservative,CON,25.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Conservative,CON,15.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Conservative,CON,16.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Conservative,CON,6.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Conservative,CON,9.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Conservative,CON,20.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Conservative,CON,27.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Conservative,CON,19.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Conservative,CON,19.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Conservative,CON,12.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Conservative,CON,17.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Conservative,CON,11.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Conservative,CON,7.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Conservative,CON,11.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Conservative,CON,18.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Conservative,CON,16.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Labour,LAB,22.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Labour,LAB,4.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Labour,LAB,56.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Labour,LAB,23.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Labour,LAB,3.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Labour,LAB,13.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Labour,LAB,35.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Labour,LAB,11.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Labour,LAB,26.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Labour,LAB,19.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Labour,LAB,26.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Labour,LAB,24.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Labour,LAB,24.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Labour,LAB,16.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Labour,LAB,29.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Labour,LAB,19.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Labour,LAB,16.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Labour,LAB,24.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Labour,LAB,22.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Labour,LAB,12.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Labour,LAB,27.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Labour,LAB,25.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Labour,LAB,28.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Liberal Democrat,LD,6.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Liberal Democrat,LD,1.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Liberal Democrat,LD,4.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Liberal Democrat,LD,39.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Liberal Democrat,LD,0.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Liberal Democrat,LD,4.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Liberal Democrat,LD,11.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Liberal Democrat,LD,2.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Liberal Democrat,LD,5.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Liberal Democrat,LD,6.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Liberal Democrat,LD,6.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Liberal Democrat,LD,6.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Liberal Democrat,LD,5.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Liberal Democrat,LD,6.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Liberal Democrat,LD,6.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Liberal Democrat,LD,7.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Liberal Democrat,LD,5.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Liberal Democrat,LD,6.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Liberal Democrat,LD,1.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Liberal Democrat,LD,4.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Liberal Democrat,LD,3.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Liberal Democrat,LD,4.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Liberal Democrat,LD,5.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Scottish National Party (SNP),SNP,2.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Scottish National Party (SNP),SNP,0.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Scottish National Party (SNP),SNP,1.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Scottish National Party (SNP),SNP,0.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Scottish National Party (SNP),SNP,0.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Scottish National Party (SNP),SNP,0.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Scottish National Party (SNP),SNP,4.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Scottish National Party (SNP),SNP,1.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Scottish National Party (SNP),SNP,2.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Scottish National Party (SNP),SNP,2.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Scottish National Party (SNP),SNP,1.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Scottish National Party (SNP),SNP,3.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Scottish National Party (SNP),SNP,2.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Scottish National Party (SNP),SNP,2.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Scottish National Party (SNP),SNP,2.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Scottish National Party (SNP),SNP,2.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Scottish National Party (SNP),SNP,2.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Scottish National Party (SNP),SNP,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Scottish National Party (SNP),SNP,0.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Scottish National Party (SNP),SNP,22.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Scottish National Party (SNP),SNP,0.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Scottish National Party (SNP),SNP,0.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Scottish National Party (SNP),SNP,0.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Plaid Cymru,PC,0.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Plaid Cymru,PC,0.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Plaid Cymru,PC,0.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Plaid Cymru,PC,0.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Plaid Cymru,PC,0.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Plaid Cymru,PC,0.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Plaid Cymru,PC,1.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Plaid Cymru,PC,0.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Plaid Cymru,PC,1.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Plaid Cymru,PC,0.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Plaid Cymru,PC,0.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Plaid Cymru,PC,0.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Plaid Cymru,PC,1.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Plaid Cymru,PC,0.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Plaid Cymru,PC,0.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Plaid Cymru,PC,1.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Plaid Cymru,PC,0.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Plaid Cymru,PC,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Plaid Cymru,PC,10.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Plaid Cymru,PC,0.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Plaid Cymru,PC,0.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Plaid Cymru,PC,0.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Plaid Cymru,PC,0.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Reform UK,REF,15.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Reform UK,REF,20.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Reform UK,REF,4.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Reform UK,REF,3.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Reform UK,REF,63.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Reform UK,REF,2.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Reform UK,REF,5.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Reform UK,REF,31.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Reform UK,REF,20.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Reform UK,REF,11.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Reform UK,REF,5.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Reform UK,REF,10.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Reform UK,REF,20.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Reform UK,REF,24.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Reform UK,REF,9.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Reform UK,REF,16.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Reform UK,REF,24.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Reform UK,REF,16.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Reform UK,REF,15.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Reform UK,REF,11.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Reform UK,REF,17.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Reform UK,REF,17.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Reform UK,REF,10.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Green,GRN,7.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Green,GRN,1.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Green,GRN,7.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Green,GRN,5.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Green,GRN,0.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Green,GRN,49.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Green,GRN,8.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Green,GRN,2.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Green,GRN,6.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Green,GRN,9.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Green,GRN,25.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Green,GRN,9.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Green,GRN,3.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Green,GRN,3.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Green,GRN,8.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Green,GRN,6.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Green,GRN,5.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Green,GRN,8.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Green,GRN,3.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Green,GRN,6.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Green,GRN,8.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Green,GRN,7.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Green,GRN,11.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Some other party,OTH,4.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Some other party,OTH,2.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Some other party,OTH,3.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Some other party,OTH,2.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Some other party,OTH,10.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Some other party,OTH,0.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Some other party,OTH,1.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Some other party,OTH,7.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Some other party,OTH,5.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Some other party,OTH,3.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Some other party,OTH,3.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Some other party,OTH,6.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Some other party,OTH,3.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Some other party,OTH,2.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Some other party,OTH,3.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Some other party,OTH,3.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Some other party,OTH,6.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Some other party,OTH,4.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Some other party,OTH,5.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Some other party,OTH,6.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Some other party,OTH,6.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Some other party,OTH,4.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Some other party,OTH,2.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Would not vote,WNV,9.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Would not vote,WNV,2.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Would not vote,WNV,2.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Would not vote,WNV,3.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Would not vote,WNV,1.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Would not vote,WNV,3.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Would not vote,WNV,5.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Would not vote,WNV,6.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Would not vote,WNV,7.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Would not vote,WNV,11.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Would not vote,WNV,12.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Would not vote,WNV,11.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Would not vote,WNV,8.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Would not vote,WNV,5.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Would not vote,WNV,7.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Would not vote,WNV,9.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Would not vote,WNV,10.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Would not vote,WNV,9.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Would not vote,WNV,11.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Would not vote,WNV,7.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Would not vote,WNV,12.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Would not vote,WNV,11.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Would not vote,WNV,6.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Don't know,DK,14.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Don't know,DK,11.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Don't know,DK,16.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Don't know,DK,12.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Don't know,DK,9.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Don't know,DK,21.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Don't know,DK,14.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Don't know,DK,13.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Don't know,DK,9.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Don't know,DK,19.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Don't know,DK,12.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Don't know,DK,15.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Don't know,DK,14.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Don't know,DK,14.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Don't know,DK,14.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Don't know,DK,16.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Don't know,DK,15.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Don't know,DK,14.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Don't know,DK,16.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Don't know,DK,19.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Don't know,DK,12.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Don't know,DK,11.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Don't know,DK,16.0,,240.0,272.0
+yougov-2026-11-16,YG_GENERIC,as_published,Total,Total,total,Refused,REFUSED,4.0,,2252.0,2252.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Con,ge2024:CON,Refused,REFUSED,2.0,,325.0,405.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Refused,REFUSED,2.0,,633.0,579.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Refused,REFUSED,2.0,,235.0,207.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Refused,REFUSED,2.0,,238.0,243.0
+yougov-2026-11-16,YG_GENERIC,as_published,Vote in 2024 GE,Green,ge2024:GRN,Refused,REFUSED,3.0,,130.0,131.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Remain,euref:remain,Refused,REFUSED,4.0,,945.0,766.0
+yougov-2026-11-16,YG_GENERIC,as_published,EU Ref 2016,Leave,euref:leave,Refused,REFUSED,3.0,,723.0,811.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Male,sex:male,Refused,REFUSED,3.0,,969.0,1088.0
+yougov-2026-11-16,YG_GENERIC,as_published,Gender,Female,sex:female,Refused,REFUSED,5.0,,1283.0,1164.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,18-24,age:18-24,Refused,REFUSED,5.0,,183.0,236.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,25-49,age:25-49,Refused,REFUSED,7.0,,842.0,928.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,50-64,age:50-64,Refused,REFUSED,2.0,,653.0,556.0
+yougov-2026-11-16,YG_GENERIC,as_published,Age,65+,age:65+,Refused,REFUSED,1.0,,574.0,531.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Refused,REFUSED,4.0,,902.0,763.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Refused,REFUSED,3.0,,506.0,504.0
+yougov-2026-11-16,YG_GENERIC,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Refused,REFUSED,5.0,,472.0,673.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,England,nation:england,Refused,REFUSED,4.0,,1920.0,1948.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Wales,nation:wales,Refused,REFUSED,6.0,,133.0,108.0
+yougov-2026-11-16,YG_GENERIC,as_published,Country,Scotland,nation:scotland,Refused,REFUSED,6.0,,199.0,196.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,North,region:north,Refused,REFUSED,4.0,,507.0,534.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Midlands,region:midlands,Refused,REFUSED,4.0,,353.0,369.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,London,region:london,Refused,REFUSED,5.0,,240.0,272.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,Con,CON,29.0,,772.0,820.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,Lab,LAB,19.0,,772.0,820.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,Lib Dem,LD,18.0,,772.0,820.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,SNP,SNP,0.0,,772.0,820.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,Plaid Cymru,PC,0.0,,772.0,820.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,Reform UK,REF,21.0,,772.0,820.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,Green,GRN,9.0,,772.0,820.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,Restore Britain,RB,2.0,,772.0,820.0
+yougov-2026-11-16,YG_HEADLINE,as_published,Region in England,Rest of South,region:rest of south,Other,OTH,1.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Conservative,CON,21.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Labour,LAB,19.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Liberal Democrat,LD,9.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Scottish National Party (SNP),SNP,0.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Plaid Cymru,PC,0.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Reform UK,REF,16.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Green,GRN,7.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Some other party,OTH,3.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Would not vote,WNV,7.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Don't know,DK,15.0,,772.0,820.0
+yougov-2026-11-16,YG_GENERIC,as_published,Region in England,Rest of South,region:rest of south,Refused,REFUSED,3.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Conservative,CON,16.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Conservative,CON,60.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Conservative,CON,5.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Conservative,CON,8.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Conservative,CON,14.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Conservative,CON,5.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Conservative,CON,14.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Conservative,CON,26.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Conservative,CON,16.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Conservative,CON,17.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Conservative,CON,6.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Conservative,CON,10.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Conservative,CON,21.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Conservative,CON,29.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Conservative,CON,20.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Conservative,CON,19.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Conservative,CON,13.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Conservative,CON,18.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Conservative,CON,10.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Conservative,CON,8.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Conservative,CON,11.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Conservative,CON,19.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Conservative,CON,18.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Labour,LAB,20.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Labour,LAB,3.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Labour,LAB,52.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Labour,LAB,14.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Labour,LAB,2.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Labour,LAB,13.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Labour,LAB,31.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Labour,LAB,10.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Labour,LAB,23.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Labour,LAB,17.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Labour,LAB,23.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Labour,LAB,22.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Labour,LAB,21.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Labour,LAB,13.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Labour,LAB,25.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Labour,LAB,17.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Labour,LAB,15.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Labour,LAB,21.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Labour,LAB,16.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Labour,LAB,12.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Labour,LAB,26.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Labour,LAB,21.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Labour,LAB,28.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Liberal Democrat,LD,8.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Liberal Democrat,LD,2.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Liberal Democrat,LD,6.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Liberal Democrat,LD,54.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Liberal Democrat,LD,1.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Liberal Democrat,LD,7.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Liberal Democrat,LD,15.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Liberal Democrat,LD,5.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Liberal Democrat,LD,8.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Liberal Democrat,LD,9.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Liberal Democrat,LD,9.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Liberal Democrat,LD,8.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Liberal Democrat,LD,8.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Liberal Democrat,LD,10.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Liberal Democrat,LD,10.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Liberal Democrat,LD,9.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Liberal Democrat,LD,7.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Liberal Democrat,LD,9.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Liberal Democrat,LD,1.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Liberal Democrat,LD,5.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Liberal Democrat,LD,5.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Liberal Democrat,LD,7.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Liberal Democrat,LD,7.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Scottish National Party (SNP),SNP,2.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Scottish National Party (SNP),SNP,0.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Scottish National Party (SNP),SNP,1.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Scottish National Party (SNP),SNP,0.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Scottish National Party (SNP),SNP,0.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Scottish National Party (SNP),SNP,0.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Scottish National Party (SNP),SNP,4.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Scottish National Party (SNP),SNP,1.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Scottish National Party (SNP),SNP,3.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Scottish National Party (SNP),SNP,2.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Scottish National Party (SNP),SNP,1.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Scottish National Party (SNP),SNP,3.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Scottish National Party (SNP),SNP,2.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Scottish National Party (SNP),SNP,2.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Scottish National Party (SNP),SNP,2.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Scottish National Party (SNP),SNP,2.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Scottish National Party (SNP),SNP,3.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Scottish National Party (SNP),SNP,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Scottish National Party (SNP),SNP,0.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Scottish National Party (SNP),SNP,25.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Scottish National Party (SNP),SNP,0.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Scottish National Party (SNP),SNP,0.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Scottish National Party (SNP),SNP,0.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Plaid Cymru,PC,1.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Plaid Cymru,PC,0.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Plaid Cymru,PC,1.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Plaid Cymru,PC,1.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Plaid Cymru,PC,0.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Plaid Cymru,PC,0.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Plaid Cymru,PC,1.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Plaid Cymru,PC,0.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Plaid Cymru,PC,1.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Plaid Cymru,PC,1.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Plaid Cymru,PC,0.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Plaid Cymru,PC,1.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Plaid Cymru,PC,1.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Plaid Cymru,PC,1.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Plaid Cymru,PC,1.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Plaid Cymru,PC,1.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Plaid Cymru,PC,1.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Plaid Cymru,PC,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Plaid Cymru,PC,17.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Plaid Cymru,PC,0.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Plaid Cymru,PC,0.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Plaid Cymru,PC,0.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Plaid Cymru,PC,0.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Reform UK,REF,15.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Reform UK,REF,20.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Reform UK,REF,3.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Reform UK,REF,2.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Reform UK,REF,61.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Reform UK,REF,4.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Reform UK,REF,5.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Reform UK,REF,31.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Reform UK,REF,20.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Reform UK,REF,11.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Reform UK,REF,5.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Reform UK,REF,11.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Reform UK,REF,18.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Reform UK,REF,24.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Reform UK,REF,9.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Reform UK,REF,16.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Reform UK,REF,25.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Reform UK,REF,16.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Reform UK,REF,19.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Reform UK,REF,10.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Reform UK,REF,16.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Reform UK,REF,18.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Reform UK,REF,11.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Green,GRN,7.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Green,GRN,1.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Green,GRN,8.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Green,GRN,5.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Green,GRN,0.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Green,GRN,47.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Green,GRN,8.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Green,GRN,2.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Green,GRN,6.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Green,GRN,8.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Green,GRN,25.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Green,GRN,8.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Green,GRN,4.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Green,GRN,3.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Green,GRN,8.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Green,GRN,6.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Green,GRN,4.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Green,GRN,8.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Green,GRN,4.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Green,GRN,4.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Green,GRN,9.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Green,GRN,7.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Green,GRN,11.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Some other party,OTH,3.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Some other party,OTH,1.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Some other party,OTH,3.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Some other party,OTH,2.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Some other party,OTH,8.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Some other party,OTH,1.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Some other party,OTH,1.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Some other party,OTH,6.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Some other party,OTH,4.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Some other party,OTH,2.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Some other party,OTH,3.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Some other party,OTH,5.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Some other party,OTH,3.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Some other party,OTH,2.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Some other party,OTH,3.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Some other party,OTH,2.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Some other party,OTH,5.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Some other party,OTH,3.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Some other party,OTH,1.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Some other party,OTH,5.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Some other party,OTH,5.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Some other party,OTH,4.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Some other party,OTH,1.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Would not vote,WNV,9.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Would not vote,WNV,2.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Would not vote,WNV,2.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Would not vote,WNV,3.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Would not vote,WNV,2.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Would not vote,WNV,2.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Would not vote,WNV,5.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Would not vote,WNV,6.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Would not vote,WNV,7.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Would not vote,WNV,11.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Would not vote,WNV,11.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Would not vote,WNV,11.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Would not vote,WNV,8.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Would not vote,WNV,5.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Would not vote,WNV,7.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Would not vote,WNV,9.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Would not vote,WNV,10.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Would not vote,WNV,9.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Would not vote,WNV,12.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Would not vote,WNV,8.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Would not vote,WNV,11.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Would not vote,WNV,10.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Would not vote,WNV,6.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Don't know,DK,13.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Don't know,DK,10.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Don't know,DK,14.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Don't know,DK,8.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Don't know,DK,7.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Don't know,DK,17.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Don't know,DK,12.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Don't know,DK,12.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Don't know,DK,8.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Don't know,DK,17.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Don't know,DK,9.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Don't know,DK,14.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Don't know,DK,13.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Don't know,DK,12.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Don't know,DK,11.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Don't know,DK,14.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Don't know,DK,13.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Don't know,DK,12.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Don't know,DK,15.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Don't know,DK,18.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Don't know,DK,12.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Don't know,DK,10.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Don't know,DK,14.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Total,Total,total,Refused,REFUSED,5.0,,2252.0,2252.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Con,ge2024:CON,Refused,REFUSED,1.0,,325.0,405.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Refused,REFUSED,3.0,,633.0,579.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Refused,REFUSED,3.0,,235.0,207.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Refused,REFUSED,5.0,,238.0,243.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Vote in 2024 GE,Green,ge2024:GRN,Refused,REFUSED,5.0,,130.0,131.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Remain,euref:remain,Refused,REFUSED,4.0,,945.0,766.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,EU Ref 2016,Leave,euref:leave,Refused,REFUSED,3.0,,723.0,811.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Male,sex:male,Refused,REFUSED,4.0,,969.0,1088.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Gender,Female,sex:female,Refused,REFUSED,5.0,,1283.0,1164.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,18-24,age:18-24,Refused,REFUSED,7.0,,183.0,236.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,25-49,age:25-49,Refused,REFUSED,8.0,,842.0,928.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,50-64,age:50-64,Refused,REFUSED,2.0,,653.0,556.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Age,65+,age:65+,Refused,REFUSED,1.0,,574.0,531.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Refused,REFUSED,5.0,,902.0,763.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Refused,REFUSED,4.0,,506.0,504.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Refused,REFUSED,5.0,,472.0,673.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,England,nation:england,Refused,REFUSED,5.0,,1920.0,1948.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Wales,nation:wales,Refused,REFUSED,5.0,,133.0,108.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Country,Scotland,nation:scotland,Refused,REFUSED,5.0,,199.0,196.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,North,region:north,Refused,REFUSED,4.0,,507.0,534.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Midlands,region:midlands,Refused,REFUSED,5.0,,353.0,369.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,London,region:london,Refused,REFUSED,5.0,,240.0,272.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Conservative,CON,21.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Labour,LAB,15.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Liberal Democrat,LD,14.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Scottish National Party (SNP),SNP,0.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Plaid Cymru,PC,0.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Reform UK,REF,16.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Green,GRN,7.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Some other party,OTH,3.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Would not vote,WNV,8.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Don't know,DK,12.0,,772.0,820.0
+yougov-2026-11-16,YG_CONSTITUENCY,as_published,Region in England,Rest of South,region:rest of south,Refused,REFUSED,4.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Workers Party GB,OTH,0.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Workers Party GB,OTH,0.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Workers Party GB,OTH,0.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Workers Party GB,OTH,0.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Workers Party GB,OTH,0.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Workers Party GB,OTH,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Workers Party GB,OTH,0.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Workers Party GB,OTH,0.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Workers Party GB,OTH,0.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Workers Party GB,OTH,0.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Workers Party GB,OTH,0.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Workers Party GB,OTH,0.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Workers Party GB,OTH,0.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Workers Party GB,OTH,0.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Workers Party GB,OTH,0.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Workers Party GB,OTH,0.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Workers Party GB,OTH,0.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Workers Party GB,OTH,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Workers Party GB,OTH,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Workers Party GB,OTH,0.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Workers Party GB,OTH,0.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Workers Party GB,OTH,0.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Workers Party GB,OTH,0.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Social Democratic Party,OTH,0.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Social Democratic Party,OTH,0.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Social Democratic Party,OTH,0.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Social Democratic Party,OTH,0.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Social Democratic Party,OTH,0.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Social Democratic Party,OTH,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Social Democratic Party,OTH,0.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Social Democratic Party,OTH,0.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Social Democratic Party,OTH,0.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Social Democratic Party,OTH,0.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Social Democratic Party,OTH,0.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Social Democratic Party,OTH,0.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Social Democratic Party,OTH,0.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Social Democratic Party,OTH,0.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Social Democratic Party,OTH,0.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Social Democratic Party,OTH,0.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Social Democratic Party,OTH,0.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Social Democratic Party,OTH,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Social Democratic Party,OTH,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Social Democratic Party,OTH,0.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Social Democratic Party,OTH,0.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Social Democratic Party,OTH,0.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Social Democratic Party,OTH,0.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Trade Unionist and Socialist Coalition,OTH,0.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Trade Unionist and Socialist Coalition,OTH,0.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Trade Unionist and Socialist Coalition,OTH,0.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Trade Unionist and Socialist Coalition,OTH,0.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Trade Unionist and Socialist Coalition,OTH,0.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Trade Unionist and Socialist Coalition,OTH,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Trade Unionist and Socialist Coalition,OTH,0.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Trade Unionist and Socialist Coalition,OTH,0.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Trade Unionist and Socialist Coalition,OTH,0.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Trade Unionist and Socialist Coalition,OTH,0.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Trade Unionist and Socialist Coalition,OTH,0.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Trade Unionist and Socialist Coalition,OTH,0.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Trade Unionist and Socialist Coalition,OTH,0.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Trade Unionist and Socialist Coalition,OTH,0.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Trade Unionist and Socialist Coalition,OTH,0.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Trade Unionist and Socialist Coalition,OTH,0.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Trade Unionist and Socialist Coalition,OTH,0.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Trade Unionist and Socialist Coalition,OTH,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Trade Unionist and Socialist Coalition,OTH,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Trade Unionist and Socialist Coalition,OTH,0.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Trade Unionist and Socialist Coalition,OTH,0.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Trade Unionist and Socialist Coalition,OTH,0.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Trade Unionist and Socialist Coalition,OTH,0.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Heritage Party,OTH,0.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Heritage Party,OTH,0.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Heritage Party,OTH,0.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Heritage Party,OTH,0.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Heritage Party,OTH,0.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Heritage Party,OTH,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Heritage Party,OTH,0.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Heritage Party,OTH,0.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Heritage Party,OTH,0.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Heritage Party,OTH,0.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Heritage Party,OTH,0.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Heritage Party,OTH,0.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Heritage Party,OTH,0.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Heritage Party,OTH,0.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Heritage Party,OTH,0.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Heritage Party,OTH,0.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Heritage Party,OTH,0.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Heritage Party,OTH,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Heritage Party,OTH,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Heritage Party,OTH,0.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Heritage Party,OTH,0.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Heritage Party,OTH,0.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Heritage Party,OTH,0.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,UK Independence Party (UKIP),OTH,0.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,UK Independence Party (UKIP),OTH,0.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,UK Independence Party (UKIP),OTH,0.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,UK Independence Party (UKIP),OTH,0.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,UK Independence Party (UKIP),OTH,0.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,UK Independence Party (UKIP),OTH,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,UK Independence Party (UKIP),OTH,0.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,UK Independence Party (UKIP),OTH,0.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,UK Independence Party (UKIP),OTH,0.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,UK Independence Party (UKIP),OTH,0.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,UK Independence Party (UKIP),OTH,0.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,UK Independence Party (UKIP),OTH,0.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,UK Independence Party (UKIP),OTH,0.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,UK Independence Party (UKIP),OTH,0.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,UK Independence Party (UKIP),OTH,0.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,UK Independence Party (UKIP),OTH,0.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,UK Independence Party (UKIP),OTH,0.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,UK Independence Party (UKIP),OTH,0.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,UK Independence Party (UKIP),OTH,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,UK Independence Party (UKIP),OTH,0.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,UK Independence Party (UKIP),OTH,0.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,UK Independence Party (UKIP),OTH,0.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,UK Independence Party (UKIP),OTH,0.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Your Party,YP,1.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Your Party,YP,0.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Your Party,YP,6.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Your Party,YP,0.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Your Party,YP,0.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Your Party,YP,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Your Party,YP,4.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Your Party,YP,1.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Your Party,YP,0.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Your Party,YP,3.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Your Party,YP,0.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Your Party,YP,1.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Your Party,YP,2.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Your Party,YP,0.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Your Party,YP,0.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Your Party,YP,5.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Your Party,YP,0.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Your Party,YP,2.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Your Party,YP,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Your Party,YP,0.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Your Party,YP,0.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Your Party,YP,5.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Your Party,YP,0.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Restore Britain,RB,68.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Restore Britain,RB,30.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Restore Britain,RB,57.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Restore Britain,RB,82.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Restore Britain,RB,89.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Restore Britain,RB,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Restore Britain,RB,33.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Restore Britain,RB,66.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Restore Britain,RB,71.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Restore Britain,RB,63.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Restore Britain,RB,68.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Restore Britain,RB,70.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Restore Britain,RB,59.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Restore Britain,RB,75.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Restore Britain,RB,55.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Restore Britain,RB,64.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Restore Britain,RB,80.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Restore Britain,RB,66.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Restore Britain,RB,100.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Restore Britain,RB,76.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Restore Britain,RB,69.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Restore Britain,RB,51.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Restore Britain,RB,48.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Some other party,OTH,22.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Some other party,OTH,70.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Some other party,OTH,22.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Some other party,OTH,18.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Some other party,OTH,3.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Some other party,OTH,100.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Some other party,OTH,63.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Some other party,OTH,24.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Some other party,OTH,22.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Some other party,OTH,22.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Some other party,OTH,0.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Some other party,OTH,23.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Some other party,OTH,28.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Some other party,OTH,25.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Some other party,OTH,38.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Some other party,OTH,28.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Some other party,OTH,14.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Some other party,OTH,23.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Some other party,OTH,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Some other party,OTH,24.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Some other party,OTH,21.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Some other party,OTH,26.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Some other party,OTH,52.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Don't know,DK,8.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Don't know,DK,0.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Don't know,DK,14.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Don't know,DK,0.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Don't know,DK,8.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Don't know,DK,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Don't know,DK,0.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Don't know,DK,9.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Don't know,DK,7.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Don't know,DK,10.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Don't know,DK,32.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Don't know,DK,5.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Don't know,DK,10.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Don't know,DK,0.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Don't know,DK,7.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Don't know,DK,0.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Don't know,DK,7.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Don't know,DK,10.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Don't know,DK,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Don't know,DK,0.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Don't know,DK,10.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Don't know,DK,18.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Don't know,DK,0.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Total,Total,total,Refused,REFUSED,1.0,,2252.0,2252.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Con,ge2024:CON,Refused,REFUSED,0.0,,325.0,405.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lab,ge2024:LAB,Refused,REFUSED,0.0,,633.0,579.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Lib Dem,ge2024:LD,Refused,REFUSED,0.0,,235.0,207.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Reform UK,ge2024:REF,Refused,REFUSED,0.0,,238.0,243.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Vote in 2024 GE,Green,ge2024:GRN,Refused,REFUSED,0.0,,130.0,131.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Remain,euref:remain,Refused,REFUSED,0.0,,945.0,766.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,EU Ref 2016,Leave,euref:leave,Refused,REFUSED,0.0,,723.0,811.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Male,sex:male,Refused,REFUSED,0.0,,969.0,1088.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Gender,Female,sex:female,Refused,REFUSED,1.0,,1283.0,1164.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,18-24,age:18-24,Refused,REFUSED,0.0,,183.0,236.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,25-49,age:25-49,Refused,REFUSED,1.0,,842.0,928.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,50-64,age:50-64,Refused,REFUSED,0.0,,653.0,556.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Age,65+,age:65+,Refused,REFUSED,0.0,,574.0,531.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Higher,socio_economic_classification_ns_sec:higher,Refused,REFUSED,0.0,,902.0,763.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Intermediate,socio_economic_classification_ns_sec:intermediate,Refused,REFUSED,3.0,,506.0,504.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Socio-economic classification (NS-SEC),Routine,socio_economic_classification_ns_sec:routine,Refused,REFUSED,0.0,,472.0,673.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,England,nation:england,Refused,REFUSED,1.0,,1920.0,1948.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Wales,nation:wales,Refused,REFUSED,0.0,,133.0,108.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Country,Scotland,nation:scotland,Refused,REFUSED,0.0,,199.0,196.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,North,region:north,Refused,REFUSED,0.0,,507.0,534.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Midlands,region:midlands,Refused,REFUSED,0.0,,353.0,369.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,London,region:london,Refused,REFUSED,0.0,,240.0,272.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Workers Party GB,OTH,0.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Social Democratic Party,OTH,0.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Trade Unionist and Socialist Coalition,OTH,0.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Heritage Party,OTH,0.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,UK Independence Party (UKIP),OTH,0.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Your Party,YP,2.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Restore Britain,RB,74.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Some other party,OTH,18.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Don't know,DK,4.0,,772.0,820.0
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,as_published,Region in England,Rest of South,region:rest of south,Refused,REFUSED,2.0,,772.0,820.0

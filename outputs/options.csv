@@ -14213,3 +14213,35 @@ deltapoll-2026-11-16,GEVI,5,Scottish National Party,SNP
 deltapoll-2026-11-16,GEVI,6,Plaid Cymru,PC
 deltapoll-2026-11-16,GEVI,7,Green,GRN
 deltapoll-2026-11-16,GEVI,8,Other,OTH
+yougov-2026-11-16,YG_GENERIC,1,Conservative,CON
+yougov-2026-11-16,YG_GENERIC,2,Labour,LAB
+yougov-2026-11-16,YG_GENERIC,3,Liberal Democrat,LD
+yougov-2026-11-16,YG_GENERIC,4,Scottish National Party (SNP),SNP
+yougov-2026-11-16,YG_GENERIC,5,Plaid Cymru,PC
+yougov-2026-11-16,YG_GENERIC,6,Reform UK,REF
+yougov-2026-11-16,YG_GENERIC,7,Green,GRN
+yougov-2026-11-16,YG_GENERIC,8,Some other party,OTH
+yougov-2026-11-16,YG_GENERIC,9,Would not vote,WNV
+yougov-2026-11-16,YG_GENERIC,10,Don't know,DK
+yougov-2026-11-16,YG_GENERIC,11,Refused,REFUSED
+yougov-2026-11-16,YG_CONSTITUENCY,1,Conservative,CON
+yougov-2026-11-16,YG_CONSTITUENCY,2,Labour,LAB
+yougov-2026-11-16,YG_CONSTITUENCY,3,Liberal Democrat,LD
+yougov-2026-11-16,YG_CONSTITUENCY,4,Scottish National Party (SNP),SNP
+yougov-2026-11-16,YG_CONSTITUENCY,5,Plaid Cymru,PC
+yougov-2026-11-16,YG_CONSTITUENCY,6,Reform UK,REF
+yougov-2026-11-16,YG_CONSTITUENCY,7,Green,GRN
+yougov-2026-11-16,YG_CONSTITUENCY,8,Some other party,OTH
+yougov-2026-11-16,YG_CONSTITUENCY,9,Would not vote,WNV
+yougov-2026-11-16,YG_CONSTITUENCY,10,Don't know,DK
+yougov-2026-11-16,YG_CONSTITUENCY,11,Refused,REFUSED
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,1,Workers Party GB,OTH
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,2,Social Democratic Party,OTH
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,3,Trade Unionist and Socialist Coalition,OTH
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,4,Heritage Party,OTH
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,5,UK Independence Party (UKIP),OTH
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,6,Your Party,YP
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,7,Restore Britain,RB
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,8,Some other party,OTH
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,9,Don't know,DK
+yougov-2026-11-16,YG_OTHER_FOLLOWUP,10,Refused,REFUSED
