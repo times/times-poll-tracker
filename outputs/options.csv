@@ -10537,49 +10537,6 @@ moreincommon-2026-11-01,votingintention (headline),6,The Green Party,GRN
 moreincommon-2026-11-01,votingintention (headline),7,Scottish National Party (SNP),SNP
 moreincommon-2026-11-01,votingintention (headline),8,Plaid Cymru,PC
 moreincommon-2026-11-01,votingintention (headline),9,Another party/Independent Candidate,OTH
-moreincommon-2026-11-09,likelihoodtovote,1,0 - Certain not to vote,
-moreincommon-2026-11-09,likelihoodtovote,2,1,
-moreincommon-2026-11-09,likelihoodtovote,3,2,
-moreincommon-2026-11-09,likelihoodtovote,4,3,
-moreincommon-2026-11-09,likelihoodtovote,5,4,
-moreincommon-2026-11-09,likelihoodtovote,6,5,
-moreincommon-2026-11-09,likelihoodtovote,7,6,
-moreincommon-2026-11-09,likelihoodtovote,8,7,
-moreincommon-2026-11-09,likelihoodtovote,9,8,
-moreincommon-2026-11-09,likelihoodtovote,10,9,
-moreincommon-2026-11-09,likelihoodtovote,11,10 - Certain to vote,
-moreincommon-2026-11-09,likelihoodtovote,12,Don't know,DK
-moreincommon-2026-11-09,votingintention,1,Conservative,CON
-moreincommon-2026-11-09,votingintention,2,Labour,LAB
-moreincommon-2026-11-09,votingintention,3,Liberal Democrat,LD
-moreincommon-2026-11-09,votingintention,4,Reform UK,REF
-moreincommon-2026-11-09,votingintention,5,The Green Party,GRN
-moreincommon-2026-11-09,votingintention,6,Scottish National Party (SNP),SNP
-moreincommon-2026-11-09,votingintention,7,Plaid Cymru,PC
-moreincommon-2026-11-09,votingintention,8,Another party/Independent candidate,OTH
-moreincommon-2026-11-09,votingintention,9,I would not vote,WNV
-moreincommon-2026-11-09,votingintention,10,Don't know,DK
-moreincommon-2026-11-09,votingintention,11,Restore Britain,RB
-moreincommon-2026-11-09,votingforced,1,Conservative,CON
-moreincommon-2026-11-09,votingforced,2,Labour,LAB
-moreincommon-2026-11-09,votingforced,3,Liberal Democrat,LD
-moreincommon-2026-11-09,votingforced,4,Reform UK,REF
-moreincommon-2026-11-09,votingforced,5,The Green Party,GRN
-moreincommon-2026-11-09,votingforced,6,Scottish National Party (SNP),SNP
-moreincommon-2026-11-09,votingforced,7,Plaid Cymru,PC
-moreincommon-2026-11-09,votingforced,8,Another party/Independent candidate,OTH
-moreincommon-2026-11-09,votingforced,9,I would not vote,WNV
-moreincommon-2026-11-09,votingforced,10,Don't know,DK
-moreincommon-2026-11-09,votingforced,11,Restore Britain,RB
-moreincommon-2026-11-09,votingintention (headline),1,Conservative,CON
-moreincommon-2026-11-09,votingintention (headline),2,Labour,LAB
-moreincommon-2026-11-09,votingintention (headline),3,Liberal Democrat,LD
-moreincommon-2026-11-09,votingintention (headline),4,Reform UK,REF
-moreincommon-2026-11-09,votingintention (headline),5,Restore Britain,RB
-moreincommon-2026-11-09,votingintention (headline),6,The Green Party,GRN
-moreincommon-2026-11-09,votingintention (headline),7,Scottish National Party (SNP),SNP
-moreincommon-2026-11-09,votingintention (headline),8,Plaid Cymru,PC
-moreincommon-2026-11-09,votingintention (headline),9,Another party/Independent Candidate,OTH
 opinium-2024-07-03,HeadlineVI,1,Con,CON
 opinium-2024-07-03,HeadlineVI,2,Lab,LAB
 opinium-2024-07-03,HeadlineVI,3,Lib Dem,LD
@@ -14245,3 +14202,89 @@ yougov-2026-11-16,YG_OTHER_FOLLOWUP,7,Restore Britain,RB
 yougov-2026-11-16,YG_OTHER_FOLLOWUP,8,Some other party,OTH
 yougov-2026-11-16,YG_OTHER_FOLLOWUP,9,Don't know,DK
 yougov-2026-11-16,YG_OTHER_FOLLOWUP,10,Refused,REFUSED
+moreincommon-2026-11-15,likelihoodtovote,1,0 - Certain not to vote,
+moreincommon-2026-11-15,likelihoodtovote,2,1,
+moreincommon-2026-11-15,likelihoodtovote,3,2,
+moreincommon-2026-11-15,likelihoodtovote,4,3,
+moreincommon-2026-11-15,likelihoodtovote,5,4,
+moreincommon-2026-11-15,likelihoodtovote,6,5,
+moreincommon-2026-11-15,likelihoodtovote,7,6,
+moreincommon-2026-11-15,likelihoodtovote,8,7,
+moreincommon-2026-11-15,likelihoodtovote,9,8,
+moreincommon-2026-11-15,likelihoodtovote,10,9,
+moreincommon-2026-11-15,likelihoodtovote,11,10 - Certain to vote,
+moreincommon-2026-11-15,likelihoodtovote,12,Don't know,DK
+moreincommon-2026-11-15,votingintention,1,Conservative,CON
+moreincommon-2026-11-15,votingintention,2,Labour,LAB
+moreincommon-2026-11-15,votingintention,3,Liberal Democrat,LD
+moreincommon-2026-11-15,votingintention,4,Reform UK,REF
+moreincommon-2026-11-15,votingintention,5,The Green Party,GRN
+moreincommon-2026-11-15,votingintention,6,Scottish National Party (SNP),SNP
+moreincommon-2026-11-15,votingintention,7,Plaid Cymru,PC
+moreincommon-2026-11-15,votingintention,8,Another party/Independent candidate,OTH
+moreincommon-2026-11-15,votingintention,9,I would not vote,WNV
+moreincommon-2026-11-15,votingintention,10,Don't know,DK
+moreincommon-2026-11-15,votingintention,11,Restore Britain,RB
+moreincommon-2026-11-15,votingforced,1,Conservative,CON
+moreincommon-2026-11-15,votingforced,2,Labour,LAB
+moreincommon-2026-11-15,votingforced,3,Liberal Democrat,LD
+moreincommon-2026-11-15,votingforced,4,Reform UK,REF
+moreincommon-2026-11-15,votingforced,5,The Green Party,GRN
+moreincommon-2026-11-15,votingforced,6,Scottish National Party (SNP),SNP
+moreincommon-2026-11-15,votingforced,7,Plaid Cymru,PC
+moreincommon-2026-11-15,votingforced,8,Another party/Independent candidate,OTH
+moreincommon-2026-11-15,votingforced,9,I would not vote,WNV
+moreincommon-2026-11-15,votingforced,10,Don't know,DK
+moreincommon-2026-11-15,votingforced,11,Restore Britain,RB
+moreincommon-2026-11-15,votingintention (headline),1,Conservative,CON
+moreincommon-2026-11-15,votingintention (headline),2,Labour,LAB
+moreincommon-2026-11-15,votingintention (headline),3,Liberal Democrat,LD
+moreincommon-2026-11-15,votingintention (headline),4,Reform UK,REF
+moreincommon-2026-11-15,votingintention (headline),5,Restore Britain,RB
+moreincommon-2026-11-15,votingintention (headline),6,The Green Party,GRN
+moreincommon-2026-11-15,votingintention (headline),7,Scottish National Party (SNP),SNP
+moreincommon-2026-11-15,votingintention (headline),8,Plaid Cymru,PC
+moreincommon-2026-11-15,votingintention (headline),9,Another party/Independent Candidate,OTH
+moreincommon-2026-11-09,likelihoodtovote,1,0 - Certain not to vote,
+moreincommon-2026-11-09,likelihoodtovote,2,1,
+moreincommon-2026-11-09,likelihoodtovote,3,2,
+moreincommon-2026-11-09,likelihoodtovote,4,3,
+moreincommon-2026-11-09,likelihoodtovote,5,4,
+moreincommon-2026-11-09,likelihoodtovote,6,5,
+moreincommon-2026-11-09,likelihoodtovote,7,6,
+moreincommon-2026-11-09,likelihoodtovote,8,7,
+moreincommon-2026-11-09,likelihoodtovote,9,8,
+moreincommon-2026-11-09,likelihoodtovote,10,9,
+moreincommon-2026-11-09,likelihoodtovote,11,10 - Certain to vote,
+moreincommon-2026-11-09,likelihoodtovote,12,Don't know,DK
+moreincommon-2026-11-09,votingintention,1,Conservative,CON
+moreincommon-2026-11-09,votingintention,2,Labour,LAB
+moreincommon-2026-11-09,votingintention,3,Liberal Democrat,LD
+moreincommon-2026-11-09,votingintention,4,Reform UK,REF
+moreincommon-2026-11-09,votingintention,5,The Green Party,GRN
+moreincommon-2026-11-09,votingintention,6,Scottish National Party (SNP),SNP
+moreincommon-2026-11-09,votingintention,7,Plaid Cymru,PC
+moreincommon-2026-11-09,votingintention,8,Another party/Independent candidate,OTH
+moreincommon-2026-11-09,votingintention,9,I would not vote,WNV
+moreincommon-2026-11-09,votingintention,10,Don't know,DK
+moreincommon-2026-11-09,votingintention,11,Restore Britain,RB
+moreincommon-2026-11-09,votingforced,1,Conservative,CON
+moreincommon-2026-11-09,votingforced,2,Labour,LAB
+moreincommon-2026-11-09,votingforced,3,Liberal Democrat,LD
+moreincommon-2026-11-09,votingforced,4,Reform UK,REF
+moreincommon-2026-11-09,votingforced,5,The Green Party,GRN
+moreincommon-2026-11-09,votingforced,6,Scottish National Party (SNP),SNP
+moreincommon-2026-11-09,votingforced,7,Plaid Cymru,PC
+moreincommon-2026-11-09,votingforced,8,Another party/Independent candidate,OTH
+moreincommon-2026-11-09,votingforced,9,I would not vote,WNV
+moreincommon-2026-11-09,votingforced,10,Don't know,DK
+moreincommon-2026-11-09,votingforced,11,Restore Britain,RB
+moreincommon-2026-11-09,votingintention (headline),1,Conservative,CON
+moreincommon-2026-11-09,votingintention (headline),2,Labour,LAB
+moreincommon-2026-11-09,votingintention (headline),3,Liberal Democrat,LD
+moreincommon-2026-11-09,votingintention (headline),4,Reform UK,REF
+moreincommon-2026-11-09,votingintention (headline),5,Restore Britain,RB
+moreincommon-2026-11-09,votingintention (headline),6,The Green Party,GRN
+moreincommon-2026-11-09,votingintention (headline),7,Scottish National Party (SNP),SNP
+moreincommon-2026-11-09,votingintention (headline),8,Plaid Cymru,PC
+moreincommon-2026-11-09,votingintention (headline),9,Another party/Independent Candidate,OTH

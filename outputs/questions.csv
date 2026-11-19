@@ -1137,10 +1137,6 @@ moreincommon-2026-11-01,likelihoodtovote,turnout,"If a general election was call
 moreincommon-2026-11-01,votingintention,vi_first,"And, if a general election was called tomorrow, which party would you vote for?",,2,,GBNatRepWeight
 moreincommon-2026-11-01,votingintention_squeeze,vi_squeeze,,,3,,GBNatRepWeight
 moreincommon-2026-11-01,votingintention (headline),vi_headline_derived,,,4,,GBNatRepWeight
-moreincommon-2026-11-09,likelihoodtovote,turnout,"If a general election was called tomorrow, how likely would you be to vote? Please rate from 0 to 10, where 0 means certain not to vote, and 10 means certain to vote.",,1,,GBNatRepWeight
-moreincommon-2026-11-09,votingintention,vi_first,"And, if a general election was called tomorrow, which party would you vote for?",,2,,GBNatRepWeight
-moreincommon-2026-11-09,votingforced,vi_squeeze,"If you were forced to choose, which party would you vote for?",,3,,GBNatRepWeight
-moreincommon-2026-11-09,votingintention (headline),vi_headline_derived,,,4,,GBNatRepWeight
 opinium-2024-07-03,HeadlineVI,vi_headline_derived,,"Base: All giving voting intention
  Share of total (Unweighted)",1,,
 opinium-2024-10-04,HeadlineVI,vi_headline_derived,,Base: All UK respondents (Unweighted),1,,
@@ -1594,3 +1590,11 @@ yougov-2026-11-16,YG_HEADLINE,vi_headline_derived,HEADLINE VOTING INTENTION West
 yougov-2026-11-16,YG_GENERIC,vi_first,"If there were a general election held tomorrow, which party would you vote for?",,2,,
 yougov-2026-11-16,YG_CONSTITUENCY,vi_first,"Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for?",,3,,
 yougov-2026-11-16,YG_OTHER_FOLLOWUP,vi_second_screen,And which of these parties would you vote for?,Asked only to those who said 'Some other party'; N=64,4,,
+moreincommon-2026-11-15,likelihoodtovote,turnout,"If a general election was called tomorrow, how likely would you be to vote? Please rate from 0 to 10, where 0 means certain not to vote, and 10 means certain to vote.",,1,,GBNatRepWeight
+moreincommon-2026-11-15,votingintention,vi_first,"And, if a general election was called tomorrow, which party would you vote for?",,2,,GBNatRepWeight
+moreincommon-2026-11-15,votingforced,vi_squeeze,"If you were forced to choose, which party would you vote for?",,3,,GBNatRepWeight
+moreincommon-2026-11-15,votingintention (headline),vi_headline_derived,,,4,,GBNatRepWeight
+moreincommon-2026-11-09,likelihoodtovote,turnout,"If a general election was called tomorrow, how likely would you be to vote? Please rate from 0 to 10, where 0 means certain not to vote, and 10 means certain to vote.",,1,,GBNatRepWeight
+moreincommon-2026-11-09,votingintention,vi_first,"And, if a general election was called tomorrow, which party would you vote for?",,2,,GBNatRepWeight
+moreincommon-2026-11-09,votingforced,vi_squeeze,"If you were forced to choose, which party would you vote for?",,3,,GBNatRepWeight
+moreincommon-2026-11-09,votingintention (headline),vi_headline_derived,,,4,,GBNatRepWeight
