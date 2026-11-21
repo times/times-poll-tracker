@@ -1598,3 +1598,10 @@ moreincommon-2026-11-09,likelihoodtovote,turnout,"If a general election was call
 moreincommon-2026-11-09,votingintention,vi_first,"And, if a general election was called tomorrow, which party would you vote for?",,2,,GBNatRepWeight
 moreincommon-2026-11-09,votingforced,vi_squeeze,"If you were forced to choose, which party would you vote for?",,3,,GBNatRepWeight
 moreincommon-2026-11-09,votingintention (headline),vi_headline_derived,,,4,,GBNatRepWeight
+findoutnow-2026-11-19,Turnout,turnout,"If a general election was called tomorrow, how likely would you be to vote?",,1,,
+findoutnow-2026-11-19,Voting,vi_first,"Thinking about your own constituency, if a general election were held tomorrow, which party would you vote for?",,2,,
+findoutnow-2026-11-19,Squeeze,vi_squeeze,"If you were forced to choose, how would you vote?",,3,,
+findoutnow-2026-11-19,Headline VI,vi_headline_derived,,"Turnout adjusted, 'Don't know' respondents squeezed",4,,
+opinium-2026-11-20,V003,vi_first,"If there were a general election tomorrow, for which party would you vote?",Base: All who might vote and giving consent (Unweighted),1,,
+opinium-2026-11-20,V003B,vi_second_screen,"You mentioned you would vote for another party if there was a general election tomorrow. Which of the below, if any, would you vote for?",Base: All who say they would vote for another party (Unweighted),2,,
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,,Base: All giving voting intention (Unweighted),3,,

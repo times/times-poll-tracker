@@ -21107,3 +21107,964 @@ opinium-2026-11-06,HeadlineVI,vi_headline_derived,Region,South,region:south,Othe
 opinium-2026-11-06,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,Other,OTH,5.456,4.0,73.0,80.0
 opinium-2026-11-06,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,Other,OTH,2.5552,3.0,120.0,137.0
 opinium-2026-11-06,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,Other,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Labour,LAB,25.1632,458.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Labour,LAB,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Labour,LAB,100.0,458.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Labour,LAB,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Labour,LAB,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Labour,LAB,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Labour,LAB,2.8866,10.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Labour,LAB,67.4232,322.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Labour,LAB,8.289,14.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Labour,LAB,7.6174,7.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Labour,LAB,1.4909,3.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Labour,LAB,5.5738,33.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Labour,LAB,59.6439,253.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Labour,LAB,21.9519,30.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Labour,LAB,33.5354,228.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Labour,LAB,13.7808,94.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Labour,LAB,28.1187,252.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Labour,LAB,22.2391,204.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Labour,LAB,32.3432,159.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Labour,LAB,31.4244,136.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Labour,LAB,23.3731,106.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Labour,LAB,12.8854,57.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Labour,LAB,31.3833,138.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Labour,LAB,23.8077,71.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Labour,LAB,37.4938,89.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Labour,LAB,17.7606,107.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Labour,LAB,20.0559,16.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Labour,LAB,22.7143,36.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Labour,LAB,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Labour,LAB,24.327,102.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Labour,LAB,25.6176,336.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Reform UK,REF,18.6604,339.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Reform UK,REF,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Reform UK,REF,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Reform UK,REF,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Reform UK,REF,100.0,339.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Reform UK,REF,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Reform UK,REF,18.5182,63.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Reform UK,REF,6.1614,29.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Reform UK,REF,5.4377,10.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Reform UK,REF,2.4848,2.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Reform UK,REF,71.9639,146.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Reform UK,REF,26.7299,157.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Reform UK,REF,6.3721,27.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Reform UK,REF,2.1501,3.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Reform UK,REF,6.061,41.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Reform UK,REF,33.011,224.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Reform UK,REF,22.1532,199.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Reform UK,REF,15.352,141.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Reform UK,REF,18.7167,92.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Reform UK,REF,13.6457,59.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Reform UK,REF,19.6767,89.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Reform UK,REF,22.4614,99.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Reform UK,REF,19.5187,86.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Reform UK,REF,24.3468,73.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Reform UK,REF,10.7432,26.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Reform UK,REF,20.1226,122.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Reform UK,REF,19.1005,15.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Reform UK,REF,11.7318,19.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Reform UK,REF,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Reform UK,REF,18.6401,78.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Reform UK,REF,18.7129,245.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Conservative,CON,17.5458,319.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Conservative,CON,100.0,319.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Conservative,CON,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Conservative,CON,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Conservative,CON,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Conservative,CON,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Conservative,CON,64.1993,217.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Conservative,CON,3.9569,19.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Conservative,CON,8.592,15.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Conservative,CON,2.8647,3.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Conservative,CON,6.6286,13.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Conservative,CON,43.2141,253.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Conservative,CON,2.4124,10.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Conservative,CON,5.6493,8.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Conservative,CON,16.9771,116.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Conservative,CON,23.2724,158.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Conservative,CON,17.0156,153.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Conservative,CON,18.1771,166.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Conservative,CON,9.7542,48.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Conservative,CON,14.0495,61.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Conservative,CON,16.8711,76.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Conservative,CON,30.3198,134.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Conservative,CON,14.3335,63.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Conservative,CON,18.6553,56.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Conservative,CON,17.1933,41.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Conservative,CON,21.7258,131.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Conservative,CON,14.7672,12.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Conservative,CON,10.4166,17.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Conservative,CON,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Conservative,CON,11.9612,50.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Conservative,CON,19.3228,253.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Green,GRN,8.3759,152.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Green,GRN,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Green,GRN,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Green,GRN,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Green,GRN,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Green,GRN,100.0,152.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Green,GRN,1.0219,3.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Green,GRN,6.443,31.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Green,GRN,3.0177,5.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Green,GRN,67.6854,65.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Green,GRN,0.9064,2.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Green,GRN,1.455,9.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Green,GRN,11.8541,50.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Green,GRN,4.8752,7.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Green,GRN,9.3285,63.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Green,GRN,3.3286,23.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Green,GRN,5.78,52.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Green,GRN,10.6927,98.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Green,GRN,15.3205,75.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Green,GRN,9.595,41.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Green,GRN,5.6956,26.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Green,GRN,2.1988,10.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Green,GRN,10.1026,44.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Green,GRN,6.5518,20.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Green,GRN,8.758,21.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Green,GRN,8.3463,50.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Green,GRN,4.0211,3.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Green,GRN,8.7362,14.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Green,GRN,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Green,GRN,11.3067,48.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Green,GRN,7.6669,100.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Liberal Democrat,LD,7.7803,142.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Liberal Democrat,LD,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Liberal Democrat,LD,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Liberal Democrat,LD,100.0,142.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Liberal Democrat,LD,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Liberal Democrat,LD,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Liberal Democrat,LD,0.7478,3.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Liberal Democrat,LD,3.6653,18.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Liberal Democrat,LD,56.1604,98.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Liberal Democrat,LD,2.7362,3.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Liberal Democrat,LD,0.4453,1.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Liberal Democrat,LD,2.597,15.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Liberal Democrat,LD,3.554,15.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Liberal Democrat,LD,54.5361,75.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Liberal Democrat,LD,13.0199,89.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Liberal Democrat,LD,4.1548,28.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Liberal Democrat,LD,8.595,77.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Liberal Democrat,LD,6.9764,64.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Liberal Democrat,LD,5.6875,28.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Liberal Democrat,LD,7.2318,31.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Liberal Democrat,LD,8.6088,39.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Liberal Democrat,LD,9.7978,43.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Liberal Democrat,LD,5.6354,25.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Liberal Democrat,LD,5.4212,16.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Liberal Democrat,LD,10.6229,25.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Liberal Democrat,LD,10.5265,64.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Liberal Democrat,LD,4.6824,4.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Liberal Democrat,LD,5.0083,8.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Liberal Democrat,LD,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Liberal Democrat,LD,7.3223,31.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Liberal Democrat,LD,7.8758,103.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Scottish National Party (SNP),SNP,2.5444,46.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Scottish National Party (SNP),SNP,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Scottish National Party (SNP),SNP,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Scottish National Party (SNP),SNP,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Scottish National Party (SNP),SNP,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Scottish National Party (SNP),SNP,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Scottish National Party (SNP),SNP,0.0,0.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Scottish National Party (SNP),SNP,0.989,5.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Scottish National Party (SNP),SNP,0.7164,1.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Scottish National Party (SNP),SNP,0.0,0.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Scottish National Party (SNP),SNP,0.3462,1.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Scottish National Party (SNP),SNP,0.1196,1.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Scottish National Party (SNP),SNP,1.3245,6.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Scottish National Party (SNP),SNP,0.0,0.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Scottish National Party (SNP),SNP,4.6186,31.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Scottish National Party (SNP),SNP,0.7474,5.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Scottish National Party (SNP),SNP,2.6083,23.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Scottish National Party (SNP),SNP,2.4978,23.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Scottish National Party (SNP),SNP,2.7091,13.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Scottish National Party (SNP),SNP,2.4532,11.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Scottish National Party (SNP),SNP,2.9584,13.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Scottish National Party (SNP),SNP,2.0272,9.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Scottish National Party (SNP),SNP,0.0,0.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Scottish National Party (SNP),SNP,0.0,0.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Scottish National Party (SNP),SNP,0.0,0.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Scottish National Party (SNP),SNP,0.0,0.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Scottish National Party (SNP),SNP,0.0,0.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Scottish National Party (SNP),SNP,28.9958,46.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Scottish National Party (SNP),SNP,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Scottish National Party (SNP),SNP,4.508,19.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Scottish National Party (SNP),SNP,1.9272,25.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Plaid Cymru,PC,0.6589,12.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Plaid Cymru,PC,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Plaid Cymru,PC,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Plaid Cymru,PC,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Plaid Cymru,PC,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Plaid Cymru,PC,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Plaid Cymru,PC,0.0,0.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Plaid Cymru,PC,0.4468,2.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Plaid Cymru,PC,0.0,0.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Plaid Cymru,PC,0.0,0.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Plaid Cymru,PC,0.0,0.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Plaid Cymru,PC,0.5392,3.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Plaid Cymru,PC,0.3747,2.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Plaid Cymru,PC,0.0,0.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Plaid Cymru,PC,1.0289,7.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Plaid Cymru,PC,0.4638,3.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Plaid Cymru,PC,0.4975,4.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Plaid Cymru,PC,0.709,6.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Plaid Cymru,PC,0.4609,2.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Plaid Cymru,PC,1.1009,5.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Plaid Cymru,PC,0.1375,1.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Plaid Cymru,PC,0.9801,4.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Plaid Cymru,PC,0.0,0.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Plaid Cymru,PC,0.0,0.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Plaid Cymru,PC,0.0,0.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Plaid Cymru,PC,0.0,0.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Plaid Cymru,PC,15.0882,12.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Plaid Cymru,PC,0.0,0.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Plaid Cymru,PC,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Plaid Cymru,PC,1.0083,4.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Plaid Cymru,PC,0.5915,8.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Some other party / an independent candidate,OTH,3.8628,70.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Some other party / an independent candidate,OTH,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Some other party / an independent candidate,OTH,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Some other party / an independent candidate,OTH,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Some other party / an independent candidate,OTH,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Some other party / an independent candidate,OTH,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Some other party / an independent candidate,OTH,2.7528,9.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Some other party / an independent candidate,OTH,2.2707,11.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Some other party / an independent candidate,OTH,1.0242,2.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Some other party / an independent candidate,OTH,3.1612,3.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Some other party / an independent candidate,OTH,11.2902,23.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Some other party / an independent candidate,OTH,5.4298,32.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Some other party / an independent candidate,OTH,2.9378,12.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Some other party / an independent candidate,OTH,0.3111,0.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Some other party / an independent candidate,OTH,1.4615,10.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Some other party / an independent candidate,OTH,6.8847,47.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Some other party / an independent candidate,OTH,4.0944,37.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Some other party / an independent candidate,OTH,3.6601,34.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Some other party / an independent candidate,OTH,2.7485,14.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Some other party / an independent candidate,OTH,4.0378,17.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Some other party / an independent candidate,OTH,6.4212,29.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Some other party / an independent candidate,OTH,2.3165,10.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Some other party / an independent candidate,OTH,3.1777,14.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Some other party / an independent candidate,OTH,6.4736,19.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Some other party / an independent candidate,OTH,1.6719,4.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Some other party / an independent candidate,OTH,4.3705,26.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Some other party / an independent candidate,OTH,2.2442,2.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Some other party / an independent candidate,OTH,3.0254,5.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Some other party / an independent candidate,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Some other party / an independent candidate,OTH,3.9348,17.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Some other party / an independent candidate,OTH,4.0718,53.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,Don't know,DK,13.1642,239.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,Don't know,DK,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,Don't know,DK,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,Don't know,DK,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,Don't know,DK,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,Don't know,DK,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,Don't know,DK,9.1318,31.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,Don't know,DK,8.4978,41.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,Don't know,DK,16.7625,29.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,Don't know,DK,12.6941,12.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,Don't know,DK,6.9285,14.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,Don't know,DK,13.6571,80.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,Don't know,DK,10.0402,43.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,Don't know,DK,10.5263,14.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,Don't know,DK,12.5383,85.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,Don't know,DK,13.4506,91.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,Don't know,DK,8.698,78.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,Don't know,DK,17.629,161.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,Don't know,DK,9.2098,45.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,Don't know,DK,12.6317,55.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,Don't know,DK,15.0427,68.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,Don't know,DK,16.1631,72.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,Don't know,DK,13.721,60.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,Don't know,DK,13.0038,39.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,Don't know,DK,8.994,21.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,Don't know,DK,15.2526,92.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,Don't know,DK,16.5434,13.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,Don't know,DK,8.5677,14.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,Don't know,DK,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,Don't know,DK,15.1042,63.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,Don't know,DK,11.7997,155.0,1320.0,1310.0
+opinium-2026-11-20,V003,vi_first,Total,Total,total,I would not vote,WNV,2.2441,41.0,1826.0,1819.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Con,current_vi:CON,I would not vote,WNV,0.0,0.0,309.0,319.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lab,current_vi:LAB,I would not vote,WNV,0.0,0.0,476.0,458.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Lib Dem,current_vi:LD,I would not vote,WNV,0.0,0.0,136.0,142.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Reform,current_vi:REF,I would not vote,WNV,0.0,0.0,344.0,339.0
+opinium-2026-11-20,V003,vi_first,Headline VI,Green,current_vi:GRN,I would not vote,WNV,0.0,0.0,171.0,152.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Conservative,ge2024:CON,I would not vote,WNV,0.7416,3.0,308.0,338.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Labour,ge2024:LAB,I would not vote,WNV,0.1458,1.0,495.0,478.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Lib Dems,ge2024:LD,I would not vote,WNV,0.0,0.0,157.0,175.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Green,ge2024:GRN,I would not vote,WNV,0.7562,1.0,110.0,96.0
+opinium-2026-11-20,V003,vi_first,2024 vote,Reform UK,ge2024:REF,I would not vote,WNV,0.0,0.0,242.0,202.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Con,ge2019:CON,I would not vote,WNV,0.6845,4.0,556.0,586.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lab,ge2019:LAB,I would not vote,WNV,1.4863,6.0,440.0,425.0
+opinium-2026-11-20,V003,vi_first,2019 Vote,Lib Dem,ge2019:LD,I would not vote,WNV,0.0,0.0,133.0,137.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Remain,euref:remain,I would not vote,WNV,1.4308,10.0,671.0,680.0
+opinium-2026-11-20,V003,vi_first,EU Ref vote,Leave,euref:leave,I would not vote,WNV,0.9058,6.0,646.0,679.0
+opinium-2026-11-20,V003,vi_first,Gender,Male,sex:male,I would not vote,WNV,2.4393,22.0,862.0,898.0
+opinium-2026-11-20,V003,vi_first,Gender,Female,sex:female,I would not vote,WNV,2.0668,19.0,958.0,915.0
+opinium-2026-11-20,V003,vi_first,Age,18-34,age:18-34,I would not vote,WNV,3.0495,15.0,514.0,492.0
+opinium-2026-11-20,V003,vi_first,Age,35-49,age:35-49,I would not vote,WNV,3.83,17.0,418.0,432.0
+opinium-2026-11-20,V003,vi_first,Age,50-64,age:50-64,I would not vote,WNV,1.2149,5.0,463.0,452.0
+opinium-2026-11-20,V003,vi_first,Age,65+,age:65+,I would not vote,WNV,0.8498,4.0,431.0,442.0
+opinium-2026-11-20,V003,vi_first,Region,North,region:north,I would not vote,WNV,2.1278,9.0,487.0,440.0
+opinium-2026-11-20,V003,vi_first,Region,Mids,region:mids,I would not vote,WNV,1.7398,5.0,337.0,298.0
+opinium-2026-11-20,V003,vi_first,Region,London,region:london,I would not vote,WNV,4.5228,11.0,199.0,238.0
+opinium-2026-11-20,V003,vi_first,Region,South,region:south,I would not vote,WNV,1.8951,11.0,576.0,604.0
+opinium-2026-11-20,V003,vi_first,Region,Wales,region:wales,I would not vote,WNV,3.4971,3.0,75.0,79.0
+opinium-2026-11-20,V003,vi_first,Region,Scotland,region:scotland,I would not vote,WNV,0.804,1.0,152.0,160.0
+opinium-2026-11-20,V003,vi_first,Region,Northern Ireland,region:northern ireland,I would not vote,WNV,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003,vi_first,Disability,Disabled,disability:disabled,I would not vote,WNV,1.8876,8.0,423.0,420.0
+opinium-2026-11-20,V003,vi_first,Disability,Not disabled,disability:not disabled,I would not vote,WNV,2.4139,32.0,1320.0,1310.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Restore Britain,RB,68.63,48.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Restore Britain,RB,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Restore Britain,RB,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Restore Britain,RB,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Restore Britain,RB,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Restore Britain,RB,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Restore Britain,RB,100.0,9.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Restore Britain,RB,70.5978,8.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Restore Britain,RB,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Restore Britain,RB,33.8245,1.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Restore Britain,RB,88.2043,20.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Restore Britain,RB,87.2812,28.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Restore Britain,RB,63.7338,8.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Restore Britain,RB,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Restore Britain,RB,63.301,6.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Restore Britain,RB,76.6346,36.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Restore Britain,RB,82.4431,30.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Restore Britain,RB,53.4709,18.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Restore Britain,RB,61.1814,8.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Restore Britain,RB,73.0591,13.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Restore Britain,RB,67.8058,20.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Restore Britain,RB,73.2475,8.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Restore Britain,RB,60.2684,8.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Restore Britain,RB,77.6562,15.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Restore Britain,RB,25.4627,1.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Restore Britain,RB,65.1067,17.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Restore Britain,RB,100.0,2.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Restore Britain,RB,100.0,5.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Restore Britain,RB,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Restore Britain,RB,76.9813,13.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Restore Britain,RB,66.532,35.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Workers Party of Britain,OTH,5.6554,4.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Workers Party of Britain,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Workers Party of Britain,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Workers Party of Britain,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Workers Party of Britain,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Workers Party of Britain,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Workers Party of Britain,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Workers Party of Britain,OTH,3.9238,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Workers Party of Britain,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Workers Party of Britain,OTH,30.6365,1.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Workers Party of Britain,OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Workers Party of Britain,OTH,4.8234,2.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Workers Party of Britain,OTH,7.4572,1.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Workers Party of Britain,OTH,100.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Workers Party of Britain,OTH,13.6483,1.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Workers Party of Britain,OTH,3.2827,2.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Workers Party of Britain,OTH,6.636,2.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Workers Party of Britain,OTH,4.5792,2.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Workers Party of Britain,OTH,18.0397,2.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Workers Party of Britain,OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Workers Party of Britain,OTH,5.2841,2.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Workers Party of Britain,OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Workers Party of Britain,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Workers Party of Britain,OTH,4.8226,1.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Workers Party of Britain,OTH,27.1906,1.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Workers Party of Britain,OTH,7.4269,2.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Workers Party of Britain,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Workers Party of Britain,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Workers Party of Britain,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Workers Party of Britain,OTH,2.5769,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Workers Party of Britain,OTH,6.6502,4.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,UK Independence Party,OTH,3.2937,2.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,UK Independence Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,UK Independence Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,UK Independence Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,UK Independence Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,UK Independence Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,UK Independence Party,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,UK Independence Party,OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,UK Independence Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,UK Independence Party,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,UK Independence Party,OTH,10.1259,2.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,UK Independence Party,OTH,5.9266,2.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,UK Independence Party,OTH,0.0,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,UK Independence Party,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,UK Independence Party,OTH,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,UK Independence Party,OTH,4.9525,2.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,UK Independence Party,OTH,0.0,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,UK Independence Party,OTH,6.9083,2.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,UK Independence Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,UK Independence Party,OTH,2.4591,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,UK Independence Party,OTH,0.0,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,UK Independence Party,OTH,18.393,2.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,UK Independence Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,UK Independence Party,OTH,2.2242,0.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,UK Independence Party,OTH,47.3467,2.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,UK Independence Party,OTH,0.0,0.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,UK Independence Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,UK Independence Party,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,UK Independence Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,UK Independence Party,OTH,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,UK Independence Party,OTH,4.3383,2.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Trade Unionist and Socialist Coalition,OTH,1.1818,1.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Trade Unionist and Socialist Coalition,OTH,2.4788,1.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Trade Unionist and Socialist Coalition,OTH,6.1403,1.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Trade Unionist and Socialist Coalition,OTH,4.3014,1.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Trade Unionist and Socialist Coalition,OTH,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Trade Unionist and Socialist Coalition,OTH,1.5567,1.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Heritage Party,OTH,0.5432,0.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Heritage Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Heritage Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Heritage Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Heritage Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Heritage Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Heritage Party,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Heritage Party,OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Heritage Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Heritage Party,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Heritage Party,OTH,1.6698,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Heritage Party,OTH,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Heritage Party,OTH,3.0568,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Heritage Party,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Heritage Party,OTH,3.8379,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Heritage Party,OTH,0.0,0.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Heritage Party,OTH,1.0381,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Heritage Party,OTH,0.0,0.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Heritage Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Heritage Party,OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Heritage Party,OTH,1.3146,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Heritage Party,OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Heritage Party,OTH,2.7314,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Heritage Party,OTH,0.0,0.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Heritage Party,OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Heritage Party,OTH,0.0,0.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Heritage Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Heritage Party,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Heritage Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Heritage Party,OTH,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Heritage Party,OTH,0.0,0.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Social Democratic Party,OTH,0.0,0.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Social Democratic Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Social Democratic Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Social Democratic Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Social Democratic Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Social Democratic Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Social Democratic Party,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Social Democratic Party,OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Social Democratic Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Social Democratic Party,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Social Democratic Party,OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Social Democratic Party,OTH,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Social Democratic Party,OTH,0.0,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Social Democratic Party,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Social Democratic Party,OTH,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Social Democratic Party,OTH,0.0,0.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Social Democratic Party,OTH,0.0,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Social Democratic Party,OTH,0.0,0.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Social Democratic Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Social Democratic Party,OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Social Democratic Party,OTH,0.0,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Social Democratic Party,OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Social Democratic Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Social Democratic Party,OTH,0.0,0.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Social Democratic Party,OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Social Democratic Party,OTH,0.0,0.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Social Democratic Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Social Democratic Party,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Social Democratic Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Social Democratic Party,OTH,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Social Democratic Party,OTH,0.0,0.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,The Yorkshire Party,OTH,0.0,0.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,The Yorkshire Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,The Yorkshire Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,The Yorkshire Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,The Yorkshire Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,The Yorkshire Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,The Yorkshire Party,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,The Yorkshire Party,OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,The Yorkshire Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,The Yorkshire Party,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,The Yorkshire Party,OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,The Yorkshire Party,OTH,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,The Yorkshire Party,OTH,0.0,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,The Yorkshire Party,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,The Yorkshire Party,OTH,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,The Yorkshire Party,OTH,0.0,0.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,The Yorkshire Party,OTH,0.0,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,The Yorkshire Party,OTH,0.0,0.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,The Yorkshire Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,The Yorkshire Party,OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,The Yorkshire Party,OTH,0.0,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,The Yorkshire Party,OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,The Yorkshire Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,The Yorkshire Party,OTH,0.0,0.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,The Yorkshire Party,OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,The Yorkshire Party,OTH,0.0,0.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,The Yorkshire Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,The Yorkshire Party,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,The Yorkshire Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,The Yorkshire Party,OTH,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,The Yorkshire Party,OTH,0.0,0.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Alba Party,OTH,0.0,0.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Alba Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Alba Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Alba Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Alba Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Alba Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Alba Party,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Alba Party,OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Alba Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Alba Party,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Alba Party,OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Alba Party,OTH,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Alba Party,OTH,0.0,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Alba Party,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Alba Party,OTH,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Alba Party,OTH,0.0,0.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Alba Party,OTH,0.0,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Alba Party,OTH,0.0,0.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Alba Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Alba Party,OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Alba Party,OTH,0.0,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Alba Party,OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Alba Party,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Alba Party,OTH,0.0,0.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Alba Party,OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Alba Party,OTH,0.0,0.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Alba Party,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Alba Party,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Alba Party,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Alba Party,OTH,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Alba Party,OTH,0.0,0.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Rejoin EU,OTH,0.0,0.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Rejoin EU,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Rejoin EU,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Rejoin EU,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Rejoin EU,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Rejoin EU,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Rejoin EU,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Rejoin EU,OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Rejoin EU,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Rejoin EU,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Rejoin EU,OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Rejoin EU,OTH,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Rejoin EU,OTH,0.0,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Rejoin EU,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Rejoin EU,OTH,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Rejoin EU,OTH,0.0,0.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Rejoin EU,OTH,0.0,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Rejoin EU,OTH,0.0,0.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Rejoin EU,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Rejoin EU,OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Rejoin EU,OTH,0.0,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Rejoin EU,OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Rejoin EU,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Rejoin EU,OTH,0.0,0.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Rejoin EU,OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Rejoin EU,OTH,0.0,0.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Rejoin EU,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Rejoin EU,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Rejoin EU,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Rejoin EU,OTH,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Rejoin EU,OTH,0.0,0.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Liberal,OTH,0.0,0.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Liberal,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Liberal,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Liberal,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Liberal,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Liberal,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Liberal,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Liberal,OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Liberal,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Liberal,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Liberal,OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Liberal,OTH,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Liberal,OTH,0.0,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Liberal,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Liberal,OTH,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Liberal,OTH,0.0,0.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Liberal,OTH,0.0,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Liberal,OTH,0.0,0.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Liberal,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Liberal,OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Liberal,OTH,0.0,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Liberal,OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Liberal,OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Liberal,OTH,0.0,0.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Liberal,OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Liberal,OTH,0.0,0.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Liberal,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Liberal,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Liberal,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Liberal,OTH,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Liberal,OTH,0.0,0.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,An independent candidate,OTH,9.7704,7.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,An independent candidate,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,An independent candidate,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,An independent candidate,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,An independent candidate,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,An independent candidate,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,An independent candidate,OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,An independent candidate,OTH,25.4784,3.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,An independent candidate,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,An independent candidate,OTH,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,An independent candidate,OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,An independent candidate,OTH,1.9687,1.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,An independent candidate,OTH,7.206,1.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,An independent candidate,OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,An independent candidate,OTH,19.2128,2.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,An independent candidate,OTH,9.2626,4.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,An independent candidate,OTH,4.4527,2.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,An independent candidate,OTH,15.6063,5.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,An independent candidate,OTH,6.6525,1.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,An independent candidate,OTH,3.5857,1.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,An independent candidate,OTH,15.441,4.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,An independent candidate,OTH,8.3594,1.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,An independent candidate,OTH,23.6993,3.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,An independent candidate,OTH,6.0667,1.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,An independent candidate,OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,An independent candidate,OTH,9.0269,2.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,An independent candidate,OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,An independent candidate,OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,An independent candidate,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,An independent candidate,OTH,13.911,2.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,An independent candidate,OTH,8.5567,5.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Other (please specify),OTH,5.7325,4.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Other (please specify),OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Other (please specify),OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Other (please specify),OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Other (please specify),OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Other (please specify),OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Other (please specify),OTH,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Other (please specify),OTH,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Other (please specify),OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Other (please specify),OTH,35.539,1.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Other (please specify),OTH,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Other (please specify),OTH,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Other (please specify),OTH,18.5461,2.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Other (please specify),OTH,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Other (please specify),OTH,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Other (please specify),OTH,2.0363,1.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Other (please specify),OTH,5.4301,2.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Other (please specify),OTH,6.0644,2.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Other (please specify),OTH,7.9861,1.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Other (please specify),OTH,0.0,0.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Other (please specify),OTH,10.1544,3.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Other (please specify),OTH,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Other (please specify),OTH,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Other (please specify),OTH,4.9288,1.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Other (please specify),OTH,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Other (please specify),OTH,11.656,3.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Other (please specify),OTH,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Other (please specify),OTH,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Other (please specify),OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Other (please specify),OTH,6.5308,1.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Other (please specify),OTH,5.5261,3.0,49.0,53.0
+opinium-2026-11-20,V003B,vi_second_screen,Total,Total,total,Don't know,DK,5.1931,4.0,68.0,70.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Con,current_vi:CON,Don't know,DK,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lab,current_vi:LAB,Don't know,DK,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Lib Dem,current_vi:LD,Don't know,DK,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Reform,current_vi:REF,Don't know,DK,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Headline VI,Green,current_vi:GRN,Don't know,DK,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Conservative,ge2024:CON,Don't know,DK,0.0,0.0,7.0,9.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Labour,ge2024:LAB,Don't know,DK,0.0,0.0,10.0,11.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Lib Dems,ge2024:LD,Don't know,DK,100.0,2.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Green,ge2024:GRN,Don't know,DK,0.0,0.0,3.0,3.0
+opinium-2026-11-20,V003B,vi_second_screen,2024 vote,Reform UK,ge2024:REF,Don't know,DK,0.0,0.0,25.0,23.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Con,ge2019:CON,Don't know,DK,0.0,0.0,29.0,32.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lab,ge2019:LAB,Don't know,DK,0.0,0.0,13.0,12.0
+opinium-2026-11-20,V003B,vi_second_screen,2019 Vote,Lib Dem,ge2019:LD,Don't know,DK,0.0,0.0,1.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Remain,euref:remain,Don't know,DK,0.0,0.0,11.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,EU Ref vote,Leave,euref:leave,Don't know,DK,3.8313,2.0,43.0,47.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Male,sex:male,Don't know,DK,0.0,0.0,35.0,37.0
+opinium-2026-11-20,V003B,vi_second_screen,Gender,Female,sex:female,Don't know,DK,10.8921,4.0,33.0,34.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,18-34,age:18-34,Don't know,DK,0.0,0.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,35-49,age:35-49,Don't know,DK,20.8961,4.0,15.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,50-64,age:50-64,Don't know,DK,0.0,0.0,31.0,29.0
+opinium-2026-11-20,V003B,vi_second_screen,Age,65+,age:65+,Don't know,DK,0.0,0.0,9.0,10.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,North,region:north,Don't know,DK,13.3009,2.0,13.0,14.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Mids,region:mids,Don't know,DK,0.0,0.0,22.0,19.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,London,region:london,Don't know,DK,0.0,0.0,3.0,4.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,South,region:south,Don't know,DK,6.7835,2.0,25.0,26.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Wales,region:wales,Don't know,DK,0.0,0.0,1.0,2.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Scotland,region:scotland,Don't know,DK,0.0,0.0,4.0,5.0
+opinium-2026-11-20,V003B,vi_second_screen,Region,Northern Ireland,region:northern ireland,Don't know,DK,0.0,0.0,0.0,0.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Disabled,disability:disabled,Don't know,DK,0.0,0.0,18.0,17.0
+opinium-2026-11-20,V003B,vi_second_screen,Disability,Not disabled,disability:not disabled,Don't know,DK,6.8401,4.0,49.0,53.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Total,Total,total,Lab,LAB,29.7466,458.0,1571.0,1539.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Con,current_vi:CON,Lab,LAB,0.0,0.0,309.0,319.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lab,current_vi:LAB,Lab,LAB,100.0,458.0,476.0,458.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lib Dem,current_vi:LD,Lab,LAB,0.0,0.0,136.0,142.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Reform,current_vi:REF,Lab,LAB,0.0,0.0,344.0,339.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Green,current_vi:GRN,Lab,LAB,0.0,0.0,171.0,152.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Conservative,ge2024:CON,Lab,LAB,3.2028,10.0,280.0,305.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Labour,ge2024:LAB,Lab,LAB,73.8024,322.0,452.0,437.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Lib Dems,ge2024:LD,Lab,LAB,9.9583,14.0,132.0,146.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Green,ge2024:GRN,Lab,LAB,8.8012,7.0,96.0,83.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Reform UK,ge2024:REF,Lab,LAB,1.6019,3.0,226.0,188.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Con,ge2019:CON,Lab,LAB,6.507,33.0,483.0,502.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lab,ge2019:LAB,Lab,LAB,67.4144,253.0,394.0,376.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lib Dem,ge2019:LD,Lab,LAB,24.5344,30.0,118.0,123.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Remain,euref:remain,Lab,LAB,38.9807,228.0,587.0,585.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Leave,euref:leave,Lab,LAB,16.0909,94.0,560.0,581.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Male,sex:male,Lab,LAB,31.6428,252.0,773.0,798.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Female,sex:female,Lab,LAB,27.6935,204.0,792.0,735.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,18-34,age:18-34,Lab,LAB,36.8623,159.0,463.0,432.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,35-49,age:35-49,Lab,LAB,37.6168,136.0,360.0,361.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,50-64,age:50-64,Lab,LAB,27.9107,106.0,387.0,379.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,65+,age:65+,Lab,LAB,15.527,57.0,361.0,367.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,North,region:north,Lab,LAB,37.2939,138.0,418.0,370.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Mids,region:mids,Lab,LAB,27.9248,71.0,287.0,254.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,London,region:london,Lab,LAB,43.3539,89.0,175.0,206.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,South,region:south,Lab,LAB,21.4365,107.0,487.0,500.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,Lab,LAB,25.0825,16.0,62.0,64.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,Lab,LAB,25.0631,36.0,142.0,145.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,Lab,LAB,0.0,0.0,0.0,0.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Disabled,disability:disabled,Lab,LAB,29.3067,102.0,359.0,349.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Not disabled,disability:not disabled,Lab,LAB,29.8621,336.0,1149.0,1124.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Total,Total,total,Reform,REF,22.0594,339.0,1571.0,1539.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Con,current_vi:CON,Reform,REF,0.0,0.0,309.0,319.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lab,current_vi:LAB,Reform,REF,0.0,0.0,476.0,458.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lib Dem,current_vi:LD,Reform,REF,0.0,0.0,136.0,142.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Reform,current_vi:REF,Reform,REF,100.0,339.0,344.0,339.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Green,current_vi:GRN,Reform,REF,0.0,0.0,171.0,152.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Conservative,ge2024:CON,Reform,REF,20.5468,63.0,280.0,305.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Labour,ge2024:LAB,Reform,REF,6.7443,29.0,452.0,437.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Lib Dems,ge2024:LD,Reform,REF,6.5328,10.0,132.0,146.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Green,ge2024:GRN,Reform,REF,2.871,2.0,96.0,83.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Reform UK,ge2024:REF,Reform,REF,77.3211,146.0,226.0,188.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Con,ge2019:CON,Reform,REF,31.2052,157.0,483.0,502.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lab,ge2019:LAB,Reform,REF,7.2022,27.0,394.0,376.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lib Dem,ge2019:LD,Reform,REF,2.4031,3.0,118.0,123.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Remain,euref:remain,Reform,REF,7.0451,41.0,587.0,585.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Leave,euref:leave,Reform,REF,38.5446,224.0,560.0,581.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Male,sex:male,Reform,REF,24.9297,199.0,773.0,798.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Female,sex:female,Reform,REF,19.1174,141.0,792.0,735.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,18-34,age:18-34,Reform,REF,21.3318,92.0,463.0,432.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,35-49,age:35-49,Reform,REF,16.3346,59.0,360.0,361.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,50-64,age:50-64,Reform,REF,23.4968,89.0,387.0,379.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,65+,age:65+,Reform,REF,27.0662,99.0,361.0,367.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,North,region:north,Reform,REF,23.1948,86.0,418.0,370.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Mids,region:mids,Reform,REF,28.5572,73.0,287.0,254.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,London,region:london,Reform,REF,12.4223,26.0,175.0,206.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,South,region:south,Reform,REF,24.2873,122.0,487.0,500.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,Reform,REF,23.8877,15.0,62.0,64.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,Reform,REF,12.9449,19.0,142.0,145.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,Reform,REF,0.0,0.0,0.0,0.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Disabled,disability:disabled,Reform,REF,22.4557,78.0,359.0,349.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Not disabled,disability:not disabled,Reform,REF,21.8134,245.0,1149.0,1124.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Total,Total,total,Con,CON,20.7418,319.0,1571.0,1539.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Con,current_vi:CON,Con,CON,100.0,319.0,309.0,319.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lab,current_vi:LAB,Con,CON,0.0,0.0,476.0,458.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lib Dem,current_vi:LD,Con,CON,0.0,0.0,136.0,142.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Reform,current_vi:REF,Con,CON,0.0,0.0,344.0,339.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Green,current_vi:GRN,Con,CON,0.0,0.0,171.0,152.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Conservative,ge2024:CON,Con,CON,71.2323,217.0,280.0,305.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Labour,ge2024:LAB,Con,CON,4.3313,19.0,452.0,437.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Lib Dems,ge2024:LD,Con,CON,10.3223,15.0,132.0,146.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Green,ge2024:GRN,Con,CON,3.3098,3.0,96.0,83.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Reform UK,ge2024:REF,Con,CON,7.122,13.0,226.0,188.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Con,ge2019:CON,Con,CON,50.4494,253.0,483.0,502.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lab,ge2019:LAB,Con,CON,2.7267,10.0,394.0,376.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lib Dem,ge2019:LD,Con,CON,6.3139,8.0,118.0,123.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Remain,euref:remain,Con,CON,19.7337,116.0,587.0,585.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Leave,euref:leave,Con,CON,27.1735,158.0,560.0,581.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Male,sex:male,Con,CON,19.1483,153.0,773.0,798.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Female,sex:female,Con,CON,22.6353,166.0,792.0,735.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,18-34,age:18-34,Con,CON,11.1171,48.0,463.0,432.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,35-49,age:35-49,Con,CON,16.818,61.0,360.0,361.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,50-64,age:50-64,Con,CON,20.1464,76.0,387.0,379.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,65+,age:65+,Con,CON,36.5356,134.0,361.0,367.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,North,region:north,Con,CON,17.033,63.0,418.0,370.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Mids,region:mids,Con,CON,21.8814,56.0,287.0,254.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,London,region:london,Con,CON,19.8806,41.0,175.0,206.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,South,region:south,Con,CON,26.2224,131.0,487.0,500.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,Con,CON,18.4683,12.0,62.0,64.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,Con,CON,11.4937,17.0,142.0,145.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,Con,CON,0.0,0.0,0.0,0.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Disabled,disability:disabled,Con,CON,14.4096,50.0,359.0,349.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Not disabled,disability:not disabled,Con,CON,22.5243,253.0,1149.0,1124.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Total,Total,total,Green,GRN,9.9015,152.0,1571.0,1539.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Con,current_vi:CON,Green,GRN,0.0,0.0,309.0,319.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lab,current_vi:LAB,Green,GRN,0.0,0.0,476.0,458.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lib Dem,current_vi:LD,Green,GRN,0.0,0.0,136.0,142.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Reform,current_vi:REF,Green,GRN,0.0,0.0,344.0,339.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Green,current_vi:GRN,Green,GRN,100.0,152.0,171.0,152.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Conservative,ge2024:CON,Green,GRN,1.1339,3.0,280.0,305.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Labour,ge2024:LAB,Green,GRN,7.0526,31.0,452.0,437.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Lib Dems,ge2024:LD,Green,GRN,3.6255,5.0,132.0,146.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Green,ge2024:GRN,Green,GRN,78.2041,65.0,96.0,83.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Reform UK,ge2024:REF,Green,GRN,0.9739,2.0,226.0,188.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Con,ge2019:CON,Green,GRN,1.6987,9.0,483.0,502.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lab,ge2019:LAB,Green,GRN,13.3985,50.0,394.0,376.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lib Dem,ge2019:LD,Green,GRN,5.4487,7.0,118.0,123.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Remain,euref:remain,Green,GRN,10.8431,63.0,587.0,585.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Leave,euref:leave,Green,GRN,3.8866,23.0,560.0,581.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Male,sex:male,Green,GRN,6.5044,52.0,773.0,798.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Female,sex:female,Green,GRN,13.3152,98.0,792.0,735.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,18-34,age:18-34,Green,GRN,17.4611,75.0,463.0,432.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,35-49,age:35-49,Green,GRN,11.4857,41.0,360.0,361.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,50-64,age:50-64,Green,GRN,6.8013,26.0,387.0,379.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,65+,age:65+,Green,GRN,2.6496,10.0,361.0,367.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,North,region:north,Green,GRN,12.0053,44.0,418.0,370.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Mids,region:mids,Green,GRN,7.6848,20.0,287.0,254.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,London,region:london,Green,GRN,10.1268,21.0,175.0,206.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,South,region:south,Green,GRN,10.0737,50.0,487.0,500.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,Green,GRN,5.0289,3.0,62.0,64.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,Green,GRN,9.6396,14.0,142.0,145.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,Green,GRN,0.0,0.0,0.0,0.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Disabled,disability:disabled,Green,GRN,13.6211,48.0,359.0,349.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Not disabled,disability:not disabled,Green,GRN,8.9372,100.0,1149.0,1124.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Total,Total,total,Lib Dem,LD,9.1975,142.0,1571.0,1539.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Con,current_vi:CON,Lib Dem,LD,0.0,0.0,309.0,319.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lab,current_vi:LAB,Lib Dem,LD,0.0,0.0,476.0,458.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lib Dem,current_vi:LD,Lib Dem,LD,100.0,142.0,136.0,142.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Reform,current_vi:REF,Lib Dem,LD,0.0,0.0,344.0,339.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Green,current_vi:GRN,Lib Dem,LD,0.0,0.0,171.0,152.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Conservative,ge2024:CON,Lib Dem,LD,0.8298,3.0,280.0,305.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Labour,ge2024:LAB,Lib Dem,LD,4.0121,18.0,452.0,437.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Lib Dems,ge2024:LD,Lib Dem,LD,67.4701,98.0,132.0,146.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Green,ge2024:GRN,Lib Dem,LD,3.1614,3.0,96.0,83.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Reform UK,ge2024:REF,Lib Dem,LD,0.4785,1.0,226.0,188.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Con,ge2019:CON,Lib Dem,LD,3.0319,15.0,483.0,502.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lab,ge2019:LAB,Lib Dem,LD,4.017,15.0,394.0,376.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lib Dem,ge2019:LD,Lib Dem,LD,60.9521,75.0,118.0,123.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Remain,euref:remain,Lib Dem,LD,15.134,89.0,587.0,585.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Leave,euref:leave,Lib Dem,LD,4.8512,28.0,560.0,581.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Male,sex:male,Lib Dem,LD,9.6722,77.0,773.0,798.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Female,sex:female,Lib Dem,LD,8.6875,64.0,792.0,735.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,18-34,age:18-34,Lib Dem,LD,6.4822,28.0,463.0,432.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,35-49,age:35-49,Lib Dem,LD,8.6569,31.0,360.0,361.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,50-64,age:50-64,Lib Dem,LD,10.2801,39.0,387.0,379.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,65+,age:65+,Lib Dem,LD,11.8064,43.0,361.0,367.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,North,region:north,Lib Dem,LD,6.6968,25.0,418.0,370.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Mids,region:mids,Lib Dem,LD,6.3588,16.0,287.0,254.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,London,region:london,Lib Dem,LD,12.2833,25.0,175.0,206.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,South,region:south,Lib Dem,LD,12.7051,64.0,487.0,500.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,Lib Dem,LD,5.856,4.0,62.0,64.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,Lib Dem,LD,5.5261,8.0,142.0,145.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,Lib Dem,LD,0.0,0.0,0.0,0.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Disabled,disability:disabled,Lib Dem,LD,8.8211,31.0,359.0,349.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Not disabled,disability:not disabled,Lib Dem,LD,9.1807,103.0,1149.0,1124.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Total,Total,total,SNP,SNP,3.0079,46.0,1571.0,1539.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Con,current_vi:CON,SNP,SNP,0.0,0.0,309.0,319.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lab,current_vi:LAB,SNP,SNP,0.0,0.0,476.0,458.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lib Dem,current_vi:LD,SNP,SNP,0.0,0.0,136.0,142.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Reform,current_vi:REF,SNP,SNP,0.0,0.0,344.0,339.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Green,current_vi:GRN,SNP,SNP,0.0,0.0,171.0,152.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Conservative,ge2024:CON,SNP,SNP,0.0,0.0,280.0,305.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Labour,ge2024:LAB,SNP,SNP,1.0826,5.0,452.0,437.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Lib Dems,ge2024:LD,SNP,SNP,0.8607,1.0,132.0,146.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Green,ge2024:GRN,SNP,SNP,0.0,0.0,96.0,83.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Reform UK,ge2024:REF,SNP,SNP,0.3719,1.0,226.0,188.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Con,ge2019:CON,SNP,SNP,0.1397,1.0,483.0,502.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lab,ge2019:LAB,SNP,SNP,1.4971,6.0,394.0,376.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lib Dem,ge2019:LD,SNP,SNP,0.0,0.0,118.0,123.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Remain,euref:remain,SNP,SNP,5.3686,31.0,587.0,585.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Leave,euref:leave,SNP,SNP,0.8727,5.0,560.0,581.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Male,sex:male,SNP,SNP,2.9352,23.0,773.0,798.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Female,sex:female,SNP,SNP,3.1104,23.0,792.0,735.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,18-34,age:18-34,SNP,SNP,3.0877,13.0,463.0,432.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,35-49,age:35-49,SNP,SNP,2.9367,11.0,360.0,361.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,50-64,age:50-64,SNP,SNP,3.5327,13.0,387.0,379.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,65+,age:65+,SNP,SNP,2.4428,9.0,361.0,367.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,North,region:north,SNP,SNP,0.0,0.0,418.0,370.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Mids,region:mids,SNP,SNP,0.0,0.0,287.0,254.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,London,region:london,SNP,SNP,0.0,0.0,175.0,206.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,South,region:south,SNP,SNP,0.0,0.0,487.0,500.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,SNP,SNP,0.0,0.0,62.0,64.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,SNP,SNP,31.9942,46.0,142.0,145.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,SNP,SNP,0.0,0.0,0.0,0.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Disabled,disability:disabled,SNP,SNP,5.4308,19.0,359.0,349.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Not disabled,disability:not disabled,SNP,SNP,2.2465,25.0,1149.0,1124.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Total,Total,total,Plaid Cymru,PC,0.779,12.0,1571.0,1539.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Con,current_vi:CON,Plaid Cymru,PC,0.0,0.0,309.0,319.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lab,current_vi:LAB,Plaid Cymru,PC,0.0,0.0,476.0,458.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lib Dem,current_vi:LD,Plaid Cymru,PC,0.0,0.0,136.0,142.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Reform,current_vi:REF,Plaid Cymru,PC,0.0,0.0,344.0,339.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Green,current_vi:GRN,Plaid Cymru,PC,0.0,0.0,171.0,152.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Conservative,ge2024:CON,Plaid Cymru,PC,0.0,0.0,280.0,305.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Labour,ge2024:LAB,Plaid Cymru,PC,0.4891,2.0,452.0,437.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Lib Dems,ge2024:LD,Plaid Cymru,PC,0.0,0.0,132.0,146.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Green,ge2024:GRN,Plaid Cymru,PC,0.0,0.0,96.0,83.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Reform UK,ge2024:REF,Plaid Cymru,PC,0.0,0.0,226.0,188.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Con,ge2019:CON,Plaid Cymru,PC,0.6294,3.0,483.0,502.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lab,ge2019:LAB,Plaid Cymru,PC,0.4235,2.0,394.0,376.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lib Dem,ge2019:LD,Plaid Cymru,PC,0.0,0.0,118.0,123.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Remain,euref:remain,Plaid Cymru,PC,1.196,7.0,587.0,585.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Leave,euref:leave,Plaid Cymru,PC,0.5416,3.0,560.0,581.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Male,sex:male,Plaid Cymru,PC,0.5599,4.0,773.0,798.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Female,sex:female,Plaid Cymru,PC,0.8829,6.0,792.0,735.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,18-34,age:18-34,Plaid Cymru,PC,0.5253,2.0,463.0,432.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,35-49,age:35-49,Plaid Cymru,PC,1.3179,5.0,360.0,361.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,50-64,age:50-64,Plaid Cymru,PC,0.1641,1.0,387.0,379.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,65+,age:65+,Plaid Cymru,PC,1.1811,4.0,361.0,367.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,North,region:north,Plaid Cymru,PC,0.0,0.0,418.0,370.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Mids,region:mids,Plaid Cymru,PC,0.0,0.0,287.0,254.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,London,region:london,Plaid Cymru,PC,0.0,0.0,175.0,206.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,South,region:south,Plaid Cymru,PC,0.0,0.0,487.0,500.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,Plaid Cymru,PC,18.8699,12.0,62.0,64.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,Plaid Cymru,PC,0.0,0.0,142.0,145.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,Plaid Cymru,PC,0.0,0.0,0.0,0.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Disabled,disability:disabled,Plaid Cymru,PC,1.2146,4.0,359.0,349.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Not disabled,disability:not disabled,Plaid Cymru,PC,0.6894,8.0,1149.0,1124.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Total,Total,total,Other,OTH,4.5664,70.0,1571.0,1539.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Con,current_vi:CON,Other,OTH,0.0,0.0,309.0,319.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lab,current_vi:LAB,Other,OTH,0.0,0.0,476.0,458.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Lib Dem,current_vi:LD,Other,OTH,0.0,0.0,136.0,142.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Reform,current_vi:REF,Other,OTH,0.0,0.0,344.0,339.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Headline VI,Green,current_vi:GRN,Other,OTH,0.0,0.0,171.0,152.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Conservative,ge2024:CON,Other,OTH,3.0544,9.0,280.0,305.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Labour,ge2024:LAB,Other,OTH,2.4856,11.0,452.0,437.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Lib Dems,ge2024:LD,Other,OTH,1.2305,2.0,132.0,146.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Green,ge2024:GRN,Other,OTH,3.6525,3.0,96.0,83.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2024 vote,Reform UK,ge2024:REF,Other,OTH,12.1307,23.0,226.0,188.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Con,ge2019:CON,Other,OTH,6.3388,32.0,483.0,502.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lab,ge2019:LAB,Other,OTH,3.3206,12.0,394.0,376.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,2019 Vote,Lib Dem,ge2019:LD,Other,OTH,0.3477,0.0,118.0,123.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Remain,euref:remain,Other,OTH,1.6988,10.0,587.0,585.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,EU Ref vote,Leave,euref:leave,Other,OTH,8.0388,47.0,560.0,581.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Male,sex:male,Other,OTH,4.6075,37.0,773.0,798.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Gender,Female,sex:female,Other,OTH,4.5577,34.0,792.0,735.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,18-34,age:18-34,Other,OTH,3.1325,14.0,463.0,432.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,35-49,age:35-49,Other,OTH,4.8334,17.0,360.0,361.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,50-64,age:50-64,Other,OTH,7.6678,29.0,387.0,379.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Age,65+,age:65+,Other,OTH,2.7914,10.0,361.0,367.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,North,region:north,Other,OTH,3.7762,14.0,418.0,370.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Mids,region:mids,Other,OTH,7.5931,19.0,287.0,254.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,London,region:london,Other,OTH,1.9332,4.0,175.0,206.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,South,region:south,Other,OTH,5.275,26.0,487.0,500.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Wales,region:wales,Other,OTH,2.8066,2.0,62.0,64.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Scotland,region:scotland,Other,OTH,3.3383,5.0,142.0,145.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Region,Northern Ireland,region:northern ireland,Other,OTH,0.0,0.0,0.0,0.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Disabled,disability:disabled,Other,OTH,4.7403,17.0,359.0,349.0
+opinium-2026-11-20,HeadlineVI,vi_headline_derived,Disability,Not disabled,disability:not disabled,Other,OTH,4.7464,53.0,1149.0,1124.0
