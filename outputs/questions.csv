@@ -1605,3 +1605,7 @@ findoutnow-2026-11-19,Headline VI,vi_headline_derived,,"Turnout adjusted, 'Don't
 opinium-2026-11-20,V003,vi_first,"If there were a general election tomorrow, for which party would you vote?",Base: All who might vote and giving consent (Unweighted),1,,
 opinium-2026-11-20,V003B,vi_second_screen,"You mentioned you would vote for another party if there was a general election tomorrow. Which of the below, if any, would you vote for?",Base: All who say they would vote for another party (Unweighted),2,,
 opinium-2026-11-20,HeadlineVI,vi_headline_derived,,Base: All giving voting intention (Unweighted),3,,
+survation-2026-11-04,Table_V1,turnout,"If there were to be a general election, on a scale of 0 - 10, where 0 is would not vote and 10 is certain to vote, how likely would you be to vote?",Base: All Respondents,1,,
+survation-2026-11-04,Table_V2_1,vi_first,"If there were a general election tomorrow, and there were candidates from all political parties standing in your constituency, for which party would you vote?",Base: Respondents likely to vote,2,,
+survation-2026-11-04,Table_V2_2,vi_turnout_filtered,"If there were a general election tomorrow, and there were candidates from all political parties standing in your constituency, for which party would you vote?","Base: Respondents likely to vote, factored by likelihood to vote",3,,
+survation-2026-11-04,Table_V2,vi_headline_derived,,"Base: Respondents likely to vote, factored by likelihood to vote, with undecided and refused removed",4,,

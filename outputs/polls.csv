@@ -5834,6 +5834,49 @@ Voting intention methodology
 Respondents are included in the headline figure if they say they are ""definitely"" or ""very likely"" to vote. 'Don't know' respondents are included if they give a valid vote choice upon prompting, but excluded if they answer 'Don't know' again. Respondents who were eligible but didn't vote in 2024 GE are only included if they say they are 'definitely' going to vote
 All polls are subject to a wide range of potential sources of error. On the basis of the historical record of the polls at recent general elections, there is a 9 in 10 chance that the true value of a party’s support lies within 4 points of the estimates provided by this poll, and a 2 in 3 chance that they lie within 2 points
 Find Out Now is a member of the British Polling Council and abides by its rules",Find Out Now is a member of the British Polling Council and abides by its rules,https://findoutnow.co.uk/blog/voting-intention-4th-november/,https://cms.findoutnow.co.uk/app/uploads/2026/11/4th-November-VI-Find-Out-Now.xlsx,data/raw/findoutnow/4th-November-VI-Find-Out-Now.xlsx,d70463a5fecd3ca5043eb94926f201a2c99a17cc9fbe9a43cbaa56403f81d479,2026-11-14T23:32:06+00:00,findoutnow@0.1,auto,Restore Britain is not a named option; it sits inside 'Other'.,findoutnow,4th November 2026,True,,data/extracted/findoutnow/findoutnow-2026-11-04.json,
+survation-2026-11-04,survation,,self,standard_vi,2026-11-03,2026-11-04,2026-11-22,UK,UK,online_panel,,2011,1644,1685.0,False,,"This likelihood to vote was then used to weight voters' responses, such that respondents replying “10” were weighted by a factor of 1.0, whilst those responding “9” were weighted by a factor of 0.9, and so on down to responses of “0” being excluded altogether.","As an additional step, respondents who replied “undecided” and “refused” were then removed from the sample.",Table_V2,"Base: Respondents likely to vote, factored by likelihood to vote, with undecided and refused removed",ltv_weighted_exclude_dk,"Survation Poll on Rosebank, November 2026
+Conducted by Survation on behalf of the Green Britain Foundation
+Methodology
+Fieldwork Dates
+Data Weighting
+3rd to 4th November 2026
+Data were weighted to the profile of all adults in the UK aged 18+. Data were weighted by age, sex, region, nation, highest level of qualification, social grade, annual equivalised household income, 2024 General Election Vote, and 2016 EU Referendum Vote.
+Targets for the weighted data were derived from Office for National Statistics Data and the results of the 2024 UK General Election and the 2016 EU Referendum.
+Data Collection Method
+The survey was conducted via online panel.
+Margin of Error
+Invitations to complete surveys were sent
+Because only a sample of the full population was interviewed, all results are subject to margin of error, meaning that not all differences are statistically significant.
+out to members of the panel. Differential
+For example, in a question where 50% (the worst case scenario as far as margin of error is concerned) gave a particular answer, with a sample of 2011 it is 95% certain that the ‘true’ value will fall within the range of 2.5% from the sample result.
+response rates from different demographic
+groups were taken into account.
+Voting Intention
+In order to assess voting intention, we first asked respondents, on a scale of 0-10, how likely they would be to vote in the next general election.
+Population Sampled
+This likelihood to vote was then used to weight voters' responses, such that respondents replying “10” were weighted by a factor of 1.0, whilst those responding “9” were weighted by a factor of 0.9, and so on down to responses of “0” being excluded altogether.
+All residents aged 18+ living in the UK
+Respondents were then asked who they would be most likely to vote for if that election were tomorrow. The responses: Labour, Conservative, Reform UK, Liberal Democrats, Green Party, Scottish National Party (SNP) (in Scotland), and Plaid Cymru (in Wales) and Another Party were asked in a randomising order. Northern Irish parties were prompted in a random order for respondents living in Northern Ireland.
+As an additional step, respondents who replied “undecided” and “refused” were then removed from the sample.
+Sample Size
+All polls are subject to a wide range of potential sources of error. On the basis of the historical record of the polls at recent general elections, there is a 9 in 10 chance that the true value of a party’s support lies within 4 points of the estimates provided by this poll, and a 2 in 3 chance that they lie within 2 points.
+Question presentation
+All data tables are shown in full, in the order and wording put to respondents, including but not limited to all tables relating to published data and all relevant tables preceding them.
+Tables for demographic questions might not be included but these should be clear from the cross-breaks on published tables.
+In all questions where the responses are a list of parties, names or statements, these will typically have been displayed to respondents in a randomising order.
+The only questions which would not have had randomising responses would be those in which there was a natural order to maintain or those in which respondents answer on a scale. The order of these questions from positive to negative and vice-versa is alternated for respondents.
+– e.g. a list of numbers from 0 to 10 or questions which had factual rather than opinion-related answers such as demographic information. “Other”, “Don't know” and “Refused” responses are not randomised.
+Not all questions will have necessarily been asked to all respondents – this is because they may be follow-on questions from previous questions or only appropriate to certain demographic groups.
+Lower response counts should make clear where this has occurred.
+Data were analysed and weighted by Survation.
+For further information please contact:
+researchteam@survation.com
+If you are interested in commissioning a poll from us, please contact researchteam@survation.com for a prompt response to your enquiry.
+Sign up for our press releases at http://eepurl.com/mOK8T
+Follow us on twitter: @Survation
+Survation is a Market Research Society company partner. Survation is a  member of the British Polling Council and abides by its rules.
+http://www.britishpollingcouncil.org
+Survation Ltd Registered in England & Wales Number 07143509",Survation is a Market Research Society company partner. Survation is a  member of the British Polling Council and abides by its rules.,https://www.survation.com/archive/,https://cdn.survation.com/wp-content/uploads/2026/11/22110748/Survation_Rosebank_Poll_2026-11-04_Tables.xlsx,data/raw/survation/2026-11_Survation_Rosebank_Poll_2026-11-04_Tables.xlsx,5d77b8f6f37ce1579da2f84e11a0727caca0ed8c3138399a08b71e58c64e94d9,2026-11-23T22:27:55+00:00,survation@0.1,auto,Published headline is UK-wide incl. Northern Ireland; pct_gb recomputed from weighted counts excluding the Northern Ireland column.,survation,3rd to 4th November 2026,True,,data/extracted/survation/survation-2026-11-04.json,
 opinium-2026-11-06,opinium,The Observer,media,standard_vi,2026-11-04,2026-11-06,2026-11-07,UK,GB,online_panel,,2050,1559,1540.0,False,Weighted to be nationally and politically representative,,,HeadlineVI,Base: All giving voting intention (Unweighted),exclude_dk,"Opinium / Observer
 VI 2026 11 04
 The following tables represent the results of research conducted by Opinium. If the base is not otherwise specified, then the results in that table reflect the full sample.
