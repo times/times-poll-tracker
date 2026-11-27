@@ -1,93 +1,83 @@
 {
- "as_of": "2026-11-20",
+ "as_of": "2026-11-27",
  "lookback_days": 7,
  "parties": {
   "LAB": {
-   "n_polls": 5,
-   "up": 2,
-   "down": 0,
-   "same": 3,
-   "mean_change": 0.417,
-   "p": 0.5,
+   "n_polls": 3,
+   "up": 1,
+   "down": 1,
+   "same": 1,
+   "mean_change": -0.024,
+   "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
-    "findoutnow",
     "moreincommon",
-    "opinium",
-    "yougov"
+    "survation"
    ],
    "flag_on": false,
    "sentence": null
   },
   "CON": {
-   "n_polls": 5,
-   "up": 3,
-   "down": 0,
-   "same": 2,
-   "mean_change": 1.152,
-   "p": 0.25,
+   "n_polls": 3,
+   "up": 1,
+   "down": 1,
+   "same": 1,
+   "mean_change": 0.311,
+   "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
-    "findoutnow",
     "moreincommon",
-    "opinium",
-    "yougov"
+    "survation"
    ],
    "flag_on": false,
    "sentence": null
   },
   "REF": {
-   "n_polls": 5,
-   "up": 3,
+   "n_polls": 3,
+   "up": 1,
    "down": 1,
    "same": 1,
-   "mean_change": 0.34,
-   "p": 0.625,
+   "mean_change": 0.214,
+   "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
-    "findoutnow",
     "moreincommon",
-    "opinium",
-    "yougov"
+    "survation"
    ],
    "flag_on": false,
    "sentence": null
   },
   "LD": {
-   "n_polls": 5,
+   "n_polls": 3,
    "up": 0,
-   "down": 3,
+   "down": 1,
    "same": 2,
-   "mean_change": -0.872,
-   "p": 0.25,
+   "mean_change": -0.462,
+   "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
-    "findoutnow",
     "moreincommon",
-    "opinium",
-    "yougov"
+    "survation"
    ],
    "flag_on": false,
    "sentence": null
   },
   "GRN": {
-   "n_polls": 5,
-   "up": 1,
-   "down": 3,
-   "same": 1,
-   "mean_change": -0.458,
-   "p": 0.625,
+   "n_polls": 3,
+   "up": 0,
+   "down": 0,
+   "same": 3,
+   "mean_change": -0.062,
+   "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
-    "findoutnow",
     "moreincommon",
-    "opinium",
-    "yougov"
+    "survation"
    ],
    "flag_on": false,
    "sentence": null

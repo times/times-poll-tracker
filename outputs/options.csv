@@ -14390,3 +14390,94 @@ survation-2026-11-04,Table_V2,6,Scottish National Party (SNP),SNP
 survation-2026-11-04,Table_V2,7,Restore Britain,RB
 survation-2026-11-04,Table_V2,8,Plaid Cymru,PC
 survation-2026-11-04,Table_V2,9,Other,OTH
+moreincommon-2026-11-23,likelihoodtovote,1,0 - Certain not to vote,
+moreincommon-2026-11-23,likelihoodtovote,2,1,
+moreincommon-2026-11-23,likelihoodtovote,3,2,
+moreincommon-2026-11-23,likelihoodtovote,4,3,
+moreincommon-2026-11-23,likelihoodtovote,5,4,
+moreincommon-2026-11-23,likelihoodtovote,6,5,
+moreincommon-2026-11-23,likelihoodtovote,7,6,
+moreincommon-2026-11-23,likelihoodtovote,8,7,
+moreincommon-2026-11-23,likelihoodtovote,9,8,
+moreincommon-2026-11-23,likelihoodtovote,10,9,
+moreincommon-2026-11-23,likelihoodtovote,11,10 - Certain to vote,
+moreincommon-2026-11-23,likelihoodtovote,12,Don't know,DK
+moreincommon-2026-11-23,votingintention,1,Conservative,CON
+moreincommon-2026-11-23,votingintention,2,Labour,LAB
+moreincommon-2026-11-23,votingintention,3,Liberal Democrat,LD
+moreincommon-2026-11-23,votingintention,4,Reform UK,REF
+moreincommon-2026-11-23,votingintention,5,The Green Party,GRN
+moreincommon-2026-11-23,votingintention,6,Scottish National Party (SNP),SNP
+moreincommon-2026-11-23,votingintention,7,Plaid Cymru,PC
+moreincommon-2026-11-23,votingintention,8,Another party/Independent candidate,OTH
+moreincommon-2026-11-23,votingintention,9,I would not vote,WNV
+moreincommon-2026-11-23,votingintention,10,Don't know,DK
+moreincommon-2026-11-23,votingintention,11,Restore Britain,RB
+moreincommon-2026-11-23,votingforced,1,Conservative,CON
+moreincommon-2026-11-23,votingforced,2,Labour,LAB
+moreincommon-2026-11-23,votingforced,3,Liberal Democrat,LD
+moreincommon-2026-11-23,votingforced,4,Reform UK,REF
+moreincommon-2026-11-23,votingforced,5,The Green Party,GRN
+moreincommon-2026-11-23,votingforced,6,Scottish National Party (SNP),SNP
+moreincommon-2026-11-23,votingforced,7,Plaid Cymru,PC
+moreincommon-2026-11-23,votingforced,8,Another party/Independent candidate,OTH
+moreincommon-2026-11-23,votingforced,9,I would not vote,WNV
+moreincommon-2026-11-23,votingforced,10,Don't know,DK
+moreincommon-2026-11-23,votingforced,11,Restore Britain,RB
+moreincommon-2026-11-23,votingintention (headline),1,Conservative,CON
+moreincommon-2026-11-23,votingintention (headline),2,Labour,LAB
+moreincommon-2026-11-23,votingintention (headline),3,Liberal Democrat,LD
+moreincommon-2026-11-23,votingintention (headline),4,Reform UK,REF
+moreincommon-2026-11-23,votingintention (headline),5,Restore Britain,RB
+moreincommon-2026-11-23,votingintention (headline),6,The Green Party,GRN
+moreincommon-2026-11-23,votingintention (headline),7,Scottish National Party (SNP),SNP
+moreincommon-2026-11-23,votingintention (headline),8,Plaid Cymru,PC
+moreincommon-2026-11-23,votingintention (headline),9,Another party/Independent Candidate,OTH
+survation-2026-11-21,Table_V1,1,10 - Certain to vote,
+survation-2026-11-21,Table_V1,2,9,
+survation-2026-11-21,Table_V1,3,8,
+survation-2026-11-21,Table_V1,4,7,
+survation-2026-11-21,Table_V1,5,6,
+survation-2026-11-21,Table_V1,6,5,
+survation-2026-11-21,Table_V1,7,4,
+survation-2026-11-21,Table_V1,8,3,
+survation-2026-11-21,Table_V1,9,2,
+survation-2026-11-21,Table_V1,10,1,
+survation-2026-11-21,Table_V1,11,0 - Would not vote,WNV
+survation-2026-11-21,Table_V2_1,1,Reform UK,REF
+survation-2026-11-21,Table_V2_1,2,Labour,LAB
+survation-2026-11-21,Table_V2_1,3,Conservative,CON
+survation-2026-11-21,Table_V2_1,4,Liberal Democrats,LD
+survation-2026-11-21,Table_V2_1,5,Green Party,GRN
+survation-2026-11-21,Table_V2_1,6,Scottish National Party (SNP),SNP
+survation-2026-11-21,Table_V2_1,7,Restore Britain,RB
+survation-2026-11-21,Table_V2_1,8,Plaid Cymru,PC
+survation-2026-11-21,Table_V2_1,9,Other,OTH
+survation-2026-11-21,Table_V2_1,10,Undecided,DK
+survation-2026-11-21,Table_V2_2,1,Reform UK,REF
+survation-2026-11-21,Table_V2_2,2,Labour,LAB
+survation-2026-11-21,Table_V2_2,3,Conservative,CON
+survation-2026-11-21,Table_V2_2,4,Liberal Democrats,LD
+survation-2026-11-21,Table_V2_2,5,Green Party,GRN
+survation-2026-11-21,Table_V2_2,6,Scottish National Party (SNP),SNP
+survation-2026-11-21,Table_V2_2,7,Restore Britain,RB
+survation-2026-11-21,Table_V2_2,8,Plaid Cymru,PC
+survation-2026-11-21,Table_V2_2,9,Other,OTH
+survation-2026-11-21,Table_V2_2,10,Undecided,DK
+survation-2026-11-21,Table_V2,1,Reform UK,REF
+survation-2026-11-21,Table_V2,2,Labour,LAB
+survation-2026-11-21,Table_V2,3,Conservative,CON
+survation-2026-11-21,Table_V2,4,Liberal Democrats,LD
+survation-2026-11-21,Table_V2,5,Green Party,GRN
+survation-2026-11-21,Table_V2,6,Scottish National Party (SNP),SNP
+survation-2026-11-21,Table_V2,7,Restore Britain,RB
+survation-2026-11-21,Table_V2,8,Plaid Cymru,PC
+survation-2026-11-21,Table_V2,9,Other,OTH
+deltapoll-2026-11-23,GEVI,1,Conservative,CON
+deltapoll-2026-11-23,GEVI,2,Labour,LAB
+deltapoll-2026-11-23,GEVI,3,Liberal Democrat,LD
+deltapoll-2026-11-23,GEVI,4,Reform UK,REF
+deltapoll-2026-11-23,GEVI,5,Scottish National Party,SNP
+deltapoll-2026-11-23,GEVI,6,Plaid Cymru,PC
+deltapoll-2026-11-23,GEVI,7,Green,GRN
+deltapoll-2026-11-23,GEVI,8,Other,OTH

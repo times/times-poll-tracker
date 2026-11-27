@@ -1609,3 +1609,12 @@ survation-2026-11-04,Table_V1,turnout,"If there were to be a general election, o
 survation-2026-11-04,Table_V2_1,vi_first,"If there were a general election tomorrow, and there were candidates from all political parties standing in your constituency, for which party would you vote?",Base: Respondents likely to vote,2,,
 survation-2026-11-04,Table_V2_2,vi_turnout_filtered,"If there were a general election tomorrow, and there were candidates from all political parties standing in your constituency, for which party would you vote?","Base: Respondents likely to vote, factored by likelihood to vote",3,,
 survation-2026-11-04,Table_V2,vi_headline_derived,,"Base: Respondents likely to vote, factored by likelihood to vote, with undecided and refused removed",4,,
+moreincommon-2026-11-23,likelihoodtovote,turnout,"If a general election was called tomorrow, how likely would you be to vote? Please rate from 0 to 10, where 0 means certain not to vote, and 10 means certain to vote.",,1,,GBNatRepWeight
+moreincommon-2026-11-23,votingintention,vi_first,"And, if a general election was called tomorrow, which party would you vote for?",,2,,GBNatRepWeight
+moreincommon-2026-11-23,votingforced,vi_squeeze,"If you were forced to choose, which party would you vote for?",,3,,GBNatRepWeight
+moreincommon-2026-11-23,votingintention (headline),vi_headline_derived,,,4,,GBNatRepWeight
+survation-2026-11-21,Table_V1,turnout,"If there were to be a general election, on a scale of 0 - 10, where 0 is would not vote and 10 is certain to vote, how likely would you be to vote?",Base: All Respondents,1,,
+survation-2026-11-21,Table_V2_1,vi_first,"If there were a general election tomorrow, and there were candidates from all political parties standing in your constituency, for which party would you vote?",Base: Respondents likely to vote,2,,
+survation-2026-11-21,Table_V2_2,vi_turnout_filtered,"If there were a general election tomorrow, and there were candidates from all political parties standing in your constituency, for which party would you vote?","Base: Respondents likely to vote, factored by likelihood to vote",3,,
+survation-2026-11-21,Table_V2,vi_headline_derived,,"Base: Respondents likely to vote, factored by likelihood to vote, with undecided and refused removed",4,,
+deltapoll-2026-11-23,GEVI,vi_headline_derived,,Excluding 'Don't know' and 'Would not vote',1,Male Female 18 to 24 25 to 34 35 to 54 55 to 64 65+ General Election Voting Intention,
