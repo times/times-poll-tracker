@@ -42,6 +42,9 @@ GROUP_OF = {
 NUMROW = re.compile(r"^(?P<label>.*?[A-Za-z)\]].*?)\s+(?P<nums>(?:(?:\d+|\*|-)\s*)+)$")
 
 
+MISSING_PDF = []   # VI articles found with no results PDF (update.py then reads the tracker download)
+
+
 def discover(since):
     """Yield dicts {url, page_url, published_at} for VI articles published on/after `since`."""
     off = 0
@@ -60,6 +63,7 @@ def discover(since):
                     yield {"url": pdfs[0], "page_url": page, "published_at": pub, "title": it["title"]}
                 else:
                     print(f"  yougov: no results PDF on {page}")
+                    MISSING_PDF.append(page)
         if min(it["published_at"][:10] for it in items) < since:
             return
         off += 50

@@ -2,6 +2,8 @@
 
 Discovery: WordPress posts API on cms.findoutnow.co.uk, posts titled 'Voting intention: <date>'
 (MRP and commissioned posts are skipped); the post body links the 'Full data tables' xlsx.
+Since Nov 2026 the API answers 401, so if it refuses, the public blog index (newest first) is read instead,
+and each post page gives its title, publication date ('20th Nov, 2026') and the xlsx link.
 """
 import html
 import re
@@ -11,11 +13,53 @@ from .. import common as C
 
 PID = "findoutnow"
 SCRAPER = "findoutnow@0.1"
+BLOG = "https://findoutnow.co.uk/blog/"
+MONTHS = {m: i for i, m in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split(), 1)}
 POSTS = ("https://cms.findoutnow.co.uk/wp-json/wp/v2/posts?search=voting%20intention&per_page=100"
          "&page={page}&after={since}T00:00:00&_fields=id,date,slug,title,content")
 
 
+def _skip(title):
+    return not re.match(r"(westminster )?voting intention", title, re.I) or \
+        re.search(r"mrp|scotland|scottish|wales|welsh", title, re.I)
+
+
 def discover(since):
+    try:
+        yield from _discover_api(since)
+    except Exception as e:
+        if "401" not in str(e) and "403" not in str(e):
+            raise
+        print("  findoutnow: posts API refused (401), reading the public blog instead")
+        yield from _discover_blog(since)
+
+
+def _discover_blog(since, max_old=3):
+    idx = C.get(BLOG).text
+    slugs = list(dict.fromkeys(re.findall(r'href="/blog/((?:westminster-)?voting-intention[^"/]*)/"', idx)))
+    old = 0
+    for slug in slugs:  # newest first
+        page = BLOG + slug + "/"
+        ph = C.get(page).text
+        h1 = re.search(r'property="og:title" content="([^"]+)"', ph)  # the page's first <h1> is the logo
+        title = html.unescape(h1.group(1)).strip() if h1 else slug
+        d = re.search(r">\s*(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3})[a-z]*,?\s+(\d{4})\s*\|", ph)
+        pub = f"{d.group(3)}-{MONTHS[d.group(2).lower()]:02d}-{int(d.group(1)):02d}" if d and d.group(2).lower() in MONTHS else None
+        if pub and pub < since:
+            old += 1
+            if old >= max_old:  # the index is newest first, so stop after a few older posts
+                return
+            continue
+        if _skip(title):
+            continue
+        links = re.findall(r'href="([^"]+\.xlsx)"', ph)
+        if not links:
+            print(f"  findoutnow: no xlsx in post {slug}")
+            continue
+        yield {"url": links[0], "page_url": page, "published_at": pub, "title": title}
+
+
+def _discover_api(since):
     page = 1
     while True:
         r = C.get(POSTS.format(page=page, since=since))
@@ -24,7 +68,7 @@ def discover(since):
             return
         for it in items:
             title = html.unescape(it["title"]["rendered"])
-            if not re.match(r"voting intention", title, re.I) or re.search(r"mrp|scotland|scottish|wales|welsh", title, re.I):
+            if _skip(title):
                 continue
             body = it["content"]["rendered"]
             links = re.findall(r'href="([^"]+\.xlsx)"', body)

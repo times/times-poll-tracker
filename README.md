@@ -32,6 +32,8 @@ python3 -m pip install --user -r requirements.txt
 
 YouGov, More in Common, Find Out Now, Opinium, Survation, BMG, Freshwater Strategy, Trajectory, Ipsos and Deltapoll.
 
+Two fallbacks run automatically. When a YouGov article has no results PDF yet, the headline figures come from YouGov's tracker download, marked headline-only, and the PDF replaces them if it appears later. Find Out Now's posts feed has refused requests since November 2026, so its polls are found from the public blog instead.
+
 A pollster is included if it meets all four conditions:
 1. It publishes full data tables.
 2. It asks a standard GB voting intention question.

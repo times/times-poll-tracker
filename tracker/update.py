@@ -139,6 +139,33 @@ def seed():
     print(f"files_seen.csv: {len(seen)} files ({sum(1 for r in seen.values() if r['status'] == 'ok')} became polls)")
 
 
+def yougov_tracker_weeks(mod, last):
+    """YouGov weeks with an article but no results PDF yet: headline (and the spreadsheet's breaks) from
+    YouGov's tracker download. Stored as headline_only; the PDF replaces it if it appears later."""
+    try:
+        meta = mod.fetch_tracker()
+    except Exception as e:
+        log_error("yougov", "tracker", e)
+        print(f"  ! yougov tracker download failed: {e!r}")
+        return []
+    have = set()
+    for f in (C.EXTRACTED / "yougov").glob("*.json"):
+        have.add(json.loads(f.read_text())["poll"]["fieldwork_end"])
+    polls, _ = mod.parse_tracker(C.REPO / meta["path"], meta, have)
+    out = []
+    for d in polls:
+        if last and d["poll"]["fieldwork_end"] <= last:
+            continue
+        C.write_extracted(d)
+        f = C.EXTRACTED / "yougov" / f"{d['poll']['poll_id']}.json"
+        d["poll"]["extracted_json"] = str(f.relative_to(C.REPO))
+        out.append(d)
+        hl = ", ".join(f"{h['party_code']} {h['pct_from_tables']:.0f}"
+                       for h in sorted(d["headline"], key=lambda h: -h["pct_from_tables"])[:5])
+        print(f"  + {d['poll']['poll_id']}  {hl}  (headline only, from YouGov's tracker download)")
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("pollsters", nargs="*", default=list(SCRAPERS))
@@ -207,6 +234,10 @@ def main():
                                   "published_at": found.get("published_at") or "", "sha256": row["sha256"],
                                   "status": status, "poll_id": ";".join(poll_ids), "first_seen": today,
                                   "extra": json.dumps(extra, ensure_ascii=False) if extra else ""}
+        if pid == "yougov" and getattr(mod, "MISSING_PDF", None) and not a.dry_run:
+            added = yougov_tracker_weeks(mod, last)
+            new_polls.extend(added)
+            found_new += len(added)
         summary.append((pid, f"{found_new} new file(s)"))
         progress(i, pid, "nothing new" if not found_new else f"{found_new} new file{'s' if found_new > 1 else ''}")
     if not a.dry_run:
