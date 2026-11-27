@@ -3,81 +3,86 @@
  "lookback_days": 7,
  "parties": {
   "LAB": {
-   "n_polls": 3,
+   "n_polls": 4,
    "up": 1,
-   "down": 1,
+   "down": 2,
    "same": 1,
-   "mean_change": -0.024,
+   "mean_change": -0.518,
    "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
     "moreincommon",
-    "survation"
+    "survation",
+    "yougov"
    ],
    "flag_on": false,
    "sentence": null
   },
   "CON": {
-   "n_polls": 3,
+   "n_polls": 4,
    "up": 1,
-   "down": 1,
+   "down": 2,
    "same": 1,
-   "mean_change": 0.311,
+   "mean_change": -0.017,
    "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
     "moreincommon",
-    "survation"
+    "survation",
+    "yougov"
    ],
    "flag_on": false,
    "sentence": null
   },
   "REF": {
-   "n_polls": 3,
-   "up": 1,
+   "n_polls": 4,
+   "up": 2,
    "down": 1,
    "same": 1,
-   "mean_change": 0.214,
+   "mean_change": 0.411,
    "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
     "moreincommon",
-    "survation"
+    "survation",
+    "yougov"
    ],
    "flag_on": false,
    "sentence": null
   },
   "LD": {
-   "n_polls": 3,
-   "up": 0,
+   "n_polls": 4,
+   "up": 1,
    "down": 1,
    "same": 2,
-   "mean_change": -0.462,
+   "mean_change": -0.097,
    "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
     "moreincommon",
-    "survation"
+    "survation",
+    "yougov"
    ],
    "flag_on": false,
    "sentence": null
   },
   "GRN": {
-   "n_polls": 3,
-   "up": 0,
+   "n_polls": 4,
+   "up": 1,
    "down": 0,
    "same": 3,
-   "mean_change": -0.062,
+   "mean_change": 0.204,
    "p": 1.0,
    "flag": false,
    "firms": [
     "deltapoll",
     "moreincommon",
-    "survation"
+    "survation",
+    "yougov"
    ],
    "flag_on": false,
    "sentence": null

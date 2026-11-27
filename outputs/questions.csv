@@ -1618,3 +1618,4 @@ survation-2026-11-21,Table_V2_1,vi_first,"If there were a general election tomor
 survation-2026-11-21,Table_V2_2,vi_turnout_filtered,"If there were a general election tomorrow, and there were candidates from all political parties standing in your constituency, for which party would you vote?","Base: Respondents likely to vote, factored by likelihood to vote",3,,
 survation-2026-11-21,Table_V2,vi_headline_derived,,"Base: Respondents likely to vote, factored by likelihood to vote, with undecided and refused removed",4,,
 deltapoll-2026-11-23,GEVI,vi_headline_derived,,Excluding 'Don't know' and 'Would not vote',1,Male Female 18 to 24 25 to 34 35 to 54 55 to 64 65+ General Election Voting Intention,
+yougov-2026-11-23,YG_TRACKER,vi_headline_derived,"Thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for?",,1,,
